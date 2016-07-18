@@ -1,5 +1,6 @@
 SRC_ELM = src/Main.elm src/Message.elm src/Style.elm src/Armsman.elm \
-	src/Cabalist.elm
+	src/Cabalist.elm src/Cleric.elm src/Friar.elm src/Sorcerer.elm \
+	src/Wizard.elm src/Animist.elm
 TARGET_ELM = target/main.js
 
 SRC_HTML = src/index.html
