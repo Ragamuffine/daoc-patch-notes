@@ -1,6 +1,6 @@
 module Main exposing (..)
 
-import Html exposing (Html, div, text, article, hr, a, nav, ul, li)
+import Html exposing (Html, div, text, article, hr, a, nav, ul, li, h2)
 import Html.App
 import Html.Attributes exposing (class, style, href)
 import Html.Events exposing (onClick)
@@ -35,8 +35,30 @@ view model =
              li [] [a [onClick Message.NoOp] [text "menu A"]],
              li [] [a [onClick Message.NoOp] [text "menu B"]]]
          ],
-    div [class "uk-width-medium-5-6", style [( "margin-left", "auto" ), ( "margin-right", "auto" )]]
-        [article [class "uk-article"]
+    div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" )]]
+        [h2 [] [text "パッチ"],
+         ul []
+             [li [] [a [] [text "1.121"]],
+              li [] [a [] [text "1.121B"]],
+              li [] [a [] [text "1.121C"]]],
+         h2 [] [text "クラス"],
+         div [class "uk-grid"]
+             [
+              div [class "uk-width-medium-1-3 uk-row-first"]
+                  [ul [class "uk-nav uk-nav-side uk-width-medium-2-3"]
+                       [li [] [a [] [text "A"],
+                               a [] [text "B"]]]],
+              div [class "uk-width-medium-1-3"]
+                  [ul [class "uk-nav uk-nav-side uk-width-medium-2-3"]
+                       [li [] [a [] [text "C"],
+                               a [] [text "D"]]]],
+              div [class "uk-width-medium-1-3"]
+                  [ul [class "uk-nav uk-nav-side uk-width-medium-2-3"]
+                       [li [] [a [] [text "E"],
+                               a [] [text "F"]]]]
+             ],
+
+         article [class "uk-article"]
              [text model,
               hr [] [],
               div [] Animist.patch_1_121,
