@@ -50,5 +50,5 @@ sechib = sec_template color_hib
 
 make_content : List (Html Message) -> Html Message
 make_content content =
-    div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" )]]
+    div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" ), ( "margin-bottom", "40px" )]]
         [article [class "uk-article"] content]
