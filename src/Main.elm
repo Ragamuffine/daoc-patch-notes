@@ -67,8 +67,9 @@ top_menu =
     nav [class "uk-navbar"]
         [ul [class "uk-navbar-nav"]
              [li [] [a [onClick TopPage] [text "DAoC Patch Notes"]],
-              li [] [a [onClick TopPage] [text "menu A"]],
-              li [] [a [onClick TopPage] [text "menu B"]]]]
+              li [] [a [onClick AlbionPage] [text "アルビオン"]],
+              li [] [a [onClick MidgardPage] [text "ミッドガルド"]],
+              li [] [a [onClick HiberniaPage] [text "ヒベルニア"]]]]
 
 
 top_page : Html Message
@@ -144,10 +145,34 @@ top_page =
                                     a [onClick MaulerPage] [text "モーラー"]]]]]]]
 
 
+albion_page : Html Message
+albion_page =
+    div []
+        [top_menu,
+         make_content (Armsman.patch_1_121 ++ Cabalist.patch_1_121 ++ Cleric.patch_1_121 ++ Friar.patch_1_121 ++ Heretic.patch_1_121 ++ Infiltrator.patch_1_121 ++ Mauler.patch_1_121 ++ Mercenary.patch_1_121 ++ Minstrel.patch_1_121 ++ Necromancer.patch_1_121 ++ Paladin.patch_1_121 ++ Scout.patch_1_121 ++ Reaver.patch_1_121 ++ Sorcerer.patch_1_121 ++ Theurgist.patch_1_121 ++ Wizard.patch_1_121)]
+
+
+midgard_page : Html Message
+midgard_page =
+    div []
+        [top_menu,
+         make_content (Berserker.patch_1_121 ++ Bonedancer.patch_1_121 ++ Healer.patch_1_121 ++ Hunter.patch_1_121 ++ Mauler.patch_1_121 ++ Runemaster.patch_1_121 ++ Savage.patch_1_121 ++ Shadowblade.patch_1_121 ++ Shaman.patch_1_121 ++ Skald.patch_1_121 ++ Spiritmaster.patch_1_121 ++ Thane.patch_1_121 ++ Valkyrie.patch_1_121 ++ Warlock.patch_1_121 ++ Warrior.patch_1_121)]
+
+
+hibernia_page : Html Message
+hibernia_page =
+    div []
+        [top_menu,
+         make_content (Animist.patch_1_121 ++ Bainshee.patch_1_121 ++ Bard.patch_1_121 ++ Blademaster.patch_1_121 ++ Champion.patch_1_121 ++ Druid.patch_1_121 ++ Eldritch.patch_1_121 ++ Enchanter.patch_1_121 ++ Hero.patch_1_121 ++ Mauler.patch_1_121 ++ Mentalist.patch_1_121 ++ Nightshade.patch_1_121 ++ Ranger.patch_1_121 ++ Valewalker.patch_1_121 ++ Vampiir.patch_1_121 ++ Warden.patch_1_121)]
+
+
 view : Model -> Html Message
 view model =
     case model of
         TopPage -> top_page
+        AlbionPage -> albion_page
+        MidgardPage -> midgard_page
+        HiberniaPage -> hibernia_page
         AnimistPage -> div [] [top_menu, make_content Animist.patch_1_121]
         ArmsmanPage -> div [] [top_menu, make_content Armsman.patch_1_121]
         BainsheePage -> div [] [top_menu, make_content Bainshee.patch_1_121]
