@@ -21,7 +21,7 @@ patch_1_121 =
      ulist ["Level 18 - Pulsing Cure Disease I - 3.5s cast - 2000 range - 20 power",
             "Level 36 - Pulsing Cure Disease II - 3.7s cast - 2000 range - 28 power"],
      secalb "Enhancements (スペック)",
-     text "グループ resistance buff を pulse に変更する。3種類の resistance buff は一つだけになる。2000 range, 3.0 second cast, pulse は 30秒間継続。",
+     text "グループ resistance buff を pulse に変更する。3種類の resistance buff は一つにまとめられる。2000 range, 3.0 second cast, pulse は 30秒間継続。",
      ulist ["Level 13 - Golestandt's Fire - Heat/Matter/Cold resist 12%増加",
             "Level 31 - Golestandt's Breath - Heat/Matter/Cold resist 18%増加",
             "Level 46 - Golestandt's Heart - Heat/Matter/Cold resist 24%増加"],

@@ -12,7 +12,7 @@ patch_1_121 =
      secalb "Rejuvenation (基本)",
      text "Cure Poison と Cure Disease のキャスト時間は2.4秒に短縮される。",
      secalb "Enhancements (スペック)",
-     text "グループ resistance buff を pulse に変更する。3種類の resistance buff は一つだけになる。2000 range, 3.0 second cast, pulse は 30秒間継続。この buff は CL buff およびパラディンの resist buff とスタックしない。",
+     text "グループ resistance buff を pulse に変更する。3種類の resistance buff は一つにまとめられる。2000 range, 3.0 second cast, pulse は 30秒間継続。この buff は CL buff およびパラディンの resist buff とスタックしない。",
      ulist ["Level 13 - Energy Shield - Spirit/Energy/Body resist 12%増加",
             "Level 30 - Energy Guard - Spirit/Energy/Body resist 18%増加",
             "Level 40 - Energy Barrier - Spirit/Energy/Body resist 24%増加"],
