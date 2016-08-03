@@ -10,7 +10,7 @@ patch_1_121 =
     [h2 [] [text "ヘレティック 1.121"],
      text "ヘレティックはフルリスペックされる。",
      text "ヘレティックはレルムアビリティーをリスペックされる。",
-     text "レルムアビリティーに Ichor of the Deep を追加される。",
+     text "レルムアビリティーに Ichor of the Deep が追加される。",
      secalb "Rejuvenation (基本)",
      text "Cure Poison と Cure Disease のキャスト時間は2.4秒に短縮される。",
      secalb "Rejuvenation (スペック)",

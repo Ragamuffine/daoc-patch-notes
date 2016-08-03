@@ -8,4 +8,10 @@ import Style exposing (..)
 patch_1_121 : List (Html Message)
 patch_1_121 =
     [h2 [] [text "バード 1.121"],
-     text "バードはフルリスペックされる。"]
+     text "バードはフルリスペックされる。",
+     sechib "Regrowth (基本)",
+     text "Cure Poison と Cure Disease のキャスト時間は2.4秒に短縮される。",
+     sechib "Music (スペック)",
+     text "新しい speed buff を追加",
+     ulist ["Crescendo, realm target, instant-cast, 7秒間継続, 130% speed buff, 34 Music. ターゲットは root, snare, mezz の影響を受ける。speedwarp で速度が落ちる。だが戦闘になっても speed buff は維持される。",
+            "Great Crescendo, realm target, instant-cast, 9秒間継続, 160% speed buff, 44 music. ターゲットは root, snare, mezz の影響を受ける。speedwarp で速度が落ちる。だが戦闘になっても speed buff は維持される。"]]
