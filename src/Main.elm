@@ -248,7 +248,7 @@ view model =
               hr [] [],
               div [] Wizard.patch_1_121,
               hr [] [],
-              a [href "http://darkageofcamelot.com/content/1121-pendragon-patch-notes"] [text "http://darkageofcamelot.com/content/1121-pendragon-patch-notes"]
+              a [href "http://darkageofcamelot.com/content/1121-live-patch-notes"] [text "1.121 Live Patch Notes"]
              ]]
                 ]
     
