@@ -14,4 +14,8 @@ patch_1_121 =
      sechib "Music (スペック)",
      text "新しい speed buff を追加",
      ulist ["Crescendo, realm target, instant-cast, 7秒間継続, 130% speed buff, 34 Music. ターゲットは root, snare, mezz の影響を受ける。speedwarp で速度が落ちる。だが戦闘になっても speed buff は維持される。",
-            "Great Crescendo, realm target, instant-cast, 9秒間継続, 160% speed buff, 44 music. ターゲットは root, snare, mezz の影響を受ける。speedwarp で速度が落ちる。だが戦闘になっても speed buff は維持される。"]]
+            "Great Crescendo, realm target, instant-cast, 9秒間継続, 160% speed buff, 44 music. ターゲットは root, snare, mezz の影響を受ける。speedwarp で速度が落ちる。だが戦闘になっても speed buff は維持される。"],
+     sechib "Nurture (スペック)",
+     text "resist song は新しい single target resistance buff に置き換えられる。このレジストは CL バフ、Druid/Warden のレジストバフとスタックしない。",
+     ulist ["Level 27 - Hymn of Soul Guarding - 4.0s cast - 1500 range - 持続時間20分 - 5% power - すべての魔法レジストを8%増加",
+            "Level 46 - Hymn of Soul Protection - 4.0s cast - 1500 range - 持続時間20分 - 5% power - すべての魔法レジストを12%増加"]]

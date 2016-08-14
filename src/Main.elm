@@ -6,6 +6,7 @@ import Html.Attributes exposing (class, style, href)
 import Html.Events exposing (onClick)
 import Message exposing (..)
 import Style exposing (..)
+import Patch1_121
 import Animist
 import Armsman
 import Bainshee
@@ -77,7 +78,7 @@ top_page =
     div []
         [top_menu,
          make_content
-             [h2 [] [text "パッチ"],
+             [h2 [] [text "パッチノート"],
               ul []
                   [li [] [a [onClick Patch_1_121_Page] [text "1.121"]],
                    li [] [a [] [text "1.121B"]],
@@ -170,6 +171,7 @@ view : Model -> Html Message
 view model =
     case model of
         TopPage -> top_page
+        Patch_1_121_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page
@@ -218,40 +220,7 @@ view model =
         WarlockPage -> div [] [top_menu, make_content Warlock.patch_1_121]
         WarriorPage -> div [] [top_menu, make_content Warrior.patch_1_121]
         WizardPage -> div [] [top_menu, make_content Wizard.patch_1_121]
-        _ ->
-            div []
-                [nav [class "uk-navbar"]
-                     [ul [class "uk-navbar-nav"]
-            [li [] [a [onClick TopPage] [text "DAoC Patch Notes"]],
-             li [] [a [onClick TopPage] [text "menu A"]],
-             li [] [a [onClick TopPage] [text "menu B"]]]
-                     ],
-                     div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" )]]
-                     [article [class "uk-article"]
-                          [div [] Animist.patch_1_121,
-              hr [] [],
-              div [] Armsman.patch_1_121,
-              hr [] [],
-              div [] Bonedancer.patch_1_121,
-              hr [] [],
-              div [] Cabalist.patch_1_121,
-              hr [] [],
-              div [] Cleric.patch_1_121,
-              hr [] [],
-              div [] Friar.patch_1_121,
-              hr [] [],
-              div [] Minstrel.patch_1_121,
-              hr [] [],
-              div [] Necromancer.patch_1_121,
-              hr [] [],
-              div [] Sorcerer.patch_1_121,
-              hr [] [],
-              div [] Wizard.patch_1_121,
-              hr [] [],
-              a [href "http://darkageofcamelot.com/content/1121-live-patch-notes"] [text "1.121 Live Patch Notes"]
-             ]]
-                ]
-    
+
 -- UPDATE
 
 update : Message -> Model -> ( Model, Cmd Message )

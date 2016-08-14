@@ -11,7 +11,8 @@ SRC_ELM_CLASS = src/Animist.elm src/Armsman.elm src/Bainshee.elm src/Bard.elm \
 	src/Shadowblade.elm src/Shaman.elm src/Skald.elm src/Sorcerer.elm \
 	src/Spiritmaster.elm src/Thane.elm src/Theurgist.elm \
 	src/Valewalker.elm src/Valkyrie.elm src/Vampiir.elm src/Warden.elm \
-	src/Warlock.elm src/Warrior.elm src/Wizard.elm
+	src/Warlock.elm src/Warrior.elm src/Wizard.elm \
+	src/Patch1_121.elm
 
 TARGET_ELM = target/main.js
 

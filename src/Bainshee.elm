@@ -47,7 +47,7 @@ patch_1_121 =
             "Level 47 - Frigid Torment - 2.8s cast - 1500 range - 29 power - 199 cold damage"],
      text "AoE DD と AoE bolt の属性は body から cold に変更される。",
      br [] [],
-     text "新しい AoE のペットを追い払うスペルが追加される。",
+     text "新しくペットを追い払う AoE スペルが追加される。",
      ulist ["Level 50 - 1250 半径 - 20秒間継続 - 5s cast time - 再使用5分"],
      text "新しい single target mesmerization cure が追加される。",
      ulist ["Level 26 - Alarming Screech - 3s cast time - 1500 range - 6% power cost"]]
