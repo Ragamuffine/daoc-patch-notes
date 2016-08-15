@@ -9,7 +9,7 @@ patch_1_121 : List (Html Message)
 patch_1_121 =
     [h2 [] [text "ドルイド 1.121"],
      text "ドルイドはフルリスペックされる。",
-     text "ペットが行う自己バフは上書きできない。ペットの自己バフは25% buff effectiveness ボーナスで効果を計算される。",
+     text "ペットが行う自己バフはプレイヤーが上書きできない。ペットの自己バフは25% buff effectiveness ボーナスで効果を計算される。",
      sechib "Regrowth (基本)",
      text "Cure Poison と Cure Disease のキャスト時間は2.4秒に短縮される。",
      sechib "Nurture (スペック)",
@@ -33,7 +33,7 @@ patch_1_121 =
      text "新しい召喚ペットが追加される。",
      ulist ["Level 42, Call Nature Sage. ペットレベル50. melee haste buff と str/con buff を自分にかける。"],
      text "新しい呪文が追加される。",
-     ulist ["Level 2 - Nature’s Frenzy - Instant cast - ペット対象 50% celerity buff, 25% damage done buff, -25% absorption debuff. 持続時間30秒, 再使用60秒",
+     ulist ["Level 2 - Nature's Frenzy - Instant cast - ペット対象 50% celerity buff, 25% damage done buff, -25% absorption debuff. 持続時間30秒, 再使用60秒",
             "ペットコマンド“Frenzy”は削除される。"],
      text "AoE Instant heal が追加される。",
      ulist ["Level 15 - 再使用60秒 - Heal 15%, 1500 range, 250 半径.",
