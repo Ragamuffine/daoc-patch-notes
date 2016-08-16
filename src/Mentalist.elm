@@ -8,6 +8,7 @@ import Style exposing (..)
 patch_1_121 : List (Html Message)
 patch_1_121 =
     [h2 [] [text "メンタリスト 1.121"],
+     text "メンタリストはフルリスペックされる。",
      sechib "Mana Magic (スペック)",
      text "新しく group power regen が追加される。",
      text "Level 25 DoT Lesser Mind Melt は Level 27 になる。",
