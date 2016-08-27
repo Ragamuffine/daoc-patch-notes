@@ -52,3 +52,7 @@ patch_1_121 =
             "Level 46 life transfer spell を level 41 に移動"],
      secalb "Spirit Animation (スペック)",
      text "ペット cure mesmerization cure を level 16 に追加"]
+
+
+all : List (Html Message)
+all = patch_1_121

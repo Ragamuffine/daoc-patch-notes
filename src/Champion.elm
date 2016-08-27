@@ -25,3 +25,13 @@ patch_1_121 =
             "Level 34 - Demolish - Anytime - ダメージ減少",
             "Level 39 – Shatter – Hibernian Force – ダメージ増加",
             "Level 50 - Annihilation - Rear - ダメージ増加"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "チャンピオン 1.121B"],
+     text "Level 47 二次レジストバフ Against the Odds はそれよりも長時間有効なアイテムによるレジストバフを上書きしなくなる。"]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

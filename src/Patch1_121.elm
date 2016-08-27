@@ -2,7 +2,8 @@ module Patch1_121 exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (class)
-import Message exposing (Message)
+import Html.Events exposing (onClick)
+import Message exposing (..)
 import Style exposing (..)
 import Animist
 import Armsman
@@ -89,7 +90,8 @@ patch_1_121 =
      h2 [] [text "コンボーカーマスターレベル"],
      text "Convoker ML2 Prescience Node は詠唱時間2秒、再使用5分、持続時間5分になる。",
      text "ground target ではなくキャスターの足元に出現する。"]
-    ++ Animist.patch_1_121 ++ Armsman.patch_1_121 ++ Bainshee.patch_1_121 ++ Bard.patch_1_121
+    ++ Animist.patch_1_121 ++ Armsman.patch_1_121 ++ Bainshee.patch_1_121
+    ++ Bard.patch_1_121
     ++ Berserker.patch_1_121 ++ Blademaster.patch_1_121
     ++ Bonedancer.patch_1_121 ++ Cabalist.patch_1_121 ++ Champion.patch_1_121
     ++ Cleric.patch_1_121 ++ Druid.patch_1_121 ++ Eldritch.patch_1_121
@@ -105,3 +107,42 @@ patch_1_121 =
     ++ Valewalker.patch_1_121 ++ Valkyrie.patch_1_121
     ++ Vampiir.patch_1_121 ++ Warden.patch_1_121 ++ Warlock.patch_1_121
     ++ Warrior.patch_1_121 ++ Wizard.patch_1_121
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "ベインロード"],
+     text "Agony Transmission の Health/Power/Endurance コストは60%から75%に増加する。",
+     h2 [] [text "Archer"],
+     seccommon "Stealth (スペック)",
+     text "新しい能力 Heightened Awareness が Level 30 に追加される。",
+     ulist ["Heightened Awareness - 持続時間6秒のバフを行う pulse を20分間継続する - pulse の周期は5秒 - グループターゲット - 10% stealth detection bonus - Archer, Assassin, ミンストレルには影響しない"],
+     h2 [] [text "Assassin"],
+     seccommon "Envenom (スペック)",
+     text "DoT Poison",
+     ulist ["Level 45 - Insidious Lethal Venom - DoT の初回のダメージを72から68に減少、第二撃のダメージを46から43に減少",
+            "Level 50 - Lifebane - DoT の初回のダメージを88から82に減少、第二撃のダメージを88から82に減少"],
+     text "Stat-Debuff Poison",
+     br [] [],
+     text "constitution debuff の効果を 50% 減少、Level 37 と Level 47 の Strength/Dexterity debuff の効果をやや減少。",
+     ulist ["Level 7 - Weakening Poison - 6 Constitution",
+            "Level 17 - Inhibiting Poison - 12 Constitution",
+            "Level 27 - Enervating Poison - 15 Constitution",
+            "Level 37 - Unnerving Poison - 20 Constitution, 40 Strength, 40 Dexterity",
+            "Level 47 - Touch of Death - 30 Constitution, 55 Strength, 55 Dexterity"],
+     text "weaponskill debuff の効果は変わらず。",
+     br [] [],
+     text "Mesmerize Poison",
+     ulist ["Level 46 - Tranquilizing Miasma - 持続時間を15秒から10秒に減少"],
+     seccommon "Critical Strike (スペック)",
+     ulist ["Neck Shot - ダメージ大幅減少",
+            "Rib Shot - ダメージ大幅減少",
+            "Hip Shot - ダメージ大幅減少"],
+     text "ただし wither 効果中の相手に対しては高ダメージのままである。",
+     seccommon "Stealth (スペック)",
+     text "新しい能力 Heightened Awareness が 45 stealth に追加される。",
+     ulist ["Heightened Awareness - 持続時間20分のバフを6秒ごとに pulse する - 5秒ごとの pulse - group target - 10% stealth detection bonus - Archer, Assassin, Minstrel に対しては無効"]]
+    ++ Bainshee.patch_1_121B ++ Champion.patch_1_121B ++ Friar.patch_1_121B
+    ++ Hunter.patch_1_121B ++ Reaver.patch_1_121B
+    ++ Savage.patch_1_121B ++ Shadowblade.patch_1_121B
+    ++ Shaman.patch_1_121B ++ Valewalker.patch_1_121B ++ Valkyrie.patch_1_121B

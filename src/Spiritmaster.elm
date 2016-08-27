@@ -15,3 +15,7 @@ patch_1_121 =
             "Level 31 mez の時間は50秒に短縮される。",
             "Level 40 mez の時間は60秒に短縮される。",
             "Level 50 mez, Unmake Mind, は削除される。"]]
+
+
+all : List (Html Message)
+all = patch_1_121

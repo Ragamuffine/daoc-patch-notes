@@ -47,3 +47,7 @@ patch_1_121 =
            "Level 34 – 1765 range",
            "Level 44 – 1875 range"],
     text "Creeping spec にある body resistance debuff/PBAoE melee DPS debuff ペットは削除される。"]
+
+
+all : List (Html Message)
+all = patch_1_121

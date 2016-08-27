@@ -51,3 +51,22 @@ patch_1_121 =
      ulist ["Level 50 - 1250 半径 - 20秒間継続 - 5s cast time - 再使用5分"],
      text "新しい single target mesmerization cure が追加される。",
      ulist ["Level 26 - Alarming Screech - 3s cast time - 1500 range - 6% power cost"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "バンシー 1.121B"],
+     text "バンシーはフルリスペックされる。",
+     br [] [],
+     text "pulsing AoE nearsight は Ethereal Shriek スペックに戻される。",
+     ulist ["Level 2 - Vanquish Sight - 2.0 sec cast - 1800 range - 200 radius - 4 power (+2/tick)",
+            "Level 12 - Abolish Sight - 2.0 sec cast - 1850 range - 250 radius - 7 power (+5/tick)",
+            "Level 22 - Eliminate Sight - 2.0 sec cast - 1900 range - 300 radius - 12 power (+7/tick)",
+            "Level 32 - Purge Sight - 2.0 sec cast - 1950 range - 350 radius - 16 power (+9/tick)",
+            "Level 42 - Expel Sight - 2.0 sec cast - 2000 range - 400 radius - 20 power (+12/tick)"],
+     text "以下のスペルは削除されていたが 1.121 で記載漏れしていた。",
+     ulist [ "Befriend", "PBAoE Acuity shear", "Fear" ]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

@@ -47,3 +47,29 @@ patch_1_121 =
             "Level 29 - Rush - Side - 15秒 hinder",
             "Level 34 - Polar Rift - Anytime - ダメージ減少",
             "Level 50 - Ragnarok - Rear - スネア削除, ダメージ増加"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "サヴェジ 1.121B"],
+     secmid "Savagery (スペック)",
+     text "endurance heal スペルは最上位のスペルのみ有効になる。",
+     br [] [],
+     text "endurance heal バフのコストは増加する。",
+     ulist ["Level 20 - Kelgor's Gift - 5% から 10% health に増加",
+            "Level 29 - Kegor's Boon - 10% から 15% health に増加",
+            "Level 41 - Kelgor's Reward - 15% から 20% health に増加"],
+     text "evasion 自己バフのコストは増加する。",
+     ulist ["Level 2 - Swiftness of Kelgor - 2% から 4% health に増加",
+            "Level 10 - Alacrity of Kelgor - 3% から 5% health に増加",
+            "Level 19 - Speed of Kelgor - 3% から 6% health に増加",
+            "Level 28 - Fleetness of Kelgor - 4% から 7% health に増加",
+            "Level 37 - Quickness of Kelgor - 4% から 8% health に増加",
+            "Level 45 - Evasion of Kelgor - 5% から 10% health に増加"],
+     secmid "Hand to Hand (スペック)",
+     ulist ["Level 8 - Clan's Call - Rear - スタン時間を5秒から4秒に短縮",
+            "Level 18 - Clan's Might - Clan's Call - スネア除去"]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

@@ -19,3 +19,7 @@ patch_1_121 =
      text "resist song は新しい single target resistance buff に置き換えられる。このレジストは CL バフ、Druid/Warden のレジストバフとスタックしない。",
      ulist ["Level 27 - Hymn of Soul Guarding - 4.0s cast - 1500 range - 持続時間20分 - 5% power - すべての魔法レジストを8%増加",
             "Level 46 - Hymn of Soul Protection - 4.0s cast - 1500 range - 持続時間20分 - 5% power - すべての魔法レジストを12%増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

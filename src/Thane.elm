@@ -18,3 +18,7 @@ patch_1_121 =
      ulist ["Level 49 - Thor's Reach - 2.5s cast - 再使用5分 - 1000 range - 25秒間継続 - 25% power - 魔法の射程とレジスト貫通を 15% 増加させる。(レジスト貫通の上限は10%である。)自分には使用できない。"],
      text "level 43 AoE energy debuff, Banish Energy, の効果は 24% から 30% に増加する。",
      text "group fatigue reduction buff はバフではなく pulse になる。"]
+
+
+all : List (Html Message)
+all = patch_1_121

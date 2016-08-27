@@ -30,3 +30,7 @@ patch_1_121 =
      text "すべての Bone Army melee sub pet は Charge 能力を失う。",
      br [] [],
      text "endurance/power drain totem の効果は 10% power / 25% endurance から 20% power / 50% endurance に増加する。吸収量はターゲットの現在の power/endurance である。最大値ではない。"]
+
+
+all : List (Html Message)
+all = patch_1_121

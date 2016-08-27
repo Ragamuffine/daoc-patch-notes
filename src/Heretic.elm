@@ -50,3 +50,7 @@ patch_1_121 =
      text "自己 melee-absorb buff はベースからスペックになる。",
      secalb "Crush (スペック)",
      ulist ["Level 39 - Bone Crusher - Concussion-up - ダメージ増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

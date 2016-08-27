@@ -18,3 +18,7 @@ patch_1_121 =
             "Level 48 - Agitating Scintillation - Instant cast - 1500 range - 45秒間継続 - 31 power - 攻撃速度低下 38%."],
      sechib "Light Magic (スペック)",
      text "single target instant haste debuff は Mana Magic に移される。instant AoE haste debuff は残る。"]
+
+
+all : List (Html Message)
+all = patch_1_121

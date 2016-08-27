@@ -105,3 +105,7 @@ patch_1_121 =
             "Level 30 - 25% stealth detection bonus - 2s cast - 30秒間継続 - Focus スペルは移動または呪文の詠唱で無効化する - Self-target",
             "Level 40 - 35% stealth detection bonus - 2s cast - 30秒間継続 - Focus スペルは移動または呪文の詠唱で無効化する - Self-target",
             "Level 50 - 45% stealth detection bonus - 2s cast - 30秒間継続 - Focus スペルは移動または呪文の詠唱で無効化する - Self-target"]]
+
+
+all : List (Html Message)
+all = patch_1_121

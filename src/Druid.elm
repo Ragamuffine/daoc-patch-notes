@@ -41,3 +41,7 @@ patch_1_121 =
      text "root 除去スペル Free Wind を追加",
      ulist ["level 13, 再使用5分, 3.0 sec cast, 1500 range, 10% power.",
             "自分に対しては使用できない。"]]
+
+
+all : List (Html Message)
+all = patch_1_121

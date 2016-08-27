@@ -30,3 +30,7 @@ patch_1_121 =
             "Level 47 - Agony - 25秒間継続 - 3秒ごと - 110 cold damage - 3s cast time - disease"],
      text "Doom - Dread, Anguish, Agony がすべて効果中のターゲットに使用できる",
      ulist ["Level 50 - Doom - 10秒間継続 - 2.5秒ごと - 205 spirit damage - 3s cast time - cure されるまたは効果が切れると 700 direct damage. パージされた時のみ回避可能。"]]
+
+
+all : List (Html Message)
+all = patch_1_121

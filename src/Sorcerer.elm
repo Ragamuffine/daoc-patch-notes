@@ -24,3 +24,7 @@ patch_1_121 =
      secalb "Mind Magic (スペック)",
      ulist ["Mez Dampening 自己 buff は除去される。",
             "Added group-wide power regen buffs of versions that did not have them."]]
+
+
+all : List (Html Message)
+all = patch_1_121

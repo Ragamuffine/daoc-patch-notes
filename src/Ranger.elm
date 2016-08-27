@@ -116,3 +116,7 @@ patch_1_121 =
      ulist ["Level 44 - Prismatic Blade - Anytime - ダメージ減少"],
      sechib "Piercing (スペック)",
      ulist ["Level 34 - Asp’s Bite - Anytime - ダメージ減少"]]
+
+
+all : List (Html Message)
+all = patch_1_121

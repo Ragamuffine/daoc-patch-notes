@@ -31,3 +31,7 @@ patch_1_121 =
      ulist ["Level 22 - Crumble Spirit - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 10 power - spirit resistance debuff 15%",
             "Level 34 - Fade Spirit - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 16 power - spirit resistance debuff 30%",
             "Level 46 - Vanquish Spirit - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 24 power - spirit resistance debuff 50%"]]
+
+
+all : List (Html Message)
+all = patch_1_121

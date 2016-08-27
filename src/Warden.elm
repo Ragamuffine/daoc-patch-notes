@@ -37,3 +37,7 @@ patch_1_121 =
      text "新しいスタイルが追加される。",
      ulist ["Level 23 - Forest Protector - Anytime - Very High endurance cost, Medium Damage, Low Hit Bonus, Low Defensive Bonus - 自分が行うヒール量を25秒間50%増加させる。",
             "Level 32 - Forest Executioner - Follows Forest Protector - Very High endurance cost, Very High Damage, Low Hit Penalty, Low Defensive Bonus - ターゲットが行うヒール量を25秒間50%低下させる。"]]
+
+
+all : List (Html Message)
+all = patch_1_121

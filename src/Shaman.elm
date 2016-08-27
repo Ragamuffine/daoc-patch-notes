@@ -66,3 +66,15 @@ patch_1_121 =
             "Level 44 - Halt Magic - 2.8 sec cast - 1000 range - 持続時間30秒 - 30% power - 再使用45秒 - ターゲットへの魔法ダメージを50%吸収."],
      text "新しい PBAoE endurance デバフスペルが追加される。",
      ulist ["Level 30 - Exhaustive Blast - Instant - 半径750 - 再使用15秒 - 102 power - ターゲットの endurance を 35 低下させる"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "シャーマン 1.121B"],
+     text "シャーマンはフルリスペックされる。",
+     br [] [],
+     text "Level 28 single target acuity shear Acuity Cut は Augmentation スペックに戻される。"]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

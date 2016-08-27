@@ -20,3 +20,7 @@ patch_1_121 =
            "Level 18: 17 から 12 秒へ",
            "Level 9 : 12 から 8 秒へ"],
      text "ただし flute mez の実際の効果は倍になる。例えば level 50 での20秒 mez は実際には 40秒になる。"]
+
+
+all : List (Html Message)
+all = patch_1_121

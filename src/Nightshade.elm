@@ -136,3 +136,7 @@ patch_1_121 =
      sechib "Blades (スペック)",
      ulist ["Level 34 - Revenging Blade - Rear - スネア削除, ダメージやや増加",
             "Level 44 - Prismatic Blade - Anytime - ダメージ減少"]]
+
+
+all : List (Html Message)
+all = patch_1_121

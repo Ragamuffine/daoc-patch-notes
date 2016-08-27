@@ -16,3 +16,15 @@ patch_1_121 =
      ulist ["Level 20 - Boost Spellcaster - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 10 power - body resistance 15%低下",
             "Level 30 - Support Spellcaster - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 16 power - body resistance 30%低下",
             "Level 40 - Bolster Spellcaster - Instant cast - 5s 再使用 - 1500 range - 15秒間継続 - 24 power - body resistance 50%低下"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "ヴァルキリー 1.121B"],
+     text "body resistance debuff は以下のように習性される。",
+     ulist ["再使用タイマーは5秒から30秒に延長する。",
+            "Level 40 debuff Bolster Spellcaster の効果は50%から40%に低下する。"]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

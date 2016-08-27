@@ -43,3 +43,7 @@ patch_1_121 =
      secalb "Crush (スペック)",
      ulist ["Level 21 - Protector - Anytime - ダメージ減少",
             "Level 25 - Divine Hammer - Rear - スネア削除, ダメージやや増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

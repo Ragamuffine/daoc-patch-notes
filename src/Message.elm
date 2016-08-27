@@ -4,6 +4,7 @@ module Message exposing (..)
 type Message =
     TopPage
   | Patch_1_121_Page
+  | Patch_1_121B_Page
   | AlbionPage
   | MidgardPage
   | HiberniaPage

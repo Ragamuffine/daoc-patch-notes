@@ -30,3 +30,7 @@ patch_1_121 =
             "Moved Vex of Earth はレベル 46 から 44 へ",
             "Moved Odin's Hatred はレベル 44 から 43 へ",
             "Moved Lesser Sigil of Havoc (bolt) はレベル 6 から 8 へ"]]
+
+
+all : List (Html Message)
+all = patch_1_121

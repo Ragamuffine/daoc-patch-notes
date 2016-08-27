@@ -28,3 +28,7 @@ patch_1_121 =
      ulist ["Level 15 - Aurora - Northern Lights - ダメージやや増加",
             "Level 34 - Polar Rift - Anytime - ダメージ減少",
             "Level 50 - Ragnarok - Rear - ダメージ増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

@@ -18,3 +18,7 @@ patch_1_121 =
             "Level 34 - Demolish - Anytime - ダメージ減少",
             "Level 39 - Shatter - Hibernian Force - ダメージ増加",
             "Level 50 - Annihilation - Rear - ダメージ増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

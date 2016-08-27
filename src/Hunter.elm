@@ -128,3 +128,15 @@ patch_1_121 =
      ulist ["Level 15 - Aurora - Northern Lights - ダメージやや増加",
             "Level 29 - Rush - Side - 15秒 hinder",
             "Level 50 - Ragnarok - Rear - ダメージかなり増加"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "ハンター 1.121B"],
+     text "Point Blank Shot の combat speed buff が変更される。",
+     ulist ["Level 30 - Point Blank Shot 2 - Combat Speed 30% から 25% に変更",
+            "Level 40 - Point Blank Shot 3 - Combat Speed 39% から 29% に変更"]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

@@ -23,3 +23,7 @@ patch_1_121 =
      text "single target instant heal が追加される。",
      ulist ["Level 33 - Healing Surge - 50 sec 再使用 - Heal 20% - 1000 range - 40% power",
             "Level 43 - Restorative Surge - 50 sec 再使用 - Heal 45% - 1000 range - 40% power"]]
+
+
+all : List (Html Message)
+all = patch_1_121

@@ -53,3 +53,7 @@ patch_1_121 =
             "Level 29 - Rush - Parry reactionary followup is now a first-in-chain side positional - 21% 攻撃速度低下 effect replaced with a 15s hinder",
             "Level 34 - Polar Rift - Anytime - ダメージ減少",
             "Level 50 - Ragnarok - Rear - スネアはなくなる, ダメージ増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

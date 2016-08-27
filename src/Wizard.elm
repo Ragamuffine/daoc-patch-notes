@@ -15,3 +15,7 @@ patch_1_121 =
      secalb "Cold Magic (スペック)",
      text "新しい grapple を追加",
      ulist ["Level 44 - Ice Grip - 3s cast - 1500 range - 再使用5分 - 6秒間継続 - ターゲットに対するすべての攻撃は無効になる。ターゲットは物理攻撃を行うことが可能である。"]]
+
+
+all : List (Html Message)
+all = patch_1_121

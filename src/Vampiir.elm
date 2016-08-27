@@ -38,3 +38,7 @@ patch_1_121 =
      text "レベル 32 Endurance Drain, Enervating Embrace は削除される。",
      sechib "Piercing Spec",
      text "新しいスタイル Vampiir's Bite が 45 Pierce に追加される。5 秒背後スタン。"]
+
+
+all : List (Html Message)
+all = patch_1_121

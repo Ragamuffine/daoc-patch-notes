@@ -1,8 +1,9 @@
 module Style exposing (..)
 
 import Html exposing (..)
-import Message exposing (Message)
+import Message exposing (..)
 import Html.Attributes exposing (class, style)
+import Html.Events exposing (onClick)
 
 
 ulist : List String -> Html Message
@@ -48,7 +49,18 @@ sechib : String -> Html Message
 sechib = sec_template color_hib
 
 
+seccommon : String -> Html Message
+seccommon = sec_template color_common
+
+
+make_top_content : List (Html Message) -> Html Message
+make_top_content content =
+    div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" ), ( "margin-bottom", "40px" )]]
+        [article [class "uk-article"] content]
+
+
 make_content : List (Html Message) -> Html Message
 make_content content =
     div [class "uk-width-medium-5-6", style [( "margin-top", "40px" ), ( "margin-left", "auto" ), ( "margin-right", "auto" ), ( "margin-bottom", "40px" )]]
-        [article [class "uk-article"] content]
+        [article [class "uk-article"] content,
+         i [class "uk-icon-home uk-icon-large home-button", onClick TopPage] []]

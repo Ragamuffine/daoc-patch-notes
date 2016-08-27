@@ -11,3 +11,7 @@ patch_1_121 =
      text "サージストはフルリスペックされる。",
      secalb "Earth (スペック)",
      text "Level 26, 36, 46 の pulsing bladeturn は最上位のスペルのみ有効になる。"]
+
+
+all : List (Html Message)
+all = patch_1_121

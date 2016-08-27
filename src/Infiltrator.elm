@@ -135,3 +135,7 @@ patch_1_121 =
      secalb "Thrust (スペック)",
      ulist ["Level 29 - Pierce - Rear - スネア除去, ダメージやや増加",
             "Level 34 - Liontooth - Anytime - ダメージ減少"]]
+
+
+all : List (Html Message)
+all = patch_1_121

@@ -77,12 +77,11 @@ top_page : Html Message
 top_page =
     div []
         [top_menu,
-         make_content
+         make_top_content
              [h2 [] [text "パッチノート"],
               ul []
-                  [li [] [a [onClick Patch_1_121_Page] [text "1.121"]],
-                   li [] [a [] [text "1.121B"]],
-                   li [] [a [] [text "1.121C"]]],
+                  [li [] [a [onClick Patch_1_121_Page] [text "1.121"], text " (2016/7/26)"],
+                   li [] [a [onClick Patch_1_121B_Page] [text "1.121B"], text " (2016/8/16)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -150,21 +149,21 @@ albion_page : Html Message
 albion_page =
     div []
         [top_menu,
-         make_content (Armsman.patch_1_121 ++ Cabalist.patch_1_121 ++ Cleric.patch_1_121 ++ Friar.patch_1_121 ++ Heretic.patch_1_121 ++ Infiltrator.patch_1_121 ++ Mauler.patch_1_121 ++ Mercenary.patch_1_121 ++ Minstrel.patch_1_121 ++ Necromancer.patch_1_121 ++ Paladin.patch_1_121 ++ Scout.patch_1_121 ++ Reaver.patch_1_121 ++ Sorcerer.patch_1_121 ++ Theurgist.patch_1_121 ++ Wizard.patch_1_121)]
+         make_content (Armsman.all ++ Cabalist.all ++ Cleric.all ++ Friar.all ++ Heretic.all ++ Infiltrator.all ++ Mauler.all ++ Mercenary.all ++ Minstrel.all ++ Necromancer.all ++ Paladin.all ++ Scout.all ++ Reaver.all ++ Sorcerer.all ++ Theurgist.all ++ Wizard.all)]
 
 
 midgard_page : Html Message
 midgard_page =
     div []
         [top_menu,
-         make_content (Berserker.patch_1_121 ++ Bonedancer.patch_1_121 ++ Healer.patch_1_121 ++ Hunter.patch_1_121 ++ Mauler.patch_1_121 ++ Runemaster.patch_1_121 ++ Savage.patch_1_121 ++ Shadowblade.patch_1_121 ++ Shaman.patch_1_121 ++ Skald.patch_1_121 ++ Spiritmaster.patch_1_121 ++ Thane.patch_1_121 ++ Valkyrie.patch_1_121 ++ Warlock.patch_1_121 ++ Warrior.patch_1_121)]
+         make_content (Berserker.all ++ Bonedancer.all ++ Healer.all ++ Hunter.all ++ Mauler.all ++ Runemaster.all ++ Savage.all ++ Shadowblade.all ++ Shaman.all ++ Skald.all ++ Spiritmaster.all ++ Thane.all ++ Valkyrie.all ++ Warlock.all ++ Warrior.all)]
 
 
 hibernia_page : Html Message
 hibernia_page =
     div []
         [top_menu,
-         make_content (Animist.patch_1_121 ++ Bainshee.patch_1_121 ++ Bard.patch_1_121 ++ Blademaster.patch_1_121 ++ Champion.patch_1_121 ++ Druid.patch_1_121 ++ Eldritch.patch_1_121 ++ Enchanter.patch_1_121 ++ Hero.patch_1_121 ++ Mauler.patch_1_121 ++ Mentalist.patch_1_121 ++ Nightshade.patch_1_121 ++ Ranger.patch_1_121 ++ Valewalker.patch_1_121 ++ Vampiir.patch_1_121 ++ Warden.patch_1_121)]
+         make_content (Animist.all ++ Bainshee.all ++ Bard.all ++ Blademaster.all ++ Champion.all ++ Druid.all ++ Eldritch.all ++ Enchanter.all ++ Hero.all ++ Mauler.all ++ Mentalist.all ++ Nightshade.all ++ Ranger.all ++ Valewalker.all ++ Vampiir.all ++ Warden.all)]
 
 
 view : Model -> Html Message
@@ -172,54 +171,55 @@ view model =
     case model of
         TopPage -> top_page
         Patch_1_121_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121]
+        Patch_1_121B_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121B]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page
-        AnimistPage -> div [] [top_menu, make_content Animist.patch_1_121]
-        ArmsmanPage -> div [] [top_menu, make_content Armsman.patch_1_121]
-        BainsheePage -> div [] [top_menu, make_content Bainshee.patch_1_121]
-        BardPage -> div [] [top_menu, make_content Bard.patch_1_121]
-        BerserkerPage -> div [] [top_menu, make_content Berserker.patch_1_121]
-        BlademasterPage -> div [] [top_menu, make_content Blademaster.patch_1_121]
-        BonedancerPage -> div [] [top_menu, make_content Bonedancer.patch_1_121]
-        CabalistPage -> div [] [top_menu, make_content Cabalist.patch_1_121]
-        ChampionPage -> div [] [top_menu, make_content Champion.patch_1_121]
-        ClericPage -> div [] [top_menu, make_content Cleric.patch_1_121]
-        DruidPage -> div [] [top_menu, make_content Druid.patch_1_121]
-        EldritchPage -> div [] [top_menu, make_content Eldritch.patch_1_121]
-        EnchanterPage -> div [] [top_menu, make_content Enchanter.patch_1_121]
-        FriarPage -> div [] [top_menu, make_content Friar.patch_1_121]
-        HealerPage -> div [] [top_menu, make_content Healer.patch_1_121]
-        HereticPage -> div [] [top_menu, make_content Heretic.patch_1_121]
-        HeroPage -> div [] [top_menu, make_content Hero.patch_1_121]
-        HunterPage -> div [] [top_menu, make_content Hunter.patch_1_121]
-        InfiltratorPage -> div [] [top_menu, make_content Infiltrator.patch_1_121]
-        MaulerPage -> div [] [top_menu, make_content Mauler.patch_1_121]
-        MentalistPage -> div [] [top_menu, make_content Mentalist.patch_1_121]
-        MercenaryPage -> div [] [top_menu, make_content Mercenary.patch_1_121]
-        MinstrelPage -> div [] [top_menu, make_content Minstrel.patch_1_121]
-        NecromancerPage -> div [] [top_menu, make_content Necromancer.patch_1_121]
-        NightshadePage -> div [] [top_menu, make_content Nightshade.patch_1_121]
-        PaladinPage -> div [] [top_menu, make_content Paladin.patch_1_121]
-        RangerPage -> div [] [top_menu, make_content Ranger.patch_1_121]
-        ReaverPage -> div [] [top_menu, make_content Reaver.patch_1_121]
-        RunemasterPage -> div [] [top_menu, make_content Runemaster.patch_1_121]
-        SavagePage -> div [] [top_menu, make_content Savage.patch_1_121]
-        ScoutPage -> div [] [top_menu, make_content Scout.patch_1_121]
-        ShadowbladePage -> div [] [top_menu, make_content Shadowblade.patch_1_121]
-        ShamanPage -> div [] [top_menu, make_content Shaman.patch_1_121]
-        SkaldPage -> div [] [top_menu, make_content Skald.patch_1_121]
-        SorcererPage -> div [] [top_menu, make_content Sorcerer.patch_1_121]
-        SpiritmasterPage -> div [] [top_menu, make_content Spiritmaster.patch_1_121]
-        ThanePage -> div [] [top_menu, make_content Thane.patch_1_121]
-        TheurgistPage -> div [] [top_menu, make_content Theurgist.patch_1_121]
-        ValewalkerPage -> div [] [top_menu, make_content Valewalker.patch_1_121]
-        ValkyriePage -> div [] [top_menu, make_content Valkyrie.patch_1_121]
-        VampiirPage -> div [] [top_menu, make_content Vampiir.patch_1_121]
-        WardenPage -> div [] [top_menu, make_content Warden.patch_1_121]
-        WarlockPage -> div [] [top_menu, make_content Warlock.patch_1_121]
-        WarriorPage -> div [] [top_menu, make_content Warrior.patch_1_121]
-        WizardPage -> div [] [top_menu, make_content Wizard.patch_1_121]
+        AnimistPage -> div [] [top_menu, make_content Animist.all]
+        ArmsmanPage -> div [] [top_menu, make_content Armsman.all]
+        BainsheePage -> div [] [top_menu, make_content Bainshee.all]
+        BardPage -> div [] [top_menu, make_content Bard.all]
+        BerserkerPage -> div [] [top_menu, make_content Berserker.all]
+        BlademasterPage -> div [] [top_menu, make_content Blademaster.all]
+        BonedancerPage -> div [] [top_menu, make_content Bonedancer.all]
+        CabalistPage -> div [] [top_menu, make_content Cabalist.all]
+        ChampionPage -> div [] [top_menu, make_content Champion.all]
+        ClericPage -> div [] [top_menu, make_content Cleric.all]
+        DruidPage -> div [] [top_menu, make_content Druid.all]
+        EldritchPage -> div [] [top_menu, make_content Eldritch.all]
+        EnchanterPage -> div [] [top_menu, make_content Enchanter.all]
+        FriarPage -> div [] [top_menu, make_content Friar.all]
+        HealerPage -> div [] [top_menu, make_content Healer.all]
+        HereticPage -> div [] [top_menu, make_content Heretic.all]
+        HeroPage -> div [] [top_menu, make_content Hero.all]
+        HunterPage -> div [] [top_menu, make_content Hunter.all]
+        InfiltratorPage -> div [] [top_menu, make_content Infiltrator.all]
+        MaulerPage -> div [] [top_menu, make_content Mauler.all]
+        MentalistPage -> div [] [top_menu, make_content Mentalist.all]
+        MercenaryPage -> div [] [top_menu, make_content Mercenary.all]
+        MinstrelPage -> div [] [top_menu, make_content Minstrel.all]
+        NecromancerPage -> div [] [top_menu, make_content Necromancer.all]
+        NightshadePage -> div [] [top_menu, make_content Nightshade.all]
+        PaladinPage -> div [] [top_menu, make_content Paladin.all]
+        RangerPage -> div [] [top_menu, make_content Ranger.all]
+        ReaverPage -> div [] [top_menu, make_content Reaver.all]
+        RunemasterPage -> div [] [top_menu, make_content Runemaster.all]
+        SavagePage -> div [] [top_menu, make_content Savage.all]
+        ScoutPage -> div [] [top_menu, make_content Scout.all]
+        ShadowbladePage -> div [] [top_menu, make_content Shadowblade.all]
+        ShamanPage -> div [] [top_menu, make_content Shaman.all]
+        SkaldPage -> div [] [top_menu, make_content Skald.all]
+        SorcererPage -> div [] [top_menu, make_content Sorcerer.all]
+        SpiritmasterPage -> div [] [top_menu, make_content Spiritmaster.all]
+        ThanePage -> div [] [top_menu, make_content Thane.all]
+        TheurgistPage -> div [] [top_menu, make_content Theurgist.all]
+        ValewalkerPage -> div [] [top_menu, make_content Valewalker.all]
+        ValkyriePage -> div [] [top_menu, make_content Valkyrie.all]
+        VampiirPage -> div [] [top_menu, make_content Vampiir.all]
+        WardenPage -> div [] [top_menu, make_content Warden.all]
+        WarlockPage -> div [] [top_menu, make_content Warlock.all]
+        WarriorPage -> div [] [top_menu, make_content Warrior.all]
+        WizardPage -> div [] [top_menu, make_content Wizard.all]
 
 -- UPDATE
 

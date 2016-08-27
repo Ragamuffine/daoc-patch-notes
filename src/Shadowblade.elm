@@ -145,3 +145,13 @@ patch_1_121 =
      ulist ["Level 15 - Aurora - Northern Lights - ダメージやや増加",
             "Level 34 - Polar Rift - Anytime - ダメージ減少",
             "Level 50 - Ragnarok - Rear - スネア削除, ダメージ増加"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "シャドウブレード 1.121B"],
+     text "RR5 Blooddrinking の回復量は60%から45%に低下する。持続時間は15s秒のまま。"]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

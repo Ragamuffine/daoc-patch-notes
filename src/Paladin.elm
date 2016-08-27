@@ -55,3 +55,7 @@ patch_1_121 =
      ulist ["Level 34 - Obfuscate - Anytime - ダメージ減少",
             "Level 44 - Two Moons - Onslaught - ダメージ増加",
             "Level 50 - Sun and Moon - Doubler - ダメージ増加"]]
+
+
+all : List (Html Message)
+all = patch_1_121

@@ -54,3 +54,15 @@ patch_1_121 =
      sechib "Scythe (スペック)",
      ulist ["Level 15 - Thorny Shield - Sawgrass - damage shield に替わって 26% attack speed debuff",
             "Level 18 - Winter's Scythe - Foxfire - damage add に替わって 1% ABS debuff"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "ヴェールウォーカー 1.121B"],
+     text "spirit resistance デバフは以下のように習性される。",
+     ulist ["再使用タイマーが5秒から30秒に延長される。",
+            "Level 40 debuff Energy Void の効果は50%から40%に低下する。"]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B

@@ -55,3 +55,25 @@ patch_1_121 =
             "Level 34 - Constrictor - Anytime - ダメージ減少",
             "Level 44 - Cobra - Taipan - ダメージやや増加",
             "Level 50 - Leviathan - Rear - ダメージかなり増加"]]
+
+
+patch_1_121B : List (Html Message)
+patch_1_121B =
+    [h2 [] [text "リーバー 1.121B"],
+     text "Circle of Despair は以下のように変更される。",
+     ulist ["最大ターゲット数は 16 から 8 に変更。",
+            "ダメージを 5% から 25 に変更。"],
+     text "新しい instant DD shout のダメージタイプが Spirit から Cold に変更される。",
+     ulist ["Level 1 - Soul Wench",
+            "Level 12 - Soul Rot",
+            "Level 18 - Soul Decay",
+            "Level 24 - Soul Toxin",
+            "Level 35 - Soul Venom",
+            "Level 49 - Soul Bane"],
+     text "energy resistance debuff が変更される。",
+     ulist ["再使用タイマーが5秒から30秒に増加する。",
+            "Level 40 debuff Energy Void の効果は50%から40%に低下する。"]]
+
+
+all : List (Html Message)
+all = patch_1_121 ++ patch_1_121B
