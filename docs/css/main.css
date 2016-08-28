@@ -1,4 +1,8 @@
 
+body {
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
 .home-button {
     position: fixed;
     left: 30px;
