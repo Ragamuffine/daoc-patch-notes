@@ -45,5 +45,17 @@ patch_1_121 =
             "Level 25 - Divine Hammer - Rear - スネア削除, ダメージやや増加"]]
 
 
+patch_1_121C : List (Html Message)
+patch_1_121C =
+    [h2 [] [text "マーセナリー 1.121C"],
+     text "RR5 Blinding Dust は以下のように変更される。",
+     ulist ["名称が Dissolute Swings になる。",
+            "持続時間が15秒から30秒になる。",
+            "Crush/Slash/Thrust weaponskill を50%増加させる。",
+            "stat debuff をすべて除去する。RR5 中は stat debuff を受けない。",
+            "マーセナリー自身が evade または parry する確率が大幅に減少する。"],
+     text "Dirty Tricks の proc に 500 半径 pbaoe, -50% nearsight, 15秒継続が付加される。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_121C

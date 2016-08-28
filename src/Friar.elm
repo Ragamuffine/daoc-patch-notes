@@ -116,5 +116,11 @@ patch_1_121B =
             "Level 50 - Excommunicate - Holy Staff Followup - High Endurance - Low Damage - Low Offensive Bonus - 30 spirit damage、同時にグループ回復 125 health"]]
 
 
+patch_1_121C : List (Html Message)
+patch_1_121C =
+    [h2 [] [text "フライアー 1.121C"],
+     text "Level 50 Staff スタイル Excommunication の group heal proc の効果は 125 から 150 に増加し、範囲は 500 から 1500 になる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_121C

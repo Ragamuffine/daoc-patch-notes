@@ -41,13 +41,19 @@ patch_1_121 =
     text "新しい instant-cast, ground-targeted の healing shroom を追加",
     ulist ["Level 50 - Shroom of Life - instant cast - 10秒間継続 - 30 power - 400 pbaoe hit point heal, 350 range"],
     text "AoE root スペルの射程は延長される。",
-    ulist ["Level 12 – 1500 range",
-           "Level 18 – 1575 range",
-           "Level 26 – 1655 range",
-           "Level 34 – 1765 range",
-           "Level 44 – 1875 range"],
+    ulist ["Level 12 - 1500 range",
+           "Level 18 - 1575 range",
+           "Level 26 - 1655 range",
+           "Level 34 - 1765 range",
+           "Level 44 - 1875 range"],
     text "Creeping spec にある body resistance debuff/PBAoE melee DPS debuff ペットは削除される。"]
 
 
+patch_1_121C : List (Html Message)
+patch_1_121C =
+    [h2 [] [text "アニミスト 1.121C"],
+     text "打ちっぱなし型の turret pet の詠唱時間は5秒から3.5秒に減少する。controlled pet は依然5秒のままである。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_121C

@@ -138,5 +138,15 @@ patch_1_121B =
             "Level 40 - Point Blank Shot 3 - Combat Speed 39% から 29% に変更"]]
 
 
+patch_1_121C : List (Html Message)
+patch_1_121C =
+    [h2 [] [text "ハンター 1.121C"],
+     text "Point Blank Shot の Pulsing Bladeturn 効果は除去される。自己ヘイストは元の値に戻される。",
+     ulist ["Level 16 - 22% haste",
+            "Level 28 - 30% haste",
+            "Level 40 - 39% haste"],
+     text "ハンターのペットは side stun を行わなくなる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_121C

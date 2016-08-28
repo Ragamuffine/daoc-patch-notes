@@ -73,6 +73,11 @@ top_menu =
               li [] [a [onClick HiberniaPage] [text "ヒベルニア"]]]]
 
 
+raw_link : String -> Html Message
+raw_link link =
+    a [href link] [text link]
+
+
 top_page : Html Message
 top_page =
     div []
@@ -80,8 +85,9 @@ top_page =
          make_top_content
              [h2 [] [text "パッチノート"],
               ul []
-                  [li [] [a [onClick Patch_1_121_Page] [text "1.121"], text " (2016/7/26)"],
-                   li [] [a [onClick Patch_1_121B_Page] [text "1.121B"], text " (2016/8/16)"]],
+                  [li [] [a [onClick Patch_1_121_Page] [text "1.121"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1121-live-patch-notes", text " (2016/7/26)"],
+                   li [] [a [onClick Patch_1_121B_Page] [text "1.121B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1121b-live-patch-notes", text " (2016/8/16)"],
+                   li [] [a [onClick Patch_1_121C_Page] [text "1.121C"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1121c-hot-fix-update", text " (2016/8/24)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -172,6 +178,7 @@ view model =
         TopPage -> top_page
         Patch_1_121_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121]
         Patch_1_121B_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121B]
+        Patch_1_121C_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121C]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page

@@ -21,7 +21,7 @@ patch_1_121 =
 patch_1_121B : List (Html Message)
 patch_1_121B =
     [h2 [] [text "ヴァルキリー 1.121B"],
-     text "body resistance debuff は以下のように習性される。",
+     text "body resistance debuff は以下のように修正される。",
      ulist ["再使用タイマーは5秒から30秒に延長する。",
             "Level 40 debuff Bolster Spellcaster の効果は50%から40%に低下する。"]]
 

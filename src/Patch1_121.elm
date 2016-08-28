@@ -54,7 +54,8 @@ import Wizard
 
 patch_1_121 : List (Html Message)
 patch_1_121 =
-    [h2 [] [text "クラス全般"],
+    [h1 [] [text "Patch 1.121"],
+     h2 [] [text "クラス全般"],
      text "すべての root と mesmerization スペルの属性は以下のように変更になる。",
      dl [class "uk-description-list-horizontal"]
          [dt [] [text "アルビオン"],
@@ -111,7 +112,8 @@ patch_1_121 =
 
 patch_1_121B : List (Html Message)
 patch_1_121B =
-    [h2 [] [text "ベインロード"],
+    [h1 [] [text "Patch 1.121B"],
+     h2 [] [text "ベインロード"],
      text "Agony Transmission の Health/Power/Endurance コストは60%から75%に増加する。",
      h2 [] [text "Archer"],
      seccommon "Stealth (スペック)",
@@ -146,3 +148,46 @@ patch_1_121B =
     ++ Hunter.patch_1_121B ++ Reaver.patch_1_121B
     ++ Savage.patch_1_121B ++ Shadowblade.patch_1_121B
     ++ Shaman.patch_1_121B ++ Valewalker.patch_1_121B ++ Valkyrie.patch_1_121B
+
+
+patch_1_121C : List (Html Message)
+patch_1_121C =
+    [h1 [] [text "Patch 1.121C"],
+     h2 [] [text "Archer"],
+     text "Standard Shot の詠唱時間は4.0秒から4.2秒に増加する。",
+     br [] [],
+     text "Critical Shot のダメージはやや減少する。",
+     ulist ["Level 5 - Critical Shot 1 のダメージは 15 から 14 に減少",
+            "Level 11 - Critical Shot 2 のダメージは 50 から 48 に減少",
+            "Level 17 - Critical Shot 3 のダメージは 90 から 88 に減少",
+            "Level 23 - Critical Shot 4 のダメージは 129 から 126 に減少",
+            "Level 29 - Critical Shot 5 のダメージは 168 から 164 に減少",
+            "Level 35 - Critical Shot 6 のダメージは 209 から 204 に減少",
+            "Level 41 - Critical Shot 7 のダメージは 248 から 242 に減少",
+            "Level 47 - Critical Shot 8 のダメージは 288 から 285 に減少",
+            "Level 50 - Critical Shot 9 のダメージは 308 から 305 に減少"],
+     text "Power Shot のダメージは減少する。",
+     ulist ["Level 3 - Power Shot 1 のダメージは 15 から 12 に減少",
+            "Level 9 - Power Shot 2 のダメージは 50 から 45 に減少",
+            "Level 15 - Power Shot 3 のダメージは 90 から 86 に減少",
+            "Level 21 - Power Shot 4 のダメージは 129 から 123 に減少",
+            "Level 27 - Power Shot 5 のダメージは 168 から 160 に減少",
+            "Level 33 - Power Shot 6 のダメージは 209 から 194 に減少",
+            "Level 39 - Power Shot 7 のダメージは 248 から 230 に減少",
+            "Level 45 - Power Shot 8 のダメージは 288 から 279 に減少"],
+     text "Critical Shot と Power Shot のダメージ無効時間は10秒から15秒に延長される。ただし最後の5秒間でダメージ緩和量が急速に縮小する。",
+     br [] [],
+     text "Heightened Awareness のステルス検知の効果は10%から20%に増加する。",
+     h2 [] [text "Assassin"],
+     text "Heightened Awareness のステルス検知の効果は10%から20%に増加する。",
+     br [] [],
+     text "Vanish の disarm と silence の持続時間は15秒から30秒に延長される。",
+     br [] [],
+     text "Level 39 Critical Strikes スタイル Stunning Stab の前提は Creeping Death から Hamstring に変更される。その効果は3% abs debuff から 10秒 wither に変更される。",
+     br [] [],
+     text "armor wither の debuff 量はやや増加する。そのため armor wither 状態のターゲットへの Shot スタイルを使用した場合のダメージは着実に増加するはずである。",
+     br [] [],
+     text "mesmerization poison は remedy 状態のターゲットにも適用されるようになる。mesmerization poison は「Envenom」の項目ではなく「Abilities」の項目に置かれるようになるが Envenom スペックであることは変わらない。"]
+    ++ Animist.patch_1_121C ++ Friar.patch_1_121C ++ Hunter.patch_1_121C
+    ++ Mercenary.patch_1_121C ++ Sorcerer.patch_1_121C
+    ++ Vampiir.patch_1_121C
