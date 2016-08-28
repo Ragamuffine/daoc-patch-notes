@@ -19,41 +19,41 @@ SRC_HTML = src/index.html
 SRC_FONTS = src/fonts/FontAwesome.otf src/fonts/fontawesome-webfont.woff \
 	src/fonts/fontawesome-webfont.ttf src/fonts/fontawesome-webfont.woff2
 
-TARGET_ELM = target/main.js
+TARGET_ELM = docs/main.js
 
-TARGET_HTML = target/index.html
+TARGET_HTML = docs/index.html
 
-TARGET_FONTS = target/fonts/FontAwesome.otf target/fonts/fontawesome-webfont.woff \
-	target/fonts/fontawesome-webfont.ttf target/fonts/fontawesome-webfont.woff2
+TARGET_FONTS = docs/fonts/FontAwesome.otf docs/fonts/fontawesome-webfont.woff \
+	docs/fonts/fontawesome-webfont.ttf docs/fonts/fontawesome-webfont.woff2
 
 all: $(TARGET_ELM) $(TARGET_HTML) $(TARGET_FONTS)
 
-$(TARGET_ELM): $(SRC_ELM) $(SRC_ELM_CLASS) target
+$(TARGET_ELM): $(SRC_ELM) $(SRC_ELM_CLASS)
 	elm make $(SRC_ELM) --output $(TARGET_ELM)
 
-$(TARGET_HTML) : $(SRC_HTML) target target/css/uikit.min.css target/css/main.css
+$(TARGET_HTML) : $(SRC_HTML) docs/css/uikit.min.css docs/css/main.css
 	cp $(SRC_HTML) $(TARGET_HTML)
 
-target/css/uikit.min.css: src/css/uikit.min.css target/css
-	cp src/css/uikit.min.css target/css/uikit.min.css
+docs/css/uikit.min.css: src/css/uikit.min.css docs/css
+	cp src/css/uikit.min.css docs/css/uikit.min.css
 
-target/css/main.css: src/css/main.css target/css
-	cp src/css/main.css target/css/main.css
+docs/css/main.css: src/css/main.css docs/css
+	cp src/css/main.css docs/css/main.css
 
-target/css:
-	mkdir -p target/css
+docs/css:
+	mkdir -p docs/css
 
-target/fonts:
-	mkdir -p target/fonts
+docs/fonts:
+	mkdir -p docs/fonts
 
-target/fonts/FontAwesome.otf: src/fonts/FontAwesome.otf target/fonts
-	cp src/fonts/FontAwesome.otf target/fonts/FontAwesome.otf
+docs/fonts/FontAwesome.otf: src/fonts/FontAwesome.otf docs/fonts
+	cp src/fonts/FontAwesome.otf docs/fonts/FontAwesome.otf
 
-target/fonts/fontawesome-webfont.woff: src/fonts/fontawesome-webfont.woff target/fonts
-	cp src/fonts/fontawesome-webfont.woff target/fonts/fontawesome-webfont.woff
+docs/fonts/fontawesome-webfont.woff: src/fonts/fontawesome-webfont.woff docs/fonts
+	cp src/fonts/fontawesome-webfont.woff docs/fonts/fontawesome-webfont.woff
 
-target/fonts/fontawesome-webfont.ttf: src/fonts/fontawesome-webfont.ttf target/fonts
-	cp src/fonts/fontawesome-webfont.ttf target/fonts/fontawesome-webfont.ttf
+docs/fonts/fontawesome-webfont.ttf: src/fonts/fontawesome-webfont.ttf docs/fonts
+	cp src/fonts/fontawesome-webfont.ttf docs/fonts/fontawesome-webfont.ttf
 
-target/fonts/fontawesome-webfont.woff2: src/fonts/fontawesome-webfont.woff2 target/fonts
-	cp src/fonts/fontawesome-webfont.woff2 target/fonts/fontawesome-webfont.woff2
+docs/fonts/fontawesome-webfont.woff2: src/fonts/fontawesome-webfont.woff2 docs/fonts
+	cp src/fonts/fontawesome-webfont.woff2 docs/fonts/fontawesome-webfont.woff2
