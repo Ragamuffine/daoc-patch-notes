@@ -57,5 +57,14 @@ patch_1_121 =
             "Level 50 - Sun and Moon - Doubler - ダメージ増加"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "パラディン 1.122B"],
+     text "Realm Rank 5 Selfless Devotion は以下のように変更される。",
+     ulist ["パラディンの能力値は減少しなくなる。",
+            "グループサイズに応じてヒール量が変更される。パラディン自身は常に 100 heal/tick で回復する。2〜5人グループではグループメンバーは 300 heal/tick で回復する。6人以上のグループではグループメンバーは 500 heal/tick で回復する。",
+            "ヒール量は healing effectiveness ボーナスによりボーナス値以上に増加する。"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

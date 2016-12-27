@@ -55,5 +55,15 @@ patch_1_121C =
      text "打ちっぱなし型の turret pet の詠唱時間は5秒から3.5秒に減少する。controlled pet は依然5秒のままである。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "アニミスト 1.122B"],
+     sechib "Creeping Path (スペック)",
+     text "単体AFデバフの値は以下のように変更される。",
+     ulist ["Level 30 - Spoil Armor - 50 から 100 に増加",
+            "Level 40 - Decompose Armor - 100 から 165 に増加",
+            "Level 49 - Decay Armor - 150 から 250 に増加"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121C
+all = patch_1_121 ++ patch_1_121C ++ patch_1_122B

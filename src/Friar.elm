@@ -122,5 +122,12 @@ patch_1_121C =
      text "Level 50 Staff スタイル Excommunication の group heal proc の効果は 125 から 150 に増加し、範囲は 500 から 1500 になる。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "フライアー 1.122B"],
+     secalb "Enhancements (基本)",
+     text "Level 42 - Aura of Deflection - AF の値は 52 から 150 に増加する。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B ++ patch_1_121C
+all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B

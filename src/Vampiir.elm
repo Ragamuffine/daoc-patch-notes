@@ -9,7 +9,7 @@ patch_1_121 : List (Html Message)
 patch_1_121 =
     [h2 [] [text "ヴァンピール 1.121"],
      text "ヴァンピールはフルリスペックされる。",
-     sechib "Vampiric Emrabce (スペック)",
+     sechib "Vampiric Embrace (スペック)",
      text "fumble debuff は Shadow Mastery spec に移される。",
      text "NPC dismissal は削除される。",
      text "Vampiir's Blaze はレベル35に移動される。",
@@ -62,5 +62,19 @@ patch_1_121C =
      text "Dementia スペックの Summon Night's Servant スペルのパワーコストは 250 から 200 に減少する。ペットのヒットポイントは少し増加する。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ヴァンピール 1.122B"],
+     text "Cloak of the Loyal Vampiir の powerdrain proc バフの発動率が 20% に増加する。",
+     sechib "Vampiric Embrace (スペック)",
+     text "Level 49 Hacking Claw - power cost は 36 から 28 に減少",
+     sechib "Dementia (スペック)",
+     text "ペットのレベルは召喚者と等しくなる。",
+     br [] [],
+     text "Level 48 Arctic Claw - power cost は 36 から 28 に減少",
+     sechib "Shadow Mastery (スペック)",
+     text "Level 49 Blazing Claw - power cost は 36 から 28 に減少"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121C
+all = patch_1_121 ++ patch_1_121C ++ patch_1_122B

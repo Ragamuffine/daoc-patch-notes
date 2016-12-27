@@ -153,5 +153,13 @@ patch_1_121B =
      text "RR5 Blooddrinking の回復量は60%から45%に低下する。持続時間は15s秒のまま。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "シャドウブレード 1.122B"],
+     text "シャドウブレードはフルリスペックされる。",
+     secmid "Stealth (スペック)",
+     text "レベル49 Vanish III は Vanish II に変更される。したがって再使用タイマーは15分になる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B

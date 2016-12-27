@@ -138,5 +138,13 @@ patch_1_121 =
             "Level 44 - Prismatic Blade - Anytime - ダメージ減少"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ナイトシェード 1.122B"],
+     text "ナイトシェードはフルリスペックされる。",
+     sechib "Stealth (スペック)",
+     text "レベル49 Vanish III は Vanish II に変更される。したがって再使用タイマーは15分になる。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

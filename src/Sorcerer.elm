@@ -47,5 +47,22 @@ patch_1_121C =
             "Level 50 - Mindfulness - instant-cast - quickcast タイマーをリセットする - self-targeted - 再使用60秒"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ソーサラー 1.122B"],
+     secalb "Mind Magic baseline",
+     text "グループスピード呪文の効果はミンストレルと同じレベルまで強化される。",
+     ulist ["Level 6 - Amplify Movement - 126% から 144% に",
+            "Level 16 - Amplify Running - 133% から 156% に",
+            "Level 26 - Amplify Coordination - 141% から 174% に",
+            "Level 36 - Amplify Equilibrium - 148% から 189% に",
+            "Level 46 - Amplify Balance - 176% から 204% に"],
+     text "新しくグループ waterbreath 呪文が追加される。",
+     ulist ["Level 14 - Minor Water Breath - 詠唱3秒 - 1500 range - 持続時間30分 - 10 power - 水中で地上の 70% の速度で移動する",
+            "Level 24 - Lesser Water Breath - 詠唱3秒 - 1500 range - 持続時間30分 - 15 power - 水中で地上の 80% の速度で移動する",
+            "Level 34 - Greater Water Breath - 詠唱3秒 - 1500 range - 持続時間30分 - 20 power - 水中で地上の 90% の速度で移動する",
+            "Level 44 - Water Breath - 詠唱3秒 - 1500 range - 持続時間30分 - 25 power - 水中で地上の 100% の速度で移動する"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121C
+all = patch_1_121 ++ patch_1_121C ++ patch_1_122B

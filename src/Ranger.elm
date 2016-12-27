@@ -118,5 +118,11 @@ patch_1_121 =
      ulist ["Level 34 - Asp’s Bite - Anytime - ダメージ減少"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "レンジャー 1.122B"],
+     text "Realm Rank 5 アビリティーは再びチャージ中でないターゲットをスタンし、レンジャー自身のスピードを増加させるようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

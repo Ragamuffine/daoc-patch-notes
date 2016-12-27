@@ -22,5 +22,20 @@ patch_1_121 =
      text "ただし flute mez の実際の効果は倍になる。例えば level 50 での20秒 mez は実際には 40秒になる。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ミンストレル 1.122B"],
+     text "ミンストレルはフルリスペックされる。",
+     secalb "Instruments (スペック)",
+     text "新しくグループシージダメージ低減オーラが追加される。",
+     ulist ["Level 6 - Ballad of Albion - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 10% 低下",
+                "Level 16 - Chant of Albion - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 20% 低下",
+                "Level 26 - Chorus of Albion - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 30% 低下",
+                "Level 36 - Song of Albion - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 40% 低下",
+                "Level 46 - Anthem of Albion - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 50% 低下 - 同時に以下の効果を発動 - 500 range - 持続時間8秒 - 7秒ごと - 35% siege haste"],
+     text "新しく siege へのグループダメージボーナスが追加される。",
+     ulist ["Level 40 - Siegebreaker - Instant cast - 2000 range - 半径150 - 持続時間15秒 - 再使用90秒 - ターゲットの物理攻撃に 20 essence damage が追加される。ターゲットが扱う siege 武器のダメージにも同様に追加される。"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

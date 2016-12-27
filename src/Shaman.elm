@@ -76,5 +76,15 @@ patch_1_121B =
      text "Level 28 single target acuity shear Acuity Cut は Augmentation スペックに戻される。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "シャーマン 1.122B"],
+     secmid "Augmentation (基本)",
+     ulist ["Level 42 - Guardian's Lesser Protection - AF の増加量が 52 から 150 になる。"],
+     secmid "Augmentation (スペック)",
+     ulist ["Level 30 - Earthen Power の物理ダメージ増加量が15%から35%になる。",
+            "Level 36 - Caustic Carapace のダメージ反射が150%から200%に上昇する。"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B

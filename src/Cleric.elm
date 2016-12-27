@@ -39,5 +39,12 @@ patch_1_121 =
             "自分に対しては使用できない。"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "クレリック 1.122B"],
+     secalb "Enhancements (基本)",
+     text "Level 42 - Aura of Deflection - AF の値は 52 から 150 に増加する。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

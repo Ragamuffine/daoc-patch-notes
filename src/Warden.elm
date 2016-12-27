@@ -39,5 +39,18 @@ patch_1_121 =
             "Level 32 - Forest Executioner - Follows Forest Protector - Very High endurance cost, Very High Damage, Low Hit Penalty, Low Defensive Bonus - ターゲットが行うヒール量を25秒間50%低下させる。"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ウォーデン 1.122B"],
+     sechib "Nurture (基本)",
+     text "Level 45 - Superior Skin of the Redwood - AF の値は 55 から 150 に増加する。",
+     sechib "Blades (スペック)",
+     text "Stone Shaper は ABS debuff ではなく武器スキル25%増加になる。ダメージも増加する。",
+     br [] [],
+     text "Stone Temper は ABS debuff の効果を持つ。20秒持続する。ダメージは減少する。防御ペナルティーは減少する。",
+     br [] [],
+     text "Stone Breaker の防御ペナルティーは減少する。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

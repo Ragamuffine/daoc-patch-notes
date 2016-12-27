@@ -107,5 +107,11 @@ patch_1_121 =
             "Level 50 - 45% stealth detection bonus - 2s cast - 30秒間継続 - Focus スペルは移動または呪文の詠唱で無効化する - Self-target"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "スカウト 1.122B"],
+     text "Realm Rank 5 アビリティーは再びチャージ中でないターゲットにスネアを与え、スカウト自身のスピードを増加させるようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

@@ -21,5 +21,12 @@ patch_1_121 =
             "Level 46 - Hymn of Soul Protection - 4.0s cast - 1500 range - 持続時間20分 - 5% power - すべての魔法レジストを12%増加"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "バード 1.122B"],
+     sechib "Nurture (基本)",
+     text "Level 45 - Superior Skin of the Redwood - AF の値は 55 から 150 に増加する。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

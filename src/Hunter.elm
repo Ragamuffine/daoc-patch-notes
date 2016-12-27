@@ -148,5 +148,12 @@ patch_1_121C =
      text "ハンターのペットは side stun を行わなくなる。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ハンター 1.122B"],
+     secmid "Beastcraft (スペック)",
+     text "Level 50 - Hunter's Elder Avatar - ペットのレベルは召喚者のレベルと同じになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B ++ patch_1_121C
+all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B

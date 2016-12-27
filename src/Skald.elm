@@ -49,5 +49,20 @@ patch_1_121 =
             "Level 50 - Ragnarok - Rear - ダメージ増加"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "スカルド 1.122B"],
+     text "スカルドはフルリスペックされる。",
+     secmid "Battlesongs (スペック)",
+     text "新しく siege ダメージ吸収オーラが追加される。",
+     ulist ["Level 6 - Rhythm of the Siege - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - siege damage 10% 低減",
+            "Level 16 - Accent of the Siege - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - siege damage 20% 低減",
+            "Level 26 - Intonation of the Siege - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - siege damage 30% 低減",
+            "Level 36 - Pulse of the Siege - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - siege damage 40% 低減",
+            "Level 46 - Count of the Siege - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - siege damage 50% 低減。同時に以下の効果を発動 - 500 range - 持続時間8秒 - 7秒ごと - 35% siege haste"],
+     text "新しく siege へのグループダメージボーナスが追加される。",
+     ulist ["Level 40 - Siegebreaker - Instant cast - 2000 range - 半径150 - 持続時間15秒 - 再使用90秒 - ターゲットの物理攻撃に 20 essence damage が追加される。ターゲットが扱う siege 武器のダメージにも同様に追加される。"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

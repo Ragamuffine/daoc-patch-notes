@@ -1,12 +1,12 @@
 module Main exposing (..)
 
 import Html exposing (Html, div, text, article, hr, a, nav, ul, li, h2)
-import Html.App
 import Html.Attributes exposing (class, style, href)
 import Html.Events exposing (onClick)
 import Message exposing (..)
 import Style exposing (..)
 import Patch1_121
+import Patch1_122
 import Animist
 import Armsman
 import Bainshee
@@ -87,7 +87,9 @@ top_page =
               ul []
                   [li [] [a [onClick Patch_1_121_Page] [text "1.121"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1121-live-patch-notes", text " (2016/7/26)"],
                    li [] [a [onClick Patch_1_121B_Page] [text "1.121B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1121b-live-patch-notes", text " (2016/8/16)"],
-                   li [] [a [onClick Patch_1_121C_Page] [text "1.121C"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1121c-hot-fix-update", text " (2016/8/24)"]],
+                   li [] [a [onClick Patch_1_121C_Page] [text "1.121C"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1121c-hot-fix-update", text " (2016/8/24)"],
+                   li [] [text "1.122A(クラスの変更なし)", text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1122a-live-patch-notes", text " (2016/9/23)"],
+                   li [] [a [onClick Patch_1_122B_Page] [text "1.122B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1122b-live-patch-notes", text " (2016/12/5)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -179,6 +181,7 @@ view model =
         Patch_1_121_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121]
         Patch_1_121B_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121B]
         Patch_1_121C_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121C]
+        Patch_1_122B_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page
@@ -242,9 +245,9 @@ subscriptions model =
 
 -- MAIN
 
-main : Program Never
+main : Program Never Model Message
 main =
-    Html.App.program { init = init,
-                       view = view,
-                       update = update,
-                       subscriptions = subscriptions }
+    Html.program { init = init,
+                   view = view,
+                   update = update,
+                   subscriptions = subscriptions }

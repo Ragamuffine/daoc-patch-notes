@@ -33,5 +33,40 @@ patch_1_121B =
      text "Level 47 二次レジストバフ Against the Odds はそれよりも長時間有効なアイテムによるレジストバフを上書きしなくなる。"]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "チャンピオン 1.122B"],
+     text "チャンピオンはフルリスペックされる。",
+     sechib "Valor (スペック)",
+     text "Valor ラインは調整される。削除される能力はない。ハイエンドの能力はそのまま維持される。",
+     br [] [],
+     text "instant snare のレベルは 1, 11, 21, 31, 41 となる。威力は変わらない。",
+     br [] [],
+     text "endurance 軽減チャントのレベルは 12, 22, 32, 42 のままだがレベル2に追加される。",
+     br [] [],
+     text "instant DD シャウトのレベルは 3, 13, 23, 33, 43 となる。威力は変わらない。",
+     br [] [],
+     text "Strength/Constitution バフは Dexterity/Quickness バフと統合されレベルは 4, 14, 24, 34, 44 となる。効果は変わらない。",
+     br [] [],
+     text "instant acuity debuff のレベルは 5, 15, 25, 35, 45 となる。威力は変わらない。",
+     br [] [],
+     text "instant Dexterity/Quickness debuff のレベルは 7, 17, 27, 37, 47 となる。威力は変わらない。",
+     br [] [],
+     text "instant haste debuff のレベルは 8, 18, 28, 38, 48 となる。威力は変わらない。",
+     br [] [],
+     text "instant Strength/Constitution debuff のレベルは 9, 19, 29, 39, 49 となる。威力は変わらない。",
+     br [] [],
+     text "Call of the Champion はレベル50のままである。",
+     br [] [],
+     text "新しくグループシージダメージ低減オーラが追加される。",
+     ulist ["Level 6 - Champion's Ambience - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 10% 低下",
+            "Level 16 - Champion's Demeanor - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 20% 低下",
+            "Level 26 - Champion's Presence - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 30% 低下",
+            "Level 36 - Champion's Aspect - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ 40% 低下",
+            "Level 46 - Champion's Aura - Instant cast - 1500 range - 持続時間8秒 - 7秒ごと - シージダメージ50% 低下 - 同時に以下の効果を発動 - 500 range - 持続時間8秒 - 7秒ごと - 35% siege haste"],
+     text "新しく siege へのグループダメージボーナスが追加される。",
+     ulist ["Level 40 - Siegebreaker - Instant cast - 2000 range - 半径150 - 持続時間15秒 - 再使用90秒 - ターゲットの物理攻撃に 20 essence damage が追加される。ターゲットが扱う siege 武器のダメージにも同様に追加される。"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B

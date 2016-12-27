@@ -43,5 +43,14 @@ patch_1_121 =
             "自分に対しては使用できない。"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ドルイド 1.122B"],
+     sechib "Nurture (基本)",
+     text "Level 45 - Superior Skin of the Redwood - AF の値は 55 から 150 に増加する。",
+     text "Cloak of the Loyal Druid の pbaoe root /use ability は敵ターゲットに対して正しく発動するようになる。",
+     text "Cloak of the Loyal Druid の Aura of the Grove は正しく10分間継続するようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

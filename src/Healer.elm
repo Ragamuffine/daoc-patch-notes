@@ -25,5 +25,19 @@ patch_1_121 =
             "Level 43 - Restorative Surge - 50 sec 再使用 - Heal 45% - 1000 range - 40% power"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ヒーラー 1.122B"],
+     secmid "Augmentation (基本)",
+     ulist ["Level 42 - Guardian's Lesser Protection - AFの上昇値を 52 から 150 に増加"],
+     secmid "Pacification (基本)",
+     text "グループスピード呪文の効果はスカルドと同じレベルまで強化される。",
+     ulist ["Level 6 - Ease of Movement - 126% から 144% に",
+            "Level 15 - Flow of Movement - 133% から 156% に",
+            "Level 25 - Grace of Movement - 141% から 174% に",
+            "Level 35 - Purity of Movement - 148% から 189% に",
+            "Level 45 - Elegance of Movement - 176% から 204% に"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

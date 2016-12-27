@@ -6,6 +6,7 @@ type Message =
   | Patch_1_121_Page
   | Patch_1_121B_Page
   | Patch_1_121C_Page
+  | Patch_1_122B_Page
   | AlbionPage
   | MidgardPage
   | HiberniaPage

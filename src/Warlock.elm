@@ -32,5 +32,29 @@ patch_1_121 =
      ulist ["Level 50 - Doom - 10秒間継続 - 2.5秒ごと - 205 spirit damage - 3s cast time - cure されるまたは効果が切れると 700 direct damage. パージされた時のみ回避可能。"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "ウォーロック 1.122B"],
+     text "ウォーロックはフルリスペックされる。",
+     secmid "Cursing (基本)",
+     text "単体 DD 呪文は matter から spirit 属性に変更された。",
+     secmid "Witchcraft (スペック)",
+     text "単体 AF デバフは変更されている。",
+     ulist ["Level 30 - Degrade Armor - 50 から 100 に増加",
+            "Level 40 - Rot Armor - 100 から 165 に増加",
+            "Level 50 - Erode Armor - 150 から 250 に増加"],
+     text "Doom は essence 属性に変更された。",
+     secmid "Hexing (スペック)",
+     text "単体ペット fear (退散後に60秒の無効時間が存在する)は以下のように変更になる。",
+     ulist ["Level 1 - Fear Slave - 詠唱2.6秒 - 1500 range - 持続時間5秒 - 6 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 11 - Expel Slave - 詠唱2.6秒 - 1500 range - 持続時間13秒 - 15 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 21 - Intimidate Slave - 詠唱2.6秒 - 1500 range - 持続時間21秒 - 26 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 31 - Daunt Slave - 詠唱2.6秒 - 1500 range - 持続時間30秒 - 35 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 41 - Terrify Slave - 詠唱2.6秒 - 1500 range - 持続時間42秒 - 43 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。"],
+     text "新しいペット fear に応じて以下の呪文が変更になる。",
+     ulist ["Level 31 - Hex of Tangling Root は level 28 になる。",
+            "Level 41 - Hex of Hindering は level 36 になる。"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_1_122B

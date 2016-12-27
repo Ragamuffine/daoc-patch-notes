@@ -71,5 +71,30 @@ patch_1_121B =
             "Level 18 - Clan's Might - Clan's Call - スネア除去"]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "サヴェジ 1.122B"],
+     secmid "Savagery (スペック)",
+     text "すべての自己バフは有効期間が終わった時ではなく能力を使った時にヘルスコストが適用されるようになる。",
+     br [] [],
+     text "自己ヘイストバフは全レベルで5%のヘルスコストとなる。",
+     br [] [],
+     text "自己 parry バフは全レベルで5%のヘルスコストとなる。",
+     br [] [],
+     text "自己 evasion バフは全レベルで5%のヘルスコストとなる。このバフの有効期間内では Frenzy スタンスはもはや Einherjar weapon を proc しなくなる。",
+     text "自己 melee ダメージ増加バフは全レベルで5%のヘルスコストとなる。このバフの有効期間内では Frenzy スタンスはもはや Einherjar weapon を proc しなくなる。",
+     br [] [],
+     text "物理レジストバフは3種類の物理レジストすべてを増加させる単一のバフになる。",
+     ulist ["Level 6 - Deflect Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 5% 増加",
+            "Level 14 - Bear Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 9% 増加",
+            "Level 23 - Withstand Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 13% 増加",
+            "Level 31 - Endure Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 17% 増加",
+            "Level 40 - Weather Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 21% 増加",
+            "Level 47 - Ignore Attacks - Instant cast - 持続時間30秒 - 再使用5秒 - 10% health - crush, slash, thrust 25% 増加"],
+     text "新しいレジストを獲得するにはリスペックをする必要がある。",
+     br [] [],
+     text "Blissful Ignorance の再使用タイマーは5分から10分に増加する。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B

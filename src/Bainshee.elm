@@ -68,5 +68,39 @@ patch_1_121B =
      ulist [ "Befriend", "PBAoE Acuity shear", "Fear" ]]
 
 
+patch_1_122B : List (Html Message)
+patch_1_122B =
+    [h2 [] [text "バンシー 1.122B"],
+     text "バンシーはフルリスペックされる。",
+     sechib "Spectral Guard (スペック)",
+     text "新しく AoE cone slow 呪文が追加される。",
+     ulist ["Level 7 - Slowing Scream - 詠唱2.5秒 - 700 range cone  - 持続時間15秒 - 11 power - slow 10%",
+            "Level 17 - Slowing Shriek - 詠唱2.5秒 - 700 range cone - 持続時間15秒 - 23 power - slow 20%",
+            "Level 27 - Slowing Shrill - 詠唱2.5秒 - 700 range cone - 持続時間15秒 - 35 power - slow 30%",
+            "Level 37 - Slowing Wail - 詠唱2.5秒 - 700 range cone - 持続時間15秒 - 50 power - slow 50%",
+            "Level 47 - Slowing Cry - 詠唱2.5秒 - 700 range cone - 持続時間15秒 - 62 power - slow 75%"],
+     text "レベル47 AoE cone root はレベル46に移動する。",
+     sechib "Ethereal Shriek (スペック)",
+     text "このラインの呪文は再調整される。",
+     br [] [],
+     text "弓ダメージ吸収オーラは削除される。",
+     br [] [],
+     text "AoE cold DD スペルのレベルは 1, 11, 21, 31, 41 となる。威力は変わらない。",
+     br [] [],
+     text "AoE nearsight のレベルは 2, 12, 22, 32, 42 となる。威力は変わらない。",
+     br [] [],
+     text "AoE Dexterity/Quickness debuff のレベルは 3, 13, 23, 33, 43 となる。威力は変わらない。",
+     br [] [],
+     text "AoE Bolt のレベルは 5, 15, 25, 45 となる。威力は変わらない。レベル45の AoE bolt Deafening Cascade のダメージは296から315に増加する。",
+     br [] [],
+     text "単体 cold direct damage スペルのレベルは 7, 17, 27, 37, 47 となる。威力は変わらない。",
+     text "新しく単体ペット fear (退散後に60秒の無効時間が発生する)が追加される。",
+     ulist ["Level 8 - Fear Minion - 詠唱2.6秒 - 1500 range - 持続時間5秒 - 6 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 18 - Expel Minion - 詠唱2.6秒 - 1500 range - 持続時間13秒 - 15 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 28 - Intimidate Minion - 詠唱2.6秒 - 1500 range - 持続時間21秒 - 26 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 38 - Daunt Minion - 詠唱2.6秒 - 1500 range - 持続時間30秒 - 35 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。",
+            "Level 48 - Terrify Minion - 詠唱2.6秒 - 1500 range - 持続時間42秒 - 43 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B
