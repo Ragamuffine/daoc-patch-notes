@@ -52,5 +52,11 @@ patch_1_122B =
      text "Cloak of the Loyal Druid の Aura of the Grove は正しく10分間継続するようになる。"]
 
 
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h2 [] [text "ドルイド 1.122B Hot Fix"],
+     text "Cloak of the Loyal Druid の cure disease の頻度は30秒毎から15秒毎になる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix

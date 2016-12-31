@@ -79,5 +79,19 @@ patch_1_122B =
             "Level 50 - Enchantment of Zeal - 10s cast - 4000 range - 持続時間30秒 - 再使用5分 - 30% power - コンバットスタイルのダメージボーナスを3倍にする。スタイルダメージを与えた分、自グループをヒールする。"]]
 
 
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h2 [] [text "エンチャンター 1.122B Hot Fix"],
+     text "“Enchantment of …”の呪文はグループメンバーに対して正しく上書きするようになる。",
+     br [] [],
+     text "Underhill Ally の health regeneration は削除される。この能力はバードのヒールソングと衝突している。物理レジストバフだけでも充分に強力である。",
+     br [] [],
+     text "レベル 48 の PBAoE スペルのダメージが正しい値になる。",
+     br [] [],
+     text "The Loyal Enchanter class cloak の半径増加のアビリティーはグループメンバーに対して正しく機能する。",
+     br [] [],
+     text "The Enchantment of Mana の効果はすべてのクラスに対して正しく機能するはずである。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix

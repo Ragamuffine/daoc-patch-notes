@@ -295,5 +295,19 @@ patch_1_122B =
      ulist ["Level 50 - Arawn's Legion - 詠唱時間15秒 - 再使用10分 - 半径2000 - 0 power - 持続時間45秒 - ペットの軍団を召喚する。ペットは範囲内の敵を攻撃する。ペットの種類は物理型からキャスター型まで多岐にわたる。"]]
 
 
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h2 [] [text "ネクロマンサー 1.122B Hot Fix"],
+     text "Revert Form はスキルリストに正しく表示される。",
+     br [] [],
+     text "設置型スペル(〜 Ground)はターゲットの場所に設置され設置直後から半径内で有効になる。設置後はパルスのタイミングで効果を発する。",
+     br [] [],
+     text "Chthonic Form はすべてのレベルで正しく parry と weaponskill を得る。召喚したペットを正しくリリースする。",
+     br [] [],
+     text "Decrepit Form の health regen はレベル50では変わらないがレベルが下がるごとに効果は低下する。バトルグラウンドで効力が強すぎたため調整される。",
+     br [] [],
+     text "Power Lock は正しく詠唱者をスタンするようになる。このスタンはパージ不能で耐性もつかない。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix

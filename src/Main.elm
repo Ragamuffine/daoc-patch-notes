@@ -89,7 +89,8 @@ top_page =
                    li [] [a [onClick Patch_1_121B_Page] [text "1.121B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1121b-live-patch-notes", text " (2016/8/16)"],
                    li [] [a [onClick Patch_1_121C_Page] [text "1.121C"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1121c-hot-fix-update", text " (2016/8/24)"],
                    li [] [text "1.122A(クラスの変更なし)", text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1122a-live-patch-notes", text " (2016/9/23)"],
-                   li [] [a [onClick Patch_1_122B_Page] [text "1.122B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1122b-live-patch-notes", text " (2016/12/5)"]],
+                   li [] [a [onClick Patch_1_122B_Page] [text "1.122B"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/content/1122b-live-patch-notes", text " (2016/12/5)"],
+                   li [] [a [onClick Patch_1_122B_HotFix_Page] [text "1.122B Hot Fix"], text " 公式リンク ", raw_link "http://www.darkageofcamelot.com/article/1122b-hot-fix", text " (2016/12/7)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -182,6 +183,7 @@ view model =
         Patch_1_121B_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121B]
         Patch_1_121C_Page -> div [] [top_menu, make_content Patch1_121.patch_1_121C]
         Patch_1_122B_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B]
+        Patch_1_122B_HotFix_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page

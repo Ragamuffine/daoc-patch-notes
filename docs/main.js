@@ -7839,6 +7839,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix_Page = {ctor: 'Patch_1_122B_HotFix_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_Page = {ctor: 'Patch_1_122B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_121C_Page = {ctor: 'Patch_1_121C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_121B_Page = {ctor: 'Patch_1_121B_Page'};
@@ -9855,6 +9856,22 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Blademaster$all = _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.122B Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('トーテムは以下のように変更になる。出現するトーテムは一本のみであるが半径内に効果がある。トーテムの効果は詠唱後すぐに有効になりその後は通常どおりパルスが続く。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -9862,7 +9879,7 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B = {
 		{ctor: '[]'},
 		{
 			ctor: '::',
-			_0: _elm_lang$html$Html$text('ボーンダンサー 1.12BB'),
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.122B'),
 			_1: {ctor: '[]'}
 		}),
 	_1: {
@@ -10601,7 +10618,10 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_121, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B = {
 	ctor: '::',
@@ -11513,6 +11533,22 @@ var _Ragamuffine$daoc_patch_notes$Cleric$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Cleric$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cleric$patch_1_121, _Ragamuffine$daoc_patch_notes$Cleric$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ドルイド 1.122B Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Cloak of the Loyal Druid の cure disease の頻度は30秒毎から15秒毎になる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -11723,7 +11759,10 @@ var _Ragamuffine$daoc_patch_notes$Druid$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Druid$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_121, _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Druid$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Druid$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B, _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 	ctor: '::',
@@ -11847,6 +11886,66 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.122B Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('“Enchantment of …”の呪文はグループメンバーに対して正しく上書きするようになる。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Underhill Ally の health regeneration は削除される。この能力はバードのヒールソングと衝突している。物理レジストバフだけでも充分に強力である。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('レベル 48 の PBAoE スペルのダメージが正しい値になる。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('The Loyal Enchanter class cloak の半径増加のアビリティーはグループメンバーに対して正しく機能する。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('The Enchantment of Mana の効果はすべてのクラスに対して正しく機能するはずである。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -12175,7 +12274,10 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_121, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B = {
 	ctor: '::',
@@ -14987,6 +15089,66 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.122B Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Revert Form はスキルリストに正しく表示される。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('設置型スペル(〜 Ground)はターゲットの場所に設置され設置直後から半径内で有効になる。設置後はパルスのタイミングで効果を発する。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Chthonic Form はすべてのレベルで正しく parry と weaponskill を得る。召喚したペットを正しくリリースする。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Decrepit Form の health regen はレベル50では変わらないがレベルが下がるごとに効果は低下する。バトルグラウンドで効力が強すぎたため調整される。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Power Lock は正しく詠唱者をスタンするようになる。このスタンはパージ不能で耐性もつかない。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -16375,7 +16537,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_121, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B = {
 	ctor: '::',
@@ -17022,6 +17187,22 @@ var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Nightshade$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('パラディン 1.122B Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Realm Rank 5 Selfless Devotion の最初の tick が正しく発動するようになる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -17299,7 +17480,10 @@ var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Paladin$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_121, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Paladin$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Paladin$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B = {
 	ctor: '::',
@@ -23441,6 +23625,30 @@ var _Ragamuffine$daoc_patch_notes$Patch1_121$patch_1_121 = A2(
 																																												_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
 																																												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121)))))))))))))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.122B Hot Fix'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix)))));
 var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -23966,7 +24174,41 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 															}
 														}
 													}),
-												_1: {ctor: '[]'}
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$li,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$a,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix_Page),
+																	_1: {ctor: '[]'}
+																},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('1.122B Hot Fix'),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(' 公式リンク '),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://www.darkageofcamelot.com/article/1122b-hot-fix'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text(' (2016/12/7)'),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}),
+													_1: {ctor: '[]'}
+												}
 											}
 										}
 									}
@@ -25121,6 +25363,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_122B_HotFix_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix),
 						_1: {ctor: '[]'}
 					}
 				});

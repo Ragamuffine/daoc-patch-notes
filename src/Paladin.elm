@@ -66,5 +66,11 @@ patch_1_122B =
             "ヒール量は healing effectiveness ボーナスによりボーナス値以上に増加する。"]]
 
 
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h2 [] [text "パラディン 1.122B Hot Fix"],
+     text "Realm Rank 5 Selfless Devotion の最初の tick が正しく発動するようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix

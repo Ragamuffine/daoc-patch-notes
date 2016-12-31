@@ -93,3 +93,13 @@ patch_1_122B =
     ++ Shaman.patch_1_122B ++ Skald.patch_1_122B ++ Sorcerer.patch_1_122B
     ++ Spiritmaster.patch_1_122B
     ++ Vampiir.patch_1_122B ++ Warden.patch_1_122B ++ Warlock.patch_1_122B
+
+
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h1 [] [text "Patch 1.122B Hot Fix"]]
+    ++ Bonedancer.patch_1_122B_HotFix
+    ++ Druid.patch_1_122B_HotFix
+    ++ Enchanter.patch_1_122B_HotFix
+    ++ Necromancer.patch_1_122B_HotFix
+    ++ Paladin.patch_1_122B_HotFix

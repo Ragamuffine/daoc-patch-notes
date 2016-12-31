@@ -34,7 +34,7 @@ patch_1_121 =
 
 patch_1_122B : List (Html Message)
 patch_1_122B =
-    [h2 [] [text "ボーンダンサー 1.12BB"],
+    [h2 [] [text "ボーンダンサー 1.122B"],
      text "ボーンダンサーはフルリスペックされる。",
      secmid "Darkness (スペック)",
      text "cold DD/snare 呪文は以下のように調整される。",
@@ -162,5 +162,11 @@ patch_1_122B =
             "Level 48 - Familiar Defeat - 86 body damage - 1250 range - 再使用15秒 - 20% power"]]
 
 
+patch_1_122B_HotFix : List (Html Message)
+patch_1_122B_HotFix =
+    [h2 [] [text "ボーンダンサー 1.122B Hot Fix"],
+     text "トーテムは以下のように変更になる。出現するトーテムは一本のみであるが半径内に効果がある。トーテムの効果は詠唱後すぐに有効になりその後は通常どおりパルスが続く。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
