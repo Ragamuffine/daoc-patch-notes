@@ -72,5 +72,12 @@ patch_1_122B_HotFix =
      text "Realm Rank 5 Selfless Devotion の最初の tick が正しく発動するようになる。"]
 
 
+patch_1_122B_HotFix5 : List (Html Message)
+patch_1_122B_HotFix5 =
+    [h2 [] [text "パラディン 1.121B Hot Fix #5"],
+     text "タウントが再び敵を妨害できるようになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
+      ++ patch_1_122B_HotFix5

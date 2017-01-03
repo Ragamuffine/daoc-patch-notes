@@ -129,5 +129,12 @@ patch_1_122B =
      text "Level 42 - Aura of Deflection - AF の値は 52 から 150 に増加する。"]
 
 
+patch_1_122B_HotFix5 : List (Html Message)
+patch_1_122B_HotFix5 =
+    [h2 [] [text "フライアー 1.121B Hot Fix #5"],
+     text "タウントが再び敵を妨害できるようになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
+      ++ patch_1_122B_HotFix5

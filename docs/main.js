@@ -7839,6 +7839,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix5_Page = {ctor: 'Patch_1_122B_HotFix5_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix4_Page = {ctor: 'Patch_1_122B_HotFix4_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix3_Page = {ctor: 'Patch_1_122B_HotFix3_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix2_Page = {ctor: 'Patch_1_122B_HotFix2_Page'};
@@ -10653,6 +10654,22 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 		_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix2)));
 
+var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('カバリスト 1.121B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Amber Simulacrum ペットのスタイルダメージがやや低下する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix4 = {
 	ctor: '::',
 	_0: A2(
@@ -11154,7 +11171,10 @@ var _Ragamuffine$daoc_patch_notes$Cabalist$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix2,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix4))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix3,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix4, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5)))));
 
 var _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix3 = {
 	ctor: '::',
@@ -12011,6 +12031,22 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.122B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Underhill Stalker ペットのスタイルダメージがやや低下する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix4 = {
 	ctor: '::',
 	_0: A2(
@@ -12520,8 +12556,27 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix2,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix4)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix3,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix4, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix5))))));
 
+var _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('フライアー 1.121B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('タウントが再び敵を妨害できるようになる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -13083,7 +13138,10 @@ var _Ragamuffine$daoc_patch_notes$Friar$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Friar$patch_1_121B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Friar$patch_1_121C, _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Friar$patch_1_121C,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B, _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5))));
 
 var _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B = {
 	ctor: '::',
@@ -15351,6 +15409,104 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 	_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.122B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Plated Fiend ペットのスタイルダメージがやや低下する。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Death Shredder ペットのスタイルダメージがやや低下する。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Villainous Strike スタイルのダメージが低下する。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Frozen Edge 背後スタイルのダメージが低下する。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Deathseeker スタイルのダメージは上昇するが DoT 効果は失われる。'),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$br,
+												{ctor: '[]'},
+												{ctor: '[]'}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('レベル37 Freezing Clench のダメージは 64/tick から 54/tick に減少する。'),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$br,
+														{ctor: '[]'},
+														{ctor: '[]'}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Netherbane の DoT proc は直接ダメージ(150 cold)に置き換えられる。slow 効果については変わらない。'),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$br,
+																{ctor: '[]'},
+																{ctor: '[]'}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('すべてのバージョンの Icebrand の DD proc のダメージは低下する。'),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (スペック)'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('単体スネアはルート無効のターゲットに対してもはや適用されない。'),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix4 = {
 	ctor: '::',
 	_0: A2(
@@ -16978,7 +17134,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix2,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix4)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix3,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix4, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix5))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B = {
 	ctor: '::',
@@ -17625,6 +17784,22 @@ var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Nightshade$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('パラディン 1.121B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('タウントが再び敵を妨害できるようになる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix = {
 	ctor: '::',
 	_0: A2(
@@ -17921,7 +18096,10 @@ var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Paladin$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Paladin$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5)));
 
 var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B = {
 	ctor: '::',
@@ -21525,6 +21703,22 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 	_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix5 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.122B Hot Fix #5'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Spirit Valkyrie ペットのスタイルダメージがやや低下する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix4 = {
 	ctor: '::',
 	_0: A2(
@@ -21970,7 +22164,10 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix2,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix4))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix3,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix4, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix5)))));
 
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_121 = {
 	ctor: '::',
@@ -24177,6 +24374,33 @@ var _Ragamuffine$daoc_patch_notes$Patch1_121$patch_1_121 = A2(
 																																												_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
 																																												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121)))))))))))))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix5 = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.122B Hot Fix #5'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix5,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix5,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix5))))));
 var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix4 = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -24968,7 +25192,41 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																			}
 																		}
 																	}),
-																_1: {ctor: '[]'}
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$li,
+																		{ctor: '[]'},
+																		{
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$a,
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix5_Page),
+																					_1: {ctor: '[]'}
+																				},
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('1.122B Hot Fix #5'),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text(' 公式リンク '),
+																				_1: {
+																					ctor: '::',
+																					_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1122b-hot-fix-5'),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text(' (2016/12/23)'),
+																						_1: {ctor: '[]'}
+																					}
+																				}
+																			}
+																		}),
+																	_1: {ctor: '[]'}
+																}
 															}
 														}
 													}
@@ -26179,6 +26437,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix4),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_122B_HotFix5_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix5),
 						_1: {ctor: '[]'}
 					}
 				});

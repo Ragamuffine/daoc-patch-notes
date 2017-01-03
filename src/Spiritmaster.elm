@@ -107,7 +107,14 @@ patch_1_122B_HotFix4 =
      text "Spirit Valkyrie ペットの移動速度がやや低下する。"]
 
 
+patch_1_122B_HotFix5 : List (Html Message)
+patch_1_122B_HotFix5 =
+    [h2 [] [text "スピリットマスター 1.122B Hot Fix #5"],
+     text "Spirit Valkyrie ペットのスタイルダメージがやや低下する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
+      ++ patch_1_122B_HotFix5

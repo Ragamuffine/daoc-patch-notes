@@ -11,6 +11,7 @@ type Message =
   | Patch_1_122B_HotFix2_Page
   | Patch_1_122B_HotFix3_Page
   | Patch_1_122B_HotFix4_Page
+  | Patch_1_122B_HotFix5_Page
   | AlbionPage
   | MidgardPage
   | HiberniaPage

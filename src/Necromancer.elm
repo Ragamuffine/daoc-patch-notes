@@ -351,8 +351,31 @@ patch_1_122B_HotFix4 =
      text "Netherbane の DoT proc のダメージは 185/tick から 145/tick に減少する。頻度は2秒ごとから2.5秒ごとになる。持続時間10秒は変わらない。"]
 
 
+patch_1_122B_HotFix5 : List (Html Message)
+patch_1_122B_HotFix5 =
+    [h2 [] [text "ネクロマンサー 1.122B Hot Fix #5"],
+     text "Plated Fiend ペットのスタイルダメージがやや低下する。",
+     secalb "Painworking (スペック)",
+     text "Death Shredder ペットのスタイルダメージがやや低下する。",
+     br [] [],
+     text "Villainous Strike スタイルのダメージが低下する。",
+     br [] [],
+     text "Frozen Edge 背後スタイルのダメージが低下する。",
+     br [] [],
+     text "Deathseeker スタイルのダメージは上昇するが DoT 効果は失われる。",
+     br [] [],
+     text "レベル37 Freezing Clench のダメージは 64/tick から 54/tick に減少する。",
+     br [] [],
+     text "Netherbane の DoT proc は直接ダメージ(150 cold)に置き換えられる。slow 効果については変わらない。",
+     br [] [],
+     text "すべてのバージョンの Icebrand の DD proc のダメージは低下する。",
+     secalb "Death Servant (スペック)",
+     text "単体スネアはルート無効のターゲットに対してもはや適用されない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
+      ++ patch_1_122B_HotFix5

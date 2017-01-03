@@ -93,7 +93,8 @@ top_page =
                    li [] [a [onClick Patch_1_122B_HotFix_Page] [text "1.122B Hot Fix"], text " 公式リンク ", raw_link "http://www.darkageofcamelot.com/article/1122b-hot-fix", text " (2016/12/7)"],
                    li [] [a [onClick Patch_1_122B_HotFix2_Page] [text "1.122B Hot Fix #2"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-2", text " (2016/12/9)"],
                    li [] [a [onClick Patch_1_122B_HotFix3_Page] [text "1.122B Hot Fix #3"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-3", text " (2016/12/14)"],
-                   li [] [a [onClick Patch_1_122B_HotFix4_Page] [text "1.122B Hot Fix #4"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-4", text " (2016/12/20)"]],
+                   li [] [a [onClick Patch_1_122B_HotFix4_Page] [text "1.122B Hot Fix #4"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-4", text " (2016/12/20)"],
+                   li [] [a [onClick Patch_1_122B_HotFix5_Page] [text "1.122B Hot Fix #5"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-5", text " (2016/12/23)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -190,6 +191,7 @@ view model =
         Patch_1_122B_HotFix2_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix2]
         Patch_1_122B_HotFix3_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix3]
         Patch_1_122B_HotFix4_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix4]
+        Patch_1_122B_HotFix5_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix5]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page
