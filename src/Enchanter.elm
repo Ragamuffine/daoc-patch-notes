@@ -116,7 +116,14 @@ patch_1_122B_HotFix3 =
      text "Underhill Stalker ペットの物理防御は減少する。"]
 
 
+patch_1_122B_HotFix4 : List (Html Message)
+patch_1_122B_HotFix4 =
+    [h2 [] [text "エンチャンター 1.122B Hot Fix #4"],
+     text "Underhill Stalker ペットの移動速度がやや低下する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
+      ++ patch_1_122B_HotFix4

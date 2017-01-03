@@ -128,3 +128,16 @@ patch_1_122B_HotFix3 =
     ++ Necromancer.patch_1_122B_HotFix3
     ++ Spiritmaster.patch_1_122B_HotFix3
     ++ Valewalker.patch_1_122B_HotFix3
+
+
+patch_1_122B_HotFix4 : List (Html Message)
+patch_1_122B_HotFix4 =
+    [h1 [] [text "Patch 1.122B Hot Fix #4"],
+     h2 [] [text "クラス全般"],
+     text "いくつかのペットが魔法ダメージを食らわない問題は修正される。",
+     br [] [],
+     text "Speed of Sound レルムアビリティーが slow によって解除されないようになる。"]
+    ++ Cabalist.patch_1_122B_HotFix4
+    ++ Enchanter.patch_1_122B_HotFix4
+    ++ Necromancer.patch_1_122B_HotFix4
+    ++ Spiritmaster.patch_1_122B_HotFix4

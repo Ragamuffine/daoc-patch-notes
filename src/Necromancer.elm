@@ -335,7 +335,24 @@ patch_1_122B_HotFix3 =
      text "plated fiend ペットの物理防御は減少する。"]
 
 
+patch_1_122B_HotFix4 : List (Html Message)
+patch_1_122B_HotFix4 =
+    [h2 [] [text "ネクロマンサー 1.122B Hot Fix #4"],
+     text "Plated Fiend ペットの移動速度がやや低下する。",
+     secalb "Painworking (スペック)",
+     text "背後スタイル Frozen Edge のデバフ量は45%から35%に減少する。",
+     br [] [],
+     text "スタイル Deathseeker のダメージは 100/tick から 75/tick に減少する。頻度は2秒ごとから2.5秒ごとになる。持続時間10秒は変わらない。",
+     br [] [],
+     text "レベル37 DoT Freezing Clench のダメージは 74/tick から 64/tick に減少する。",
+     br [] [],
+     text "レベル47 Dot Freezing Howl のダメージは 132/tick から 112/tick に減少する。",
+     br [] [],
+     text "Netherbane の DoT proc のダメージは 185/tick から 145/tick に減少する。頻度は2秒ごとから2.5秒ごとになる。持続時間10秒は変わらない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
+      ++ patch_1_122B_HotFix4
