@@ -95,5 +95,12 @@ patch_1_122B_HotFix2 =
      text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "スピリットマスター 1.122B Hot Fix #3"],
+     text "spirit valkyrie ペットの物理防御は減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix3

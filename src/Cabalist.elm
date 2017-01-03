@@ -108,5 +108,12 @@ patch_1_122B_HotFix2 =
      text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "カバリスト 1.121B Hot Fix #3"],
+     text "amber simulacrum ペットの物理防御を低下させる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix3

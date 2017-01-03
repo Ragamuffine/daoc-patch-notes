@@ -74,5 +74,12 @@ patch_1_122B_HotFix2 =
      text "シージチャントは正しくグループメンバーに効果を及ぼすようになる。"]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "チャンピオン 1.122B Hot Fix #3"],
+     text "strength/constituion と dexterity/quickness の共同バフは一方が shear された状態でも両方とも有効とする。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix3

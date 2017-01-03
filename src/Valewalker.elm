@@ -64,5 +64,11 @@ patch_1_121B =
             "Level 40 debuff Energy Void の効果は50%から40%に低下する。"]]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "ヴェールウォーカー 1.122B Hot Fix #3"],
+     text "レベル50の Immolation ライフドレインは詠唱者とそのグループを一度だけヒールするようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B_HotFix3

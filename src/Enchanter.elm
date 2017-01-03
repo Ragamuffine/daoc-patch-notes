@@ -103,6 +103,20 @@ patch_1_122B_HotFix2 =
      text "Mana Barrier のバフを右クリックで除去して無効時間の発生を防ぐことはもはやできなくなる。"]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "エンチャンター 1.122B Hot Fix #3"],
+     text "Enchantment of Mana バフは以下のように修正される。",
+     ulist ["proc 率が 100% から 33% に低下する。",
+            "pbaoe ダメージは Enchanter のレベルに比例する。レベル50時点でのダメージは275のまま変わらない。"],
+     text "Enchantment of Zeal の再使用タイマーは5分から10分に増加する。",
+     br [] [],
+     text "Heal Effectiveness バフの有効時間は45秒から30秒に短縮される。",
+     br [] [],
+     text "Underhill Stalker ペットの物理防御は減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix3

@@ -320,6 +320,22 @@ patch_1_122B_HotFix2 =
      text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
 
 
+patch_1_122B_HotFix3 : List (Html Message)
+patch_1_122B_HotFix3 =
+    [h2 [] [text "ネクロマンサー 1.122B Hot Fix #3"],
+     text "レベル50の Deathsight の能力 Bringer of Death の持続時間は30秒から20秒に短縮される。",
+     br [] [],
+     text "Chthonic Form のヒットポイントとAFの増加は Spear of King などのHP/AF増加効果と再びスタックするようになる。",
+     br [] [],
+     text "Chthonic Form の AF バフはレベル50以下では効果が低下する。",
+     ulist ["レベル 20-34 では 25 AF",
+            "レベル 35-44 では 75 AF",
+            "レベル 45-49 では 125 AF",
+            "レベル 50 では 250 AF (以前と同じ)"],
+     text "plated fiend ペットの物理防御は減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix3
