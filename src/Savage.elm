@@ -96,5 +96,12 @@ patch_1_122B =
      text "Blissful Ignorance の再使用タイマーは5分から10分に増加する。"]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "サヴェジ 1.122B Hot Fix #2"],
+     text "物理レジストバフはアイテムによる物理レジストとスタックするようになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B
+      ++ patch_1_122B_HotFix2

@@ -309,5 +309,17 @@ patch_1_122B_HotFix =
      text "Power Lock は正しく詠唱者をスタンするようになる。このスタンはパージ不能で耐性もつかない。"]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "ネクロマンサー 1.122B Hot Fix #2"],
+     text "Chthonic Form がランダムに解除されることがなくなる。",
+     text "Painworking の parry バフの低レベルのものは Chthonic Form 固有の parry 確率を正しく書き換えるようになる。",
+     text "Nethersbane はログアウト時に正しく消滅するようになる。また Painworking のレベルが50未満で装備しようとした場合も消滅する。",
+     text "Death Servant のボルトのダメージが大きすぎたバグが修正される。",
+     text "Spirit Form のステルス検知半径は Death Servant のスキル値に影響を受けるようになる。",
+     text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
+      ++ patch_1_122B_HotFix2

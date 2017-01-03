@@ -103,3 +103,17 @@ patch_1_122B_HotFix =
     ++ Enchanter.patch_1_122B_HotFix
     ++ Necromancer.patch_1_122B_HotFix
     ++ Paladin.patch_1_122B_HotFix
+
+
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h1 [] [text "Patch 1.122B Hot Fix #2"]]
+    ++ Bonedancer.patch_1_122B_HotFix2
+    ++ Cabalist.patch_1_122B_HotFix2
+    ++ Champion.patch_1_122B_HotFix2
+    ++ Enchanter.patch_1_122B_HotFix2
+    ++ Minstrel.patch_1_122B_HotFix2
+    ++ Necromancer.patch_1_122B_HotFix2
+    ++ Savage.patch_1_122B_HotFix2
+    ++ Skald.patch_1_122B_HotFix2
+    ++ Spiritmaster.patch_1_122B_HotFix2

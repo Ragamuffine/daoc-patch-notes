@@ -102,5 +102,11 @@ patch_1_122B =
             "Level 49 - Banish Conductivity - 詠唱2秒 - 1500 range - 持続時間15秒 - 25 power - energy resistances 50%"]]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "カバリスト 1.121B Hot Fix #2"],
+     text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2

@@ -64,5 +64,11 @@ patch_1_122B =
      ulist ["Level 40 - Siegebreaker - Instant cast - 2000 range - 半径150 - 持続時間15秒 - 再使用90秒 - ターゲットの物理攻撃に 20 essence damage が追加される。ターゲットが扱う siege 武器のダメージにも同様に追加される。"]]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "スカルド 1.122B Hot Fix #2"],
+     text "シージチャントは正しくグループメンバーに効果を及ぼすようになる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2

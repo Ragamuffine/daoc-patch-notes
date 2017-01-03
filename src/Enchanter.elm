@@ -93,5 +93,16 @@ patch_1_122B_HotFix =
      text "The Enchantment of Mana の効果はすべてのクラスに対して正しく機能するはずである。"]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "エンチャンター 1.122B Hot Fix #2"],
+     text "Enchantment of Mana のだめーじは 325 から 275 に減少する。再使用タイマーは60秒になる。",
+     br [] [],
+     text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。",
+     br [] [],
+     text "Mana Barrier のバフを右クリックで除去して無効時間の発生を防ぐことはもはやできなくなる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
+      ++ patch_1_122B_HotFix2

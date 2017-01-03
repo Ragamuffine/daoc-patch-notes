@@ -168,5 +168,14 @@ patch_1_122B_HotFix =
      text "トーテムは以下のように変更になる。出現するトーテムは一本のみであるが半径内に効果がある。トーテムの効果は詠唱後すぐに有効になりその後は通常どおりパルスが続く。"]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "ボーンダンサー 1.122B Hot Fix #2"],
+     text "ドレッドロードの魔法抵抗はやや減少する。",
+     text "fossil healer の回復量はやや減少する。",
+     text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
+      ++ patch_1_122B_HotFix2

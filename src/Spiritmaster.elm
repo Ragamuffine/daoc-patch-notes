@@ -89,5 +89,11 @@ patch_1_122B =
      ulist ["Level 50 - Gates of Valhalla - 詠唱10秒 - 半径400 - 12秒ごと - 持続時間2分 - 再使用10分 - 25% power - Gates of Valhalla を詠唱した場所に開く。Einherjar が飛び出し半径内の敵プレイヤーを24秒間攻撃する。"]]
 
 
+patch_1_122B_HotFix2 : List (Html Message)
+patch_1_122B_HotFix2 =
+    [h2 [] [text "スピリットマスター 1.122B Hot Fix #2"],
+     text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_122B
+all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
