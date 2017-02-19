@@ -113,8 +113,15 @@ patch_1_122B_HotFix5 =
      text "Spirit Valkyrie ペットのスタイルダメージがやや低下する。"]
 
 
+patch_20170117 : List (Html Message)
+patch_20170117 =
+    [h2 [] [text "スピリットマスター Changes - 1/17/17"],
+     text "Gates of Valhalla ペットの制限は 32 から 24 に減少する。これらのペットは confuse で即死する。またすべての CC スペルの影響を受ける。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
+      ++ patch_20170117

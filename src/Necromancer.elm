@@ -373,9 +373,16 @@ patch_1_122B_HotFix5 =
      text "単体スネアはルート無効のターゲットに対してもはや適用されない。"]
 
 
+patch_20170117 : List (Html Message)
+patch_20170117 =
+    [h2 [] [text "ネクロマンサー Changes - 1/17/17"],
+     text "Arawn's Legion ペットの制限は 16 から 12 に減少する。これらのペットは confuse で即死する。またすべての CC スペルの影響を受ける。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
+      ++ patch_20170117

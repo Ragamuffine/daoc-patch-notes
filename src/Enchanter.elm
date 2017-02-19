@@ -128,9 +128,16 @@ patch_1_122B_HotFix5 =
      text "Underhill Stalker ペットのスタイルダメージがやや低下する。"]
 
 
+patch_20170117 : List (Html Message)
+patch_20170117 =
+    [h2 [] [text "エンチャンター Changes - 1/17/17"],
+     text "Underhill Stalker ペットのスタイルから Achilles Heel と Leaper を削除する。これらのスタイルは Summon Mastery (ML9) と組み合わせるとダメージが大きすぎ、他国の物理攻撃ペットとの整合性が取れなくなるためである。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
+      ++ patch_20170117
