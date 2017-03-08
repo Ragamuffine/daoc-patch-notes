@@ -1,13 +1,14 @@
 module Main exposing (..)
 
-import Html exposing (Html, div, text, article, hr, a, nav, ul, li, h2)
-import Html.Attributes exposing (class, style, href)
+import Html exposing (Html, div, text, article, hr, a, nav, ul, li, h2, img, span)
+import Html.Attributes exposing (class, style, href, src, width, height)
 import Html.Events exposing (onClick)
 import Message exposing (..)
 import Style exposing (..)
 import Patch1_121
 import Patch1_122
 import Patch20170117
+import Patch20170202
 import Animist
 import Armsman
 import Bainshee
@@ -64,6 +65,7 @@ init = ( TopPage, Cmd.none )
 
 -- VIEW
 
+
 top_menu : Html Message
 top_menu =
     nav [class "uk-navbar"]
@@ -71,7 +73,10 @@ top_menu =
              [li [] [a [onClick TopPage] [text "DAoC Patch Notes"]],
               li [] [a [onClick AlbionPage] [text "アルビオン"]],
               li [] [a [onClick MidgardPage] [text "ミッドガルド"]],
-              li [] [a [onClick HiberniaPage] [text "ヒベルニア"]]]]
+              li [] [a [onClick HiberniaPage] [text "ヒベルニア"]]],
+         div [class "uk-navbar-flip"]
+             [ul [class "uk-navbar-nav"]
+                  [li [] [a [href "https://github.com/Ragamuffine/daoc-patch-notes"] [svg_github]]]]]
 
 
 raw_link : String -> Html Message
@@ -96,7 +101,8 @@ top_page =
                    li [] [a [onClick Patch_1_122B_HotFix3_Page] [text "1.122B Hot Fix #3"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-3", text " (2016/12/14)"],
                    li [] [a [onClick Patch_1_122B_HotFix4_Page] [text "1.122B Hot Fix #4"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-4", text " (2016/12/20)"],
                    li [] [a [onClick Patch_1_122B_HotFix5_Page] [text "1.122B Hot Fix #5"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/1122b-hot-fix-5", text " (2016/12/23)"],
-                   li [] [a [onClick Patch_20170117_Page] [text "Changes - 1/17/17"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/changes-11717", text " (2017/1/17)"]],
+                   li [] [a [onClick Patch_20170117_Page] [text "Changes - 1/17/17"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/changes-11717", text " (2017/1/17)"],
+                   li [] [a [onClick Patch_20170202_Page] [text "Hot Fix Changes - 2/2/17"], text " 公式リンク ", raw_link "http://darkageofcamelot.com/article/hot-fix-changes-2217", text " (2017/2/2)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -195,6 +201,7 @@ view model =
         Patch_1_122B_HotFix4_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix4]
         Patch_1_122B_HotFix5_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122B_HotFix5]
         Patch_20170117_Page -> div [] [top_menu, make_content Patch20170117.patch_20170117]
+        Patch_20170202_Page -> div [] [top_menu, make_content Patch20170202.patch_20170202]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page

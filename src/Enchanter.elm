@@ -134,6 +134,16 @@ patch_20170117 =
      text "Underhill Stalker ペットのスタイルから Achilles Heel と Leaper を削除する。これらのスタイルは Summon Mastery (ML9) と組み合わせるとダメージが大きすぎ、他国の物理攻撃ペットとの整合性が取れなくなるためである。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "エンチャンター Hot Fix Changes - 2/2/17"],
+     sechib "Enchantments (基本)",
+     text "ペットは以下のように変更される。",
+     ulist ["Underhill Compatriot - 移動速度が普通になる。",
+            "Underhill Ally - 物理ダメージ吸収がなくなる。ヒールの詠唱時間が0.2秒増加する。",
+            "Underhill Stalker - 毒はバフによって変化する。エンチャンターは毒を使うためにはスペックしなければならない。すべての毒デバフ(Lifebane以外)の持続時間は15秒になる。Enchantment of Ice - Touch of Death, Enchantment of Earth - Swordbreaker, Enchantment of Fire - Lifebane, Enchantment of Mana - Widow Venom."]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -141,3 +151,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
+      ++ patch_20170202

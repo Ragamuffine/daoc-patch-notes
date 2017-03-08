@@ -176,6 +176,25 @@ patch_1_122B_HotFix2 =
      text "すべてのヒールペットがヒールし始める閾値を体力の90%から75%に減少させる。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "ボーンダンサー Hot Fix Changes - 2/2/17"],
+     secmid "Suppression (スペック)",
+     text "disarm は次のように変更される。",
+     ulist ["Level 1 - Punish Combatant - 再使用5分になる。",
+            "Level 11 - Punish Assailant - 持続時間2秒、再使用5分になる。",
+            "Level 21 - Punish Aggressor - 持続時間4秒、再使用3分になる。",
+            "他は変更されない。"],
+     secmid "Bone Army (スペック)",
+     text "サブペットは以下のように変更される。",
+     ulist ["Fossil Defender - 移動速度が普通になる。体力が15%増加する。",
+            "Fossil Guardian - すべてのダメージを10%防御する。体力が5%増加する。スタッフスタイルを使用する。(Fossil Jump - Any - 対象のAFを10秒間50低下させる。)グループ対象バフを行う。(Fossil Strength - 対象のSTRを50増加させる。)",
+            "Fossil Healer - ヒールの詠唱時間が0.2秒増加する。非ダメージが50%増加する。",
+            "Fossil Soldier - ダメージ全体が10%低下する。もはや二重攻撃を行わない。敵からの物理攻撃を吸収しない。スタイルが変更される。Fossil Cleave は攻撃速度デバフを行わない。Glacial Movement は側面からスネア19秒。Raider はイベイド20秒間4秒毎に20ダメージ。背後スタイル、スタンスタイルはなくなった。",
+            "Fossil Seer - 病気の詠唱時間が0.5秒増加する。",
+            "Fossil Mystic - スネアDDのダメージが10%低下する。通常DDのダメージは5%低下する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
-      ++ patch_1_122B_HotFix2
+      ++ patch_1_122B_HotFix2 ++ patch_20170202

@@ -102,5 +102,13 @@ patch_1_122B =
             "Level 48 - Terrify Minion - 詠唱2.6秒 - 1500 range - 持続時間42秒 - 43 power - 敵ペット一体を退散させる。退散中はマスターの指示は無効になる。"]]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "バンシー Hot Fix Changes - 2/2/17"],
+     sechib "Spectral Guard (スペック)",
+     text "新しいペット召喚スペルが追加される。",
+     ulist ["Level 50 - Sound Vortex - 1500 range - 詠唱10秒 - 持続時間20秒 - 4秒毎 - 再使用10分 - 25% power - グラウンドターゲットの地点に Sound Vortex を召喚する。Sound Vortex は1500以内にいる最大8つのターゲットに対して300ダメージを与える。Sound Vortex を破壊、スタン、fear することができるが mezz, 混乱は無効である。同一エリアに最大3体まで設置可能。このスペルはすでに 50 Spectral Guard のスキルを持っていてもリスペックしないとスキルラインに現れない。"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121B ++ patch_1_122B
+all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_20170202

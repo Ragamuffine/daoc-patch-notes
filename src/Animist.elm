@@ -65,5 +65,15 @@ patch_1_122B =
             "Level 49 - Decay Armor - 150 から 250 に増加"]]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "アニミスト Hot Fix Changes - 2/2/17"],
+     sechib "Creeping Path (スペック)",
+     text "Shroom of Life は以下のように変更される。",
+     ulist ["グラウンドターゲットではなく単体ターゲットになる。",
+            "ペットはレベル50になる。",
+            "ペットは mezz に耐性を持つ。(スタン、混乱は受ける。)"]]
+
+
 all : List (Html Message)
-all = patch_1_121 ++ patch_1_121C ++ patch_1_122B
+all = patch_1_121 ++ patch_1_121C ++ patch_1_122B ++ patch_20170202

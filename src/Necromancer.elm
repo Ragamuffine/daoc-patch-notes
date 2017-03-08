@@ -379,6 +379,33 @@ patch_20170117 =
      text "Arawn's Legion ペットの制限は 16 から 12 に減少する。これらのペットは confuse で即死する。またすべての CC スペルの影響を受ける。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "ネクロマンサー Hot Fix Changes - 2/2/17"],
+     secalb "Deathsight (基本)",
+     text "Decrepit Form の時は物理攻撃速度が100%低下する。",
+     secalb "Deathsight (スペック)",
+     text "Channeled Frenzy (PBAoE) を使うには Decrepit Form でなければならない。",
+     br [] [],
+     text "単体スローは射程が1000になり Decrepit Form でなければならない。Crippling Exhaustion の再使用は5分になる。",
+     secalb "Painworking (基本)",
+     text "Chthonic Armor が解除されないバグを修正した。結果として Spirit Form と Decrepit Form は 400 を超える AF が加算されるようになる。",
+     secalb "Painworking (スペック)",
+     text "Freezing Howl (AoE DD/slow) を使うには Chthonic Form でなければならない。ただしレベル7の Freezing Hold は Chthonic Form でなくてもよい。",
+     br [] [],
+     text "Summon Death Shredder を使うには Chthonic Form でなければならない。ただし召喚されたペットは Chthonic Form を解除しても有効時間中は保持される。",
+     secalb "Death Servant (基本)",
+     text "Final Blast, Death Blast を使うには Spirit Form でなければならない。Spirit Form の時の物理攻撃速度は100%低下する。",
+     br [] [],
+     text "Umbral Aegis の移動速度は普通になる。Priest of Arawn は物理ダメージ吸収がなくなる。ヒールの詠唱時間が0.2秒増加する。",
+     secalb "Death Servant (スペック)",
+     text "Arawn's Legion が召喚するペットの受けるダメージは2倍になる。遠隔攻撃ペットの上限は12から8に減少する。射程は2000から1500に減少する。",
+     text "Knight of Arawn の与えるダメージは50%減少する。体力は5%低下する。",
+     text "Handmaiden of Lilith の体力は5%低下する。",
+     text "Mage of Arawn の体力は75%低下する。詠唱時間は0.5秒増加する。",
+     text "Tempter of Arawn の体力は75%低下する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -386,3 +413,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
+      ++ patch_20170202

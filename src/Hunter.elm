@@ -155,5 +155,13 @@ patch_1_122B =
      text "Level 50 - Hunter's Elder Avatar - ペットのレベルは召喚者のレベルと同じになる。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "ハンター Hot Fix Changes - 2/2/17"],
+     secmid "Beastcraft (スペック)",
+     text "レベル50ペット Hunter's Elder Avatar の被ダメージは15%減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
+      ++ patch_20170202

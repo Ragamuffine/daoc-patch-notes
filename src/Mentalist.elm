@@ -20,5 +20,17 @@ patch_1_121 =
             "Level 50 mez Unmake Mind は削除される。"]]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "メンタリスト Hot Fix Changes - 2/2/17"],
+     sechib "Mana Magic (スペック)",
+     text "AoE DoT はボーンダンサー、ネクロマンサーの水準まで増加する。",
+     ulist ["Level 23 - Fog of Delirium - 20秒間5秒毎に30ダメージ",
+            "Level 29 - Hallucinatory Winds - 20秒間4秒毎60ダメージ",
+            "Level 36 - Torrent of Dementia - 20秒間4秒毎88ダメージ",
+            "Level 46 - Storms of Insanity - 20秒間2.5秒毎131ダメージ",
+            "他の呪文は無変更である。"]]
+
+
 all : List (Html Message)
-all = patch_1_121
+all = patch_1_121 ++ patch_20170202

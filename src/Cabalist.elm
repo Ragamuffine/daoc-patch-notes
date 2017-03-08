@@ -126,8 +126,18 @@ patch_1_122B_HotFix5 =
      text "Amber Simulacrum ペットのスタイルダメージがやや低下する。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "カバリスト Hot Fix Changes - 2/2/17"],
+     secalb "Spirit Animation (基本)",
+     text "ペットは以下のように変更される。",
+     ulist ["Jade Simulacrum - 移動速度が普通になる。",
+            "Sapphire Simulacrum - 物理ダメージ吸収がなくなる。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
+      ++ patch_20170202

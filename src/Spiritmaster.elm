@@ -119,9 +119,19 @@ patch_20170117 =
      text "Gates of Valhalla ペットの制限は 32 から 24 に減少する。これらのペットは confuse で即死する。またすべての CC スペルの影響を受ける。"]
 
 
+patch_20170202 : List (Html Message)
+patch_20170202 =
+    [h2 [] [text "スピリットマスター Hot Fix Changes - 2/2/17"],
+     secmid "Summoning (スペック)",
+     text "Gates of Valhalla は以下のように変更される。ペットが受けるダメージは50%増加する。ペットが出現するゲートの範囲は750から1500に増加する。持続時間は2分から60秒に減少する。",
+     text "Spirit Warrior の移動速度は普通になる。",
+     text "Spirit Shaman の物理ダメージ吸収はなくなる。ヒールの詠唱時間は0.2秒増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
+      ++ patch_20170202
