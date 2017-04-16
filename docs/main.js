@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFix_Page = {ctor: 'Patch_1_122C_HotFix_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_Page = {ctor: 'Patch_1_122C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_20170202_Page = {ctor: 'Patch_20170202_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_20170117_Page = {ctor: 'Patch_20170117_Page'};
@@ -14129,6 +14130,39 @@ var _Ragamuffine$daoc_patch_notes$Healer$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Healer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Healer$patch_1_121, _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヘレティック 1.122C Hot Fix'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('妨害不可フォーカスダメージDDは立ち上がりを速く、最大ダメージを低く修正される。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Level 36 - Glistening Blaze - 最初は 85 heat ダメージで 35% ずつ増加し最大 75%。(旧 350%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。',
+					_1: {
+						ctor: '::',
+						_0: 'Level 42 - Whirling Blaze - 最初は 115 heat ダメージで 45% ずつ増加し最大 115%。(旧 400%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。',
+						_1: {
+							ctor: '::',
+							_0: 'Level 48 - Torrential Blaze - 最初は 150 heat ダメージで 50% ずつ増加し最大 135% (旧 450%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。',
+							_1: {ctor: '[]'}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -14362,7 +14396,10 @@ var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Heretic$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_121, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Heretic$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Heretic$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix));
 
 var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 	ctor: '::',
@@ -25775,6 +25812,21 @@ var _Ragamuffine$daoc_patch_notes$Patch1_121$patch_1_121 = A2(
 																																												_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
 																																												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121)))))))))))))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFix = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Live Client Hot Fix'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix);
 var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -26877,7 +26929,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																							}
 																						}
 																					}),
-																				_1: {ctor: '[]'}
+																				_1: {
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$li,
+																						{ctor: '[]'},
+																						{
+																							ctor: '::',
+																							_0: A2(
+																								_elm_lang$html$Html$a,
+																								{
+																									ctor: '::',
+																									_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFix_Page),
+																									_1: {ctor: '[]'}
+																								},
+																								{
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text('Live Client Hot Fix'),
+																									_1: {ctor: '[]'}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/live-client-hot-fix'),
+																								_1: {
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text(' (2017/3/27)'),
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}),
+																					_1: {ctor: '[]'}
+																				}
 																			}
 																		}
 																	}
@@ -28144,6 +28226,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_122C_HotFix_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFix),
 						_1: {ctor: '[]'}
 					}
 				});

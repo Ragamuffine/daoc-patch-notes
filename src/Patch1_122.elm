@@ -174,3 +174,9 @@ patch_1_122C =
     ++ Necromancer.patch_1_122C
     ++ Savage.patch_1_122C
     ++ Spiritmaster.patch_1_122C
+
+
+patch_1_122C_HotFix : List (Html Message)
+patch_1_122C_HotFix =
+    [h1 [] [text "Live Client Hot Fix"]]
+    ++ Heretic.patch_1_122C_HotFix

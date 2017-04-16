@@ -59,5 +59,15 @@ patch_1_122B =
      text "Level 42 - Aura of Deflection - AF の値は 52 から 150 に増加する。"]
 
 
+patch_1_122C_HotFix : List (Html Message)
+patch_1_122C_HotFix =
+    [h2 [] [text "ヘレティック 1.122C Hot Fix"],
+     text "妨害不可フォーカスダメージDDは立ち上がりを速く、最大ダメージを低く修正される。",
+     ulist ["Level 36 - Glistening Blaze - 最初は 85 heat ダメージで 35% ずつ増加し最大 75%。(旧 350%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。",
+            "Level 42 - Whirling Blaze - 最初は 115 heat ダメージで 45% ずつ増加し最大 115%。(旧 400%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。",
+            "Level 48 - Torrential Blaze - 最初は 150 heat ダメージで 50% ずつ増加し最大 135% (旧 450%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。"]]
+
+    
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_122C_HotFix
