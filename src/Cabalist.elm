@@ -135,9 +135,18 @@ patch_20170202 =
             "Sapphire Simulacrum - 物理ダメージ吸収がなくなる。"]]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "カバリスト 1.122C"],
+     secalb "Spirit Animation (基本)",
+     text "Ruby Simulacrum, Sapphire Simulacrum が妨害を受けない確率は100%から25%に減少する。",
+     text "Emerald Simulacrum は snare スタイルを使わなくなる。Jade Simulacrum の移動速度は減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
       ++ patch_1_122B_HotFix4
       ++ patch_1_122B_HotFix5
       ++ patch_20170202
+      ++ patch_1_122C

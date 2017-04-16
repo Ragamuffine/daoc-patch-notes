@@ -128,6 +128,19 @@ patch_20170202 =
      text "Spirit Shaman の物理ダメージ吸収はなくなる。ヒールの詠唱時間は0.2秒増加する。"]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "スピリットマスター 1.122C"],
+     secmid "Summoning (基本)",
+     text "Spirit Warrior の移動速度は低下する。",
+     text "Spirit Runemaster, Spirit Shaman, Spirit Valkyrie が妨害を受けない確率は100%から25%に減少する。",
+     text "Spirit Valkyrie は三回呪文攻撃に失敗すると諦める。",
+     secmid "Summoning (スペック)",
+     text "PBAoE slow は snare になる。",
+     br [] [],
+     text "単体 power drain により得られるパワーは与えたダメージの10%から20%に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -135,3 +148,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
       ++ patch_20170202
+      ++ patch_1_122C

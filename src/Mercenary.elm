@@ -57,5 +57,18 @@ patch_1_121C =
      text "Dirty Tricks の proc に 500 半径 pbaoe, -50% nearsight, 15秒継続が付加される。"]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "マーセナリー 1.122C"],
+     text "Way of the Rogue は修正される。",
+     ulist ["Shadow Daggers を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。",
+            "移動速度増加の効果は15%から20%に増加する。",
+            "Evasion の確率は10%増加する。",
+            "攻撃速度は50%増加する。",
+            "二次魔法レジストは10%増加する。",
+            "すべてのダメージは75%減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C
+      ++ patch_1_122C

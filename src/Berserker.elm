@@ -55,5 +55,18 @@ patch_1_121 =
             "Level 50 - Ragnarok - Rear - スネアはなくなる, ダメージ増加"]]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "バーサーカー 1.122C"],
+     text "Frenzy Stance は修正される。",
+     ulist ["Einherjar を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。",
+            "移動速度増加の効果は15%から20%に増加する。",
+            "Evasion の確率は10%増加する。",
+            "攻撃速度は50%増加する。",
+            "二次魔法レジストは10%増加する。",
+            "すべてのダメージは75%減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121
+      ++ patch_1_122C

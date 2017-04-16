@@ -144,6 +144,18 @@ patch_20170202 =
             "Underhill Stalker - 毒はバフによって変化する。エンチャンターは毒を使うためにはスペックしなければならない。すべての毒デバフ(Lifebane以外)の持続時間は15秒になる。Enchantment of Ice - Touch of Death, Enchantment of Earth - Swordbreaker, Enchantment of Fire - Lifebane, Enchantment of Mana - Widow Venom."]]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "エンチャンター 1.122C"],
+     sechib "Enchantments (基本)",
+     text "Underhill Stalker の anytime スタイルはブリードしなくなる。",
+     text "Underhill Companion, Underhill Ally が妨害を受けない確率は100%から25%に減少する。",
+     text "Underhill Zealot が妨害を受けない確率は75%から25%に減少する。",
+     text "Underhill Compatriot の移動速度は低下する。Underhill Stalker はスタンをしなくなる。",
+     sechib "Enchanting (Enchantments スペック)",
+     text "Enchantment of Ice の slow 効果は snare になる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -152,3 +164,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
       ++ patch_20170202
+      ++ patch_1_122C

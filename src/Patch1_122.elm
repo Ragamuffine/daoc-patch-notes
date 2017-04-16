@@ -152,3 +152,25 @@ patch_1_122B_HotFix5 =
     ++ Necromancer.patch_1_122B_HotFix5
     ++ Paladin.patch_1_122B_HotFix5
     ++ Spiritmaster.patch_1_122B_HotFix5
+
+
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h1 [] [text "Patch 1.122C"],
+     h2 [] [text "クラス全般"],
+     text "Slow は「無効タイマーのない Snare」と解釈される。",
+     ulist ["Purge 可能。",
+            "SoS や Charge 中は無効。",
+            "ダメージにより解除されない。",
+            "魔法による Snare はレジスト、Determination, Stoicism によって低減される。",
+            "いくつかの Slow スペルは削除された。"]]
+    ++ Bainshee.patch_1_122C
+    ++ Berserker.patch_1_122C
+    ++ Blademaster.patch_1_122C
+    ++ Bonedancer.patch_1_122C
+    ++ Cabalist.patch_1_122C
+    ++ Enchanter.patch_1_122C
+    ++ Mercenary.patch_1_122C
+    ++ Necromancer.patch_1_122C
+    ++ Savage.patch_1_122C
+    ++ Spiritmaster.patch_1_122C

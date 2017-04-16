@@ -195,6 +195,17 @@ patch_20170202 =
             "Fossil Mystic - スネアDDのダメージが10%低下する。通常DDのダメージは5%低下する。"]]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "ボーンダンサー 1.122C"],
+     secmid "Suppression (スペック)",
+     text "Grasping Totem の系列はすべて slow ではなく snare になる。",
+     secmid "Bone Army (スペック)",
+     text "Dread Lord はスタンをしなくなる。",
+     text "Fossil Mystic, Fossil Healer, Fossil Conjurer, Fossil Seer が妨害を受けない確率は75%から25%に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2 ++ patch_20170202
+      ++ patch_1_122C

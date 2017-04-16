@@ -406,6 +406,42 @@ patch_20170202 =
      text "Tempter of Arawn の体力は75%低下する。"]
 
 
+patch_1_122C : List (Html Message)
+patch_1_122C =
+    [h2 [] [text "ネクロマンサー 1.122C"],
+     text "ネクロマンサーはフルリスペックされる。",
+     secalb "Deathsight (基本)",
+     text "Decrepit Form の体力回復力は低下する。",
+     br [] [],
+     text "設置型 Slow 呪文 Unholy Ground の系列は以下のように変更される。",
+     ulist ["Level 6 - Decrepit Ground - Instant cast - 再使用30秒 - 1000 range - 半径250 - 持続時間30秒 - 20 power - 領域内の敵を4秒ごとに病気",
+            "Level 16 - Wretched Ground - Instant cast - 再使用30秒 - 1000 range - 半径275 - 持続時間30秒 - 30 power - 領域内の敵を4秒ごとに病気",
+            "Level 26 - Rotting Ground - Instant cast - 再使用30秒 - 1000 range - 半径300 - 持続時間30秒 - 45 power - 領域内の敵を4秒ごとに病気",
+            "Level 36 - Desecrated Ground - Instant cast - 再使用30秒 - 1000 range - 半径325 - 持続時間30秒 - 62 power - 領域内の敵を4秒ごとに病気",
+            "Level 46 - Unholy Ground - Instant cast - 再使用30秒 - 1000 range - 半径350 - 持続時間30秒 - 75 power - 領域内の敵を4秒ごとに病気"],
+     secalb "Deathsight (スペック)",
+     text "単体 Slow 呪文は snare になる。",
+     br [] [],
+     text "AF Debuff (Glimpse of Death の系列) の持続時間は45秒から15秒に短縮される。",
+     br [] [],
+     text "Bringer of Death は以下の点が変更される。すべてのダメージを35%減少させる代わりに35%増加させる。",
+     secalb "Painworking (スペック)",
+     text "単体 slow 呪文は snare になる。",
+     br [] [],
+     text "Summon Death Shredder は削除される。",
+     br [] [],
+     text "自己 parry buff (Swords of Arawn の系列) は削除される。",
+     br [] [],
+     text "Nethersbane の AoE slow proc は AoE snare になる。",
+     br [] [],
+     text "Level 50 スタイル Deathseeker はターゲットの回復呪文の効果を25秒間50%低下させる。",
+     secalb "Death Servant (基本)",
+     text "Umbral Aegis の移動速度は低下する。",
+     text "Soultorn, Priest of Arawn, Succubus が妨害を受けない確率は100%から25%に減少する。",
+     text "Soultorn に対する snare は 20% から 15% に低下する。",
+     text "Soultorn の病気が持つ snare 効果は 70% から 35% に低下する。snare DD の snare 効果は 15% のままである。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -414,3 +450,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix5
       ++ patch_20170117
       ++ patch_20170202
+      ++ patch_1_122C

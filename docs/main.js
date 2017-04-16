@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_Page = {ctor: 'Patch_1_122C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_20170202_Page = {ctor: 'Patch_20170202_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_20170117_Page = {ctor: 'Patch_20170117_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122B_HotFix5_Page = {ctor: 'Patch_1_122B_HotFix5_Page'};
@@ -9235,6 +9236,26 @@ var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Armsman$all = _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バンシー 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Spectral Force (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('frontal cone slow 呪文は slow ではなく snare になる。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -9724,7 +9745,10 @@ var _Ragamuffine$daoc_patch_notes$Bainshee$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_121B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122B, _Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C))));
 
 var _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B = {
 	ctor: '::',
@@ -9814,6 +9838,51 @@ var _Ragamuffine$daoc_patch_notes$Bard$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Bard$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bard$patch_1_121, _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バーサーカー 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Frenzy Stance は修正される。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Einherjar を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。',
+					_1: {
+						ctor: '::',
+						_0: '移動速度増加の効果は15%から20%に増加する。',
+						_1: {
+							ctor: '::',
+							_0: 'Evasion の確率は10%増加する。',
+							_1: {
+								ctor: '::',
+								_0: '攻撃速度は50%増加する。',
+								_1: {
+									ctor: '::',
+									_0: '二次魔法レジストは10%増加する。',
+									_1: {
+										ctor: '::',
+										_0: 'すべてのダメージは75%減少する。',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -10076,8 +10145,53 @@ var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Berserker$all = _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Berserker$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121, _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C);
 
+var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ブレードマスター 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Dancing Blades は修正される。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Spirit Blades を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。',
+					_1: {
+						ctor: '::',
+						_0: '移動速度増加の効果は15%から20%に増加する。',
+						_1: {
+							ctor: '::',
+							_0: 'Evasion の確率は10%増加する。',
+							_1: {
+								ctor: '::',
+								_0: '攻撃速度は50%増加する。',
+								_1: {
+									ctor: '::',
+									_0: '二次魔法レジストは10%増加する。',
+									_1: {
+										ctor: '::',
+										_0: 'すべてのダメージは75%減少する。',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -10304,8 +10418,40 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Blademaster$all = _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C);
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Suppression (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Grasping Totem の系列はすべて slow ではなく snare になる。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Bone Army (スペック)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Dread Lord はスタンをしなくなる。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Fossil Mystic, Fossil Healer, Fossil Conjurer, Fossil Seer が妨害を受けない確率は75%から25%に減少する。'),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -11179,8 +11325,35 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix2,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C)))));
 
+var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('カバリスト 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Spirit Animation (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Ruby Simulacrum, Sapphire Simulacrum が妨害を受けない確率は100%から25%に減少する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Emerald Simulacrum は snare スタイルを使わなくなる。Jade Simulacrum の移動速度は減少する。'),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -11737,7 +11910,10 @@ var _Ragamuffine$daoc_patch_notes$Cabalist$all = A2(
 				A2(
 					_elm_lang$core$Basics_ops['++'],
 					_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix4,
-					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5, _Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202))))));
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5,
+						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C)))))));
 
 var _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix3 = {
 	ctor: '::',
@@ -12594,6 +12770,46 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Enchantments (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Underhill Stalker の anytime スタイルはブリードしなくなる。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Underhill Companion, Underhill Ally が妨害を受けない確率は100%から25%に減少する。'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Underhill Zealot が妨害を受けない確率は75%から25%に減少する。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Underhill Compatriot の移動速度は低下する。Underhill Stalker はスタンをしなくなる。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Enchanting (Enchantments スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Enchantment of Ice の slow 効果は snare になる。'),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -13181,7 +13397,10 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 						A2(
 							_elm_lang$core$Basics_ops['++'],
 							_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122B_HotFix5,
-							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_20170117, _Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202))))))));
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Enchanter$patch_20170117,
+								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C)))))))));
 
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5 = {
 	ctor: '::',
@@ -15677,6 +15896,51 @@ var _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Mentalist$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121, _Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202);
 
+var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('マーセナリー 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Way of the Rogue は修正される。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Shadow Daggers を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。',
+					_1: {
+						ctor: '::',
+						_0: '移動速度増加の効果は15%から20%に増加する。',
+						_1: {
+							ctor: '::',
+							_0: 'Evasion の確率は10%増加する。',
+							_1: {
+								ctor: '::',
+								_0: '攻撃速度は50%増加する。',
+								_1: {
+									ctor: '::',
+									_0: '二次魔法レジストは10%増加する。',
+									_1: {
+										ctor: '::',
+										_0: 'すべてのダメージは75%減少する。',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C = {
 	ctor: '::',
 	_0: A2(
@@ -15944,7 +16208,10 @@ var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Mercenary$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121, _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C);
+var _Ragamuffine$daoc_patch_notes$Mercenary$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C, _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C));
 
 var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2 = {
 	ctor: '::',
@@ -16099,6 +16366,168 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 	_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ネクロマンサーはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (基本)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Decrepit Form の体力回復力は低下する。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('設置型 Slow 呪文 Unholy Ground の系列は以下のように変更される。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Level 6 - Decrepit Ground - Instant cast - 再使用30秒 - 1000 range - 半径250 - 持続時間30秒 - 20 power - 領域内の敵を4秒ごとに病気',
+									_1: {
+										ctor: '::',
+										_0: 'Level 16 - Wretched Ground - Instant cast - 再使用30秒 - 1000 range - 半径275 - 持続時間30秒 - 30 power - 領域内の敵を4秒ごとに病気',
+										_1: {
+											ctor: '::',
+											_0: 'Level 26 - Rotting Ground - Instant cast - 再使用30秒 - 1000 range - 半径300 - 持続時間30秒 - 45 power - 領域内の敵を4秒ごとに病気',
+											_1: {
+												ctor: '::',
+												_0: 'Level 36 - Desecrated Ground - Instant cast - 再使用30秒 - 1000 range - 半径325 - 持続時間30秒 - 62 power - 領域内の敵を4秒ごとに病気',
+												_1: {
+													ctor: '::',
+													_0: 'Level 46 - Unholy Ground - Instant cast - 再使用30秒 - 1000 range - 半径350 - 持続時間30秒 - 75 power - 領域内の敵を4秒ごとに病気',
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (スペック)'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('単体 Slow 呪文は snare になる。'),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$br,
+											{ctor: '[]'},
+											{ctor: '[]'}),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('AF Debuff (Glimpse of Death の系列) の持続時間は45秒から15秒に短縮される。'),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$br,
+													{ctor: '[]'},
+													{ctor: '[]'}),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('Bringer of Death は以下の点が変更される。すべてのダメージを35%減少させる代わりに35%増加させる。'),
+													_1: {
+														ctor: '::',
+														_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (スペック)'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('単体 slow 呪文は snare になる。'),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$br,
+																	{ctor: '[]'},
+																	{ctor: '[]'}),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Summon Death Shredder は削除される。'),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$br,
+																			{ctor: '[]'},
+																			{ctor: '[]'}),
+																		_1: {
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text('自己 parry buff (Swords of Arawn の系列) は削除される。'),
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$br,
+																					{ctor: '[]'},
+																					{ctor: '[]'}),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('Nethersbane の AoE slow proc は AoE snare になる。'),
+																					_1: {
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$br,
+																							{ctor: '[]'},
+																							{ctor: '[]'}),
+																						_1: {
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text('Level 50 スタイル Deathseeker はターゲットの回復呪文の効果を25秒間50%低下させる。'),
+																							_1: {
+																								ctor: '::',
+																								_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (基本)'),
+																								_1: {
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text('Umbral Aegis の移動速度は低下する。'),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('Soultorn, Priest of Arawn, Succubus が妨害を受けない確率は100%から25%に減少する。'),
+																										_1: {
+																											ctor: '::',
+																											_0: _elm_lang$html$Html$text('Soultorn に対する snare は 20% から 15% に低下する。'),
+																											_1: {
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text('Soultorn の病気が持つ snare 効果は 70% から 35% に低下する。snare DD の snare 効果は 15% のままである。'),
+																												_1: {ctor: '[]'}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -17958,7 +18387,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 						A2(
 							_elm_lang$core$Basics_ops['++'],
 							_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B_HotFix5,
-							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170117, _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202))))))));
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Necromancer$patch_20170117,
+								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C)))))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B = {
 	ctor: '::',
@@ -19928,6 +20360,51 @@ var _Ragamuffine$daoc_patch_notes$Runemaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Runemaster$all = _Ragamuffine$daoc_patch_notes$Runemaster$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('サヴェジ 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Frenzy Stance は修正される。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Einherjar を proc せずに単体詠唱時間50%デバフ20秒間の効果になる。proc 率は15%から10%に減少する。',
+					_1: {
+						ctor: '::',
+						_0: '移動速度増加の効果は15%から20%に増加する。',
+						_1: {
+							ctor: '::',
+							_0: 'Evasion の確率は10%増加する。',
+							_1: {
+								ctor: '::',
+								_0: '攻撃速度は50%増加する。',
+								_1: {
+									ctor: '::',
+									_0: '二次魔法レジストは10%増加する。',
+									_1: {
+										ctor: '::',
+										_0: 'すべてのダメージは75%減少する。',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2 = {
 	ctor: '::',
 	_0: A2(
@@ -20398,7 +20875,10 @@ var _Ragamuffine$daoc_patch_notes$Savage$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Savage$patch_1_121B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B, _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Savage$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C))));
 
 var _Ragamuffine$daoc_patch_notes$Scout$patch_1_122B = {
 	ctor: '::',
@@ -22524,6 +23004,53 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 	_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.122C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Summoning (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Spirit Warrior の移動速度は低下する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Spirit Runemaster, Spirit Shaman, Spirit Valkyrie が妨害を受けない確率は100%から25%に減少する。'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Spirit Valkyrie は三回呪文攻撃に失敗すると諦める。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Summoning (スペック)'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('PBAoE slow は snare になる。'),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$br,
+									{ctor: '[]'},
+									{ctor: '[]'}),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('単体 power drain により得られるパワーは与えたダメージの10%から20%に増加する。'),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -23038,7 +23565,10 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 					A2(
 						_elm_lang$core$Basics_ops['++'],
 						_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122B_HotFix5,
-						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170117, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202)))))));
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170117,
+							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C))))))));
 
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_121 = {
 	ctor: '::',
@@ -25245,6 +25775,85 @@ var _Ragamuffine$daoc_patch_notes$Patch1_121$patch_1_121 = A2(
 																																												_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
 																																												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121)))))))))))))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.122C'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h2,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('クラス全般'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Slow は「無効タイマーのない Snare」と解釈される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Purge 可能。',
+							_1: {
+								ctor: '::',
+								_0: 'SoS や Charge 中は無効。',
+								_1: {
+									ctor: '::',
+									_0: 'ダメージにより解除されない。',
+									_1: {
+										ctor: '::',
+										_0: '魔法による Snare はレジスト、Determination, Stoicism によって低減される。',
+										_1: {
+											ctor: '::',
+											_0: 'いくつかの Slow スペルは削除された。',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C,
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C,
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C,
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C,
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C,
+									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C))))))))));
 var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122B_HotFix5 = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -25688,6 +26297,31 @@ var _Ragamuffine$daoc_patch_notes$Main$update = F2(
 	function (message, model) {
 		return {ctor: '_Tuple2', _0: message, _1: _elm_lang$core$Platform_Cmd$none};
 	});
+var _Ragamuffine$daoc_patch_notes$Main$official_link = function (link) {
+	return A2(
+		_elm_lang$html$Html$span,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text(' '),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$a,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$href(link),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('公式リンク'),
+						_1: {ctor: '[]'}
+					}),
+				_1: {ctor: '[]'}
+			}
+		});
+};
 var _Ragamuffine$daoc_patch_notes$Main$raw_link = function (link) {
 	return A2(
 		_elm_lang$html$Html$a,
@@ -25898,15 +26532,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 											}),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html$text(' 公式リンク '),
+											_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1121-live-patch-notes'),
 											_1: {
 												ctor: '::',
-												_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/content/1121-live-patch-notes'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html$text(' (2016/7/26)'),
-													_1: {ctor: '[]'}
-												}
+												_0: _elm_lang$html$Html$text(' (2016/7/26)'),
+												_1: {ctor: '[]'}
 											}
 										}
 									}),
@@ -25931,15 +26561,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 												}),
 											_1: {
 												ctor: '::',
-												_0: _elm_lang$html$Html$text(' 公式リンク '),
+												_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1121b-live-patch-notes'),
 												_1: {
 													ctor: '::',
-													_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/content/1121b-live-patch-notes'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html$text(' (2016/8/16)'),
-														_1: {ctor: '[]'}
-													}
+													_0: _elm_lang$html$Html$text(' (2016/8/16)'),
+													_1: {ctor: '[]'}
 												}
 											}
 										}),
@@ -25964,15 +26590,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 													}),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html$text(' 公式リンク '),
+													_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1121c-hot-fix-update'),
 													_1: {
 														ctor: '::',
-														_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1121c-hot-fix-update'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html$text(' (2016/8/24)'),
-															_1: {ctor: '[]'}
-														}
+														_0: _elm_lang$html$Html$text(' (2016/8/24)'),
+														_1: {ctor: '[]'}
 													}
 												}
 											}),
@@ -25986,15 +26608,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 													_0: _elm_lang$html$Html$text('1.122A(クラスの変更なし)'),
 													_1: {
 														ctor: '::',
-														_0: _elm_lang$html$Html$text(' 公式リンク '),
+														_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1122a-live-patch-notes'),
 														_1: {
 															ctor: '::',
-															_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/content/1122a-live-patch-notes'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html$text(' (2016/9/23)'),
-																_1: {ctor: '[]'}
-															}
+															_0: _elm_lang$html$Html$text(' (2016/9/23)'),
+															_1: {ctor: '[]'}
 														}
 													}
 												}),
@@ -26019,15 +26637,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 															}),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html$text(' 公式リンク '),
+															_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1122b-live-patch-notes'),
 															_1: {
 																ctor: '::',
-																_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/content/1122b-live-patch-notes'),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html$text(' (2016/12/5)'),
-																	_1: {ctor: '[]'}
-																}
+																_0: _elm_lang$html$Html$text(' (2016/12/5)'),
+																_1: {ctor: '[]'}
 															}
 														}
 													}),
@@ -26052,15 +26666,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																}),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html$text(' 公式リンク '),
+																_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://www.darkageofcamelot.com/article/1122b-hot-fix'),
 																_1: {
 																	ctor: '::',
-																	_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://www.darkageofcamelot.com/article/1122b-hot-fix'),
-																	_1: {
-																		ctor: '::',
-																		_0: _elm_lang$html$Html$text(' (2016/12/7)'),
-																		_1: {ctor: '[]'}
-																	}
+																	_0: _elm_lang$html$Html$text(' (2016/12/7)'),
+																	_1: {ctor: '[]'}
 																}
 															}
 														}),
@@ -26085,15 +26695,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																	}),
 																_1: {
 																	ctor: '::',
-																	_0: _elm_lang$html$Html$text(' 公式リンク '),
+																	_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1122b-hot-fix-2'),
 																	_1: {
 																		ctor: '::',
-																		_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1122b-hot-fix-2'),
-																		_1: {
-																			ctor: '::',
-																			_0: _elm_lang$html$Html$text(' (2016/12/9)'),
-																			_1: {ctor: '[]'}
-																		}
+																		_0: _elm_lang$html$Html$text(' (2016/12/9)'),
+																		_1: {ctor: '[]'}
 																	}
 																}
 															}),
@@ -26118,15 +26724,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																		}),
 																	_1: {
 																		ctor: '::',
-																		_0: _elm_lang$html$Html$text(' 公式リンク '),
+																		_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1122b-hot-fix-3'),
 																		_1: {
 																			ctor: '::',
-																			_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1122b-hot-fix-3'),
-																			_1: {
-																				ctor: '::',
-																				_0: _elm_lang$html$Html$text(' (2016/12/14)'),
-																				_1: {ctor: '[]'}
-																			}
+																			_0: _elm_lang$html$Html$text(' (2016/12/14)'),
+																			_1: {ctor: '[]'}
 																		}
 																	}
 																}),
@@ -26151,15 +26753,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																			}),
 																		_1: {
 																			ctor: '::',
-																			_0: _elm_lang$html$Html$text(' 公式リンク '),
+																			_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1122b-hot-fix-4'),
 																			_1: {
 																				ctor: '::',
-																				_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1122b-hot-fix-4'),
-																				_1: {
-																					ctor: '::',
-																					_0: _elm_lang$html$Html$text(' (2016/12/20)'),
-																					_1: {ctor: '[]'}
-																				}
+																				_0: _elm_lang$html$Html$text(' (2016/12/20)'),
+																				_1: {ctor: '[]'}
 																			}
 																		}
 																	}),
@@ -26184,15 +26782,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																				}),
 																			_1: {
 																				ctor: '::',
-																				_0: _elm_lang$html$Html$text(' 公式リンク '),
+																				_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1122b-hot-fix-5'),
 																				_1: {
 																					ctor: '::',
-																					_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/1122b-hot-fix-5'),
-																					_1: {
-																						ctor: '::',
-																						_0: _elm_lang$html$Html$text(' (2016/12/23)'),
-																						_1: {ctor: '[]'}
-																					}
+																					_0: _elm_lang$html$Html$text(' (2016/12/23)'),
+																					_1: {ctor: '[]'}
 																				}
 																			}
 																		}),
@@ -26217,15 +26811,11 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																					}),
 																				_1: {
 																					ctor: '::',
-																					_0: _elm_lang$html$Html$text(' 公式リンク '),
+																					_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/changes-11717'),
 																					_1: {
 																						ctor: '::',
-																						_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/changes-11717'),
-																						_1: {
-																							ctor: '::',
-																							_0: _elm_lang$html$Html$text(' (2017/1/17)'),
-																							_1: {ctor: '[]'}
-																						}
+																						_0: _elm_lang$html$Html$text(' (2017/1/17)'),
+																						_1: {ctor: '[]'}
 																					}
 																				}
 																			}),
@@ -26250,19 +26840,45 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																						}),
 																					_1: {
 																						ctor: '::',
-																						_0: _elm_lang$html$Html$text(' 公式リンク '),
+																						_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/hot-fix-changes-2217'),
 																						_1: {
 																							ctor: '::',
-																							_0: _Ragamuffine$daoc_patch_notes$Main$raw_link('http://darkageofcamelot.com/article/hot-fix-changes-2217'),
-																							_1: {
-																								ctor: '::',
-																								_0: _elm_lang$html$Html$text(' (2017/2/2)'),
-																								_1: {ctor: '[]'}
-																							}
+																							_0: _elm_lang$html$Html$text(' (2017/2/2)'),
+																							_1: {ctor: '[]'}
 																						}
 																					}
 																				}),
-																			_1: {ctor: '[]'}
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$li,
+																					{ctor: '[]'},
+																					{
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$a,
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_Page),
+																								_1: {ctor: '[]'}
+																							},
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('1.122C - 3/13/17'),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {
+																							ctor: '::',
+																							_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1122c-live-server-patch-notes'),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text(' (2017/3/13)'),
+																								_1: {ctor: '[]'}
+																							}
+																						}
+																					}),
+																				_1: {ctor: '[]'}
+																			}
 																		}
 																	}
 																}
@@ -27515,6 +28131,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch20170202$patch_20170202),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_122C_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C),
 						_1: {ctor: '[]'}
 					}
 				});
