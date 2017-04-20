@@ -56,5 +56,13 @@ patch_1_122B =
             "Level 41 - Hex of Hindering は level 36 になる。"]]
 
 
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "ウォーロック The Ghost Keep RvR Event and Hot Fix Notes"],
+     secmid "Witchcraft (スペック)",
+     text "すべての AF debuff スペルの持続時間は45秒から15秒に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_122C_HotFixNotes

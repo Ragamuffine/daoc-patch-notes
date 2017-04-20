@@ -180,3 +180,14 @@ patch_1_122C_HotFix : List (Html Message)
 patch_1_122C_HotFix =
     [h1 [] [text "Live Client Hot Fix"]]
     ++ Heretic.patch_1_122C_HotFix
+
+
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h1 [] [text "The Ghost Keep RvR Event and Hot Fix Notes"]]
+    ++ Animist.patch_1_122C_HotFixNotes
+    ++ Bonedancer.patch_1_122C_HotFixNotes
+    ++ Heretic.patch_1_122C_HotFixNotes
+    ++ Mentalist.patch_1_122C_HotFixNotes
+    ++ Necromancer.patch_1_122C_HotFixNotes
+    ++ Warlock.patch_1_122C_HotFixNotes

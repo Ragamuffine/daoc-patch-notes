@@ -205,7 +205,24 @@ patch_1_122C =
      text "Fossil Mystic, Fossil Healer, Fossil Conjurer, Fossil Seer が妨害を受けない確率は75%から25%に減少する。"]
 
 
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "ボーンダンサー The Ghost Keep RvR Event and Hot Fix Notes"],
+     secmid "Darkness (スペック)",
+     text "Bone Revenant にある召喚ファンタズムはもはやステルス中の敵を攻撃・暴露しない。",
+     secmid "Suppression (スペック)",
+     text "disarm は fumble に変更される。",
+     ulist ["Level 1 - Punish Combatant - 1500 range - Instant cast - 持続時間3秒 - 再使用5分 - 20% power - fumble 3%",
+            "Level 11 - Punish Assailant - 1500 range - Instant cast - 持続時間6秒 - 再使用5分 - 20% power - fumble 5%",
+            "Level 21 - Punish Aggressor - 1500 range - Instant cast - 持続時間8秒 - 再使用3分 - 20% power - fumble 10%",
+            "Level 31 - Punish Opponent - 1500 range - Instant cast - 持続時間12秒 - 再使用60秒 - 20% power - fumble 20%",
+            "Level 41 - Punish Soldier - 1500 range - Instant cast - 持続時間15秒 - 再使用60秒 - 20% power - fumble 30%"],
+     secmid "Bone Army (スペック)",
+     text "Level 42 Ruin Bones の tick ごとのダメージは 131 から 121 に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2 ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_122C_HotFixNotes

@@ -68,6 +68,14 @@ patch_1_122C_HotFix =
             "Level 48 - Torrential Blaze - 最初は 150 heat ダメージで 50% ずつ増加し最大 135% (旧 450%) 初回の詠唱時間は2秒から2.5秒に増加。射程は1500から1600に増加。"]]
 
     
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "ヘレティック The Ghost Keep RvR Event and Hot Fix Notes"],
+     ulist ["Level 48 - Torrential Blaze - ダメージが増加する。170 ダメージで始まり(以前は150ダメージ) 2 秒ごとに60%増加する。最大170%(以前は135%)。射程は1600のまま。持続時間15秒",
+            "Level 42 - Whirling Blaze - 115 ダメージで 2 秒ごとに45%増加、最大110%。射程1600。持続時間15秒"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFix
+      ++ patch_1_122C_HotFixNotes

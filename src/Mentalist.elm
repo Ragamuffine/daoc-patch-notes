@@ -32,5 +32,13 @@ patch_20170202 =
             "他の呪文は無変更である。"]]
 
 
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "メンタリスト The Ghost Keep RvR Event and Hot Fix Notes"],
+     sechib "Mana Magic (スペック)",
+     text "Level 46 Storm of Insanity の tick ごとのダメージは 131 から 121 に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_20170202
+      ++ patch_1_122C_HotFixNotes

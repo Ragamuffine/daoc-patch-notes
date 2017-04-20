@@ -442,6 +442,20 @@ patch_1_122C =
      text "Soultorn の病気が持つ snare 効果は 70% から 35% に低下する。snare DD の snare 効果は 15% のままである。"]
 
 
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "ネクロマンサー The Ghost Keep RvR Event and Hot Fix Notes"],
+     secalb "Deathsight (基本)",
+     text "設置型病気スペルは変更される。",
+     ulist ["Level 6 - Decrepit Ground - 射程1000から500に減少、半径は250から75に減少、5秒毎",
+            "Level 16 - Wretched Ground - 射程1000から500に減少、半径は275から100に減少、4.5秒毎",
+            "Level 26 - Rotting Ground - 射程1000から500に減少、半径は300から125に減少、4秒毎",
+            "Level 36 - Desecrated Ground - 射程1000から500に減少、半径は325から150に減少、3.5秒毎",
+            "Level 46 - Unholy Ground - 射程1000から500に減少、半径は350から200に減少、3秒毎"],
+     secalb "Deathsight (スペック)",
+     text "Level 47 Infinite Death の tick ごとのダメージは 131 から 121 に減少する。"]
+
+    
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -451,3 +465,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_20170117
       ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_122C_HotFixNotes

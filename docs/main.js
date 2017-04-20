@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFixNotes_Page = {ctor: 'Patch_1_122C_HotFixNotes_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFix_Page = {ctor: 'Patch_1_122C_HotFix_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_Page = {ctor: 'Patch_1_122C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_20170202_Page = {ctor: 'Patch_20170202_Page'};
@@ -8872,6 +8873,26 @@ var _Ragamuffine$daoc_patch_notes$Style$ulist = function (l) {
 			l));
 };
 
+var _Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('アニミスト The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Creeping Path (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('すべての AF debuff スペルの持続時間は45秒から15秒に減少する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Animist$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -9171,7 +9192,10 @@ var _Ragamuffine$daoc_patch_notes$Animist$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Animist$patch_1_121C,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Animist$patch_1_122B, _Ragamuffine$daoc_patch_notes$Animist$patch_20170202)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Animist$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Animist$patch_20170202, _Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes))));
 
 var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 	ctor: '::',
@@ -10421,6 +10445,67 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C);
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Darkness (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Bone Revenant にある召喚ファンタズムはもはやステルス中の敵を攻撃・暴露しない。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Suppression (スペック)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('disarm は fumble に変更される。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 1 - Punish Combatant - 1500 range - Instant cast - 持続時間3秒 - 再使用5分 - 20% power - fumble 3%',
+								_1: {
+									ctor: '::',
+									_0: 'Level 11 - Punish Assailant - 1500 range - Instant cast - 持続時間6秒 - 再使用5分 - 20% power - fumble 5%',
+									_1: {
+										ctor: '::',
+										_0: 'Level 21 - Punish Aggressor - 1500 range - Instant cast - 持続時間8秒 - 再使用3分 - 20% power - fumble 10%',
+										_1: {
+											ctor: '::',
+											_0: 'Level 31 - Punish Opponent - 1500 range - Instant cast - 持続時間12秒 - 再使用60秒 - 20% power - fumble 20%',
+											_1: {
+												ctor: '::',
+												_0: 'Level 41 - Punish Soldier - 1500 range - Instant cast - 持続時間15秒 - 再使用60秒 - 20% power - fumble 30%',
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Bone Army (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Level 42 Ruin Bones の tick ごとのダメージは 131 から 121 に減少する。'),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -11329,7 +11414,10 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122B_HotFix2,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes))))));
 
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C = {
 	ctor: '::',
@@ -14130,6 +14218,31 @@ var _Ragamuffine$daoc_patch_notes$Healer$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Healer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Healer$patch_1_121, _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヘレティック The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+			{
+				ctor: '::',
+				_0: 'Level 48 - Torrential Blaze - ダメージが増加する。170 ダメージで始まり(以前は150ダメージ) 2 秒ごとに60%増加する。最大170%(以前は135%)。射程は1600のまま。持続時間15秒',
+				_1: {
+					ctor: '::',
+					_0: 'Level 42 - Whirling Blaze - 115 ダメージで 2 秒ごとに45%増加、最大110%。射程1600。持続時間15秒',
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix = {
 	ctor: '::',
 	_0: A2(
@@ -14399,7 +14512,10 @@ var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Heretic$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Heretic$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes)));
 
 var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 	ctor: '::',
@@ -15829,6 +15945,26 @@ var _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Mauler$all = _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('メンタリスト The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Mana Magic (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Level 46 Storm of Insanity の tick ごとのダメージは 131 から 121 に減少する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -15931,7 +16067,10 @@ var _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Mentalist$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121, _Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202);
+var _Ragamuffine$daoc_patch_notes$Mentalist$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202, _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_122C_HotFixNotes));
 
 var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C = {
 	ctor: '::',
@@ -16403,6 +16542,59 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 	_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('設置型病気スペルは変更される。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 6 - Decrepit Ground - 射程1000から500に減少、半径は250から75に減少、5秒毎',
+						_1: {
+							ctor: '::',
+							_0: 'Level 16 - Wretched Ground - 射程1000から500に減少、半径は275から100に減少、4.5秒毎',
+							_1: {
+								ctor: '::',
+								_0: 'Level 26 - Rotting Ground - 射程1000から500に減少、半径は300から125に減少、4秒毎',
+								_1: {
+									ctor: '::',
+									_0: 'Level 36 - Desecrated Ground - 射程1000から500に減少、半径は325から150に減少、3.5秒毎',
+									_1: {
+										ctor: '::',
+										_0: 'Level 46 - Unholy Ground - 射程1000から500に減少、半径は350から200に減少、3秒毎',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Level 47 Infinite Death の tick ごとのダメージは 131 から 121 に減少する。'),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -18427,7 +18619,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 							A2(
 								_elm_lang$core$Basics_ops['++'],
 								_Ragamuffine$daoc_patch_notes$Necromancer$patch_20170117,
-								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C)))))))));
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202,
+									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B = {
 	ctor: '::',
@@ -24585,6 +24780,26 @@ var _Ragamuffine$daoc_patch_notes$Warden$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Warden$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_121, _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーロック The Ghost Keep RvR Event and Hot Fix Notes'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Witchcraft (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('すべての AF debuff スペルの持続時間は45秒から15秒に減少する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -24811,7 +25026,10 @@ var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_121, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes));
 
 var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121 = {
 	ctor: '::',
@@ -25812,6 +26030,33 @@ var _Ragamuffine$daoc_patch_notes$Patch1_121$patch_1_121 = A2(
 																																												_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
 																																												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121)))))))))))))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFixNotes = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('The Ghost Keep RvR Event and Hot Fix Notes'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Mentalist$patch_1_122C_HotFixNotes,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes))))));
 var _Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFix = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -26958,7 +27203,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																								}
 																							}
 																						}),
-																					_1: {ctor: '[]'}
+																					_1: {
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$li,
+																							{ctor: '[]'},
+																							{
+																								ctor: '::',
+																								_0: A2(
+																									_elm_lang$html$Html$a,
+																									{
+																										ctor: '::',
+																										_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFixNotes_Page),
+																										_1: {ctor: '[]'}
+																									},
+																									{
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('Hot Fix Notes'),
+																										_1: {ctor: '[]'}
+																									}),
+																								_1: {
+																									ctor: '::',
+																									_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/ghost-keep-event-returns-and-rvr-hot-fix-notes'),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text(' (2017/4/6)'),
+																										_1: {ctor: '[]'}
+																									}
+																								}
+																							}),
+																						_1: {ctor: '[]'}
+																					}
 																				}
 																			}
 																		}
@@ -28239,6 +28514,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFix),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_122C_HotFixNotes_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFixNotes),
 						_1: {ctor: '[]'}
 					}
 				});

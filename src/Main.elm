@@ -109,7 +109,8 @@ top_page =
                    li [] [a [onClick Patch_20170117_Page] [text "Changes - 1/17/17"], official_link "http://darkageofcamelot.com/article/changes-11717", text " (2017/1/17)"],
                    li [] [a [onClick Patch_20170202_Page] [text "Hot Fix Changes - 2/2/17"], official_link "http://darkageofcamelot.com/article/hot-fix-changes-2217", text " (2017/2/2)"],
                    li [] [a [onClick Patch_1_122C_Page] [text "1.122C - 3/13/17"], official_link "http://darkageofcamelot.com/content/1122c-live-server-patch-notes", text " (2017/3/13)"],
-                   li [] [a [onClick Patch_1_122C_HotFix_Page] [text "Live Client Hot Fix"], official_link "http://darkageofcamelot.com/article/live-client-hot-fix", text " (2017/3/27)"]],
+                   li [] [a [onClick Patch_1_122C_HotFix_Page] [text "Live Client Hot Fix"], official_link "http://darkageofcamelot.com/article/live-client-hot-fix", text " (2017/3/27)"],
+                   li [] [a [onClick Patch_1_122C_HotFixNotes_Page] [text "Hot Fix Notes"], official_link "http://darkageofcamelot.com/article/ghost-keep-event-returns-and-rvr-hot-fix-notes", text " (2017/4/6)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -211,6 +212,7 @@ view model =
         Patch_20170202_Page -> div [] [top_menu, make_content Patch20170202.patch_20170202]
         Patch_1_122C_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122C]
         Patch_1_122C_HotFix_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122C_HotFix]
+        Patch_1_122C_HotFixNotes_Page -> div [] [top_menu, make_content Patch1_122.patch_1_122C_HotFixNotes]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page

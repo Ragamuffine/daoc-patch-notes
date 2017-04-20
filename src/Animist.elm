@@ -75,5 +75,13 @@ patch_20170202 =
             "ペットは mezz に耐性を持つ。(スタン、混乱は受ける。)"]]
 
 
+patch_1_122C_HotFixNotes : List (Html Message)
+patch_1_122C_HotFixNotes =
+    [h2 [] [text "アニミスト The Ghost Keep RvR Event and Hot Fix Notes"],
+     sechib "Creeping Path (スペック)",
+     text "すべての AF debuff スペルの持続時間は45秒から15秒に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B ++ patch_20170202
+      ++ patch_1_122C_HotFixNotes
