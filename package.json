@@ -1,0 +1,25 @@
+{
+  "name": "daoc-patch-notes",
+  "version": "1.123.0",
+  "description": "DAoC patch notes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragamuffine/daoc-patch-notes.git"
+  },
+  "author": "Ragamuffine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ragamuffine/daoc-patch-notes/issues"
+  },
+  "homepage": "https://ragamuffine.github.io/daoc-patch-notes/",
+  "devDependencies": {
+    "uglify-js": "^3.0.27"
+  }
+}

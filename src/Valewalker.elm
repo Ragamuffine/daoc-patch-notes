@@ -70,5 +70,35 @@ patch_1_122B_HotFix3 =
      text "レベル50の Immolation ライフドレインは詠唱者とそのグループを一度だけヒールするようになる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ヴェールウォーカー 1.123"],
+     text "ヴェールウォーカーはフルリスペックされる。",
+     sechib "Arboreal Path (スペック)",
+     text "新しく cold デバフ攻撃 proc が追加される。",
+     ulist ["Level 50 - Blizzardstrike - 3s cast - 20分持続 - 30 power - 20%の確率でターゲットの cold レジストを30%低下させる。"],
+     text "グループ物理 ablative は以下のように調整された。なお詠唱者本人への効果は半分になる。",
+     ulist ["Level 13 - Barkcrust - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 50 吸収する。",
+            "Level 26 - Barkcoat - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 100 吸収する。",
+            "Level 33 - Barksheath - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 200 吸収する。",
+            "Level 43 - Barkshell - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 300 吸収する。"],
+     text "魔法の射程を延長するパルスが新しく追加された。",
+     ulist ["Level 4 - Forest Sage's Presence - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 2% 増加させる。",
+            "Level 17 - Forest Sage's Ubiquity - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 4% 増加させる。",
+            "Level 24 - Forest Sage's Acumen - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 6% 増加させる。",
+            "Level 30 - Forest Sage's Sagacity - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程 8% 増加させる。",
+            "Level 45 - Forest Sage's Perfection - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 10% 増加させる。"],
+     text "Blight Swarm の射程は1500から1600に延長される。",
+     text "グループダメージ増加はベースラインに移動する。",
+     text "インスタント spirit デバフは削除された。",
+     text "インスタントDDスペルの再使用時間は25秒に短縮された。",
+     text "自己攻撃速度増加バフは半径250内の最大12人の味方に適用される。",
+     sechib "Scythe (スペック)",
+     text "Flaming Scythe はレベル32に移動する。",
+     text "Damaging Grasp はレベル39に移動する。",
+     ulist ["Level 43 - Snow Blade - Follows Damaging Grasp - Low Endurance - Medium Damage - Medium Hit Bonus - No Defensive Bonus - 125 cold damage 半径350 PBAoE"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B_HotFix3
+      ++ patch_1_123

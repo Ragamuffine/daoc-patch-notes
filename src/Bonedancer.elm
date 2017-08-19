@@ -221,8 +221,24 @@ patch_1_122C_HotFixNotes =
      text "Level 42 Ruin Bones の tick ごとのダメージは 131 から 121 に減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ボーンダンサー 1.123"],
+     secmid "Darkness (スペック)",
+     text "Sable Totem の再使用タイマーは5分から10分に増加する。",
+     text "Obsidian Totem の系列のキャスト時間は2秒になり、詠唱妨害も受けるようになる。",
+     secmid "Bone Army (スペック)",
+     text "Fossil Defender が intercept される確率は20%減少する。プレイヤーから攻撃を受けた時のダメージは2倍になる。PvEでは変わらない。",
+     text "Fossil Healer のヒール力は7%減少する。",
+     text "Fossil Seer の病気スペルの詠唱時間は0.7秒短縮される。",
+     text "Fossil Seer の病気スペルがレジストされる確率は5%増加する。",
+     secmid "Suppression (スペック)",
+     text "Grasping Totem の系列のキャスト時間は2秒になり、詠唱妨害も受けるようになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2 ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_122C_HotFixNotes
+      ++ patch_1_123

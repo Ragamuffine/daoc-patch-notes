@@ -146,9 +146,9 @@ patch_1_122B =
             "Level 44 - Demon Horror - Instant cast - 再使用7秒 - 1500 range - 持続時間45秒 - 48 power - constitution 41 低下"],
      text "新しくダメージシールドが追加される。",
      ulist ["Level 7 - Edge of Hatred - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 5.8 spirit damage",
-            "Level 17 - Eviscerating Protector - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 8.9 spirit damage",
-            "Level 27 - Knives of Death - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 11.6 spirit damage",
-            "Level 37 - Flaying Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 15.3 spirit damage",
+            "Level 17 - Eviscerating Protector - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 8.9 spirit damage",
+            "Level 27 - Knives of Death - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 11.6 spirit damage",
+            "Level 37 - Flaying Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 15.3 spirit damage",
             "Level 47 - Soul Sundering Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 21.1 spirit damage"],
      text "新しい設置型スペルが追加される。",
      ulist ["Level 1 - Icy Ground - Instant Cast - 再使用30秒 - 200 range - 半径200 - 持続時間30秒 - 12 power - 3秒ごとに 8 cold damage 最大16体まで",
@@ -456,6 +456,58 @@ patch_1_122C_HotFixNotes =
      text "Level 47 Infinite Death の tick ごとのダメージは 131 から 121 に減少する。"]
 
     
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ネクロマンサー 1.123"],
+     text "Plated Fiend と Soultorn のダメージは25%低下する。",
+     secalb "Deathsight (基本)",
+     text "グラウンドエリア病気スペルの再使用時間は90秒に延長される。",
+     secalb "Deathsight (スペック)",
+     text "単体スネアは Death Servant に移された。",
+     text "AF デバフの持続時間は15秒に短縮された。",
+     text "Bringer of Death の有効ダメージは25%低下し、病気の継続時間は16秒になり、ダメージペナルティーは削除された。",
+     text "Decrepit Form のレベル35-45の体力回復効果は25%低下した。",
+     text "PBAoE スペルは Decrepit Form と Spirit Form で使用できるようになった。",
+     text "PBAoE スペルのダメージは以下のように調整された。",
+     ulist ["Level 35 - Channeled Wrath - 240 spirit damage.",
+            "Level 45 - Channeled Frenzy - 305 spirit damage."],
+     secalb "Death Servant (基本)",
+     text "Umbral Aegis はプレイヤーから攻撃された場合に2倍のダメージを受ける。PvE では変わらない。",
+     text "パワードレインのダメージは75%低下するが吸収されるパワーは50%増える。",
+     text "グラウンドアリアパワー回復スペルの再使用は90秒になる。",
+     text "Soultorn のスペル詠唱時間は2.3秒から2.6秒になり、Spirit Form のペットはDoTを使わなくなり病気のみを適用する。",
+     text "Soultorn のデバフは以下のように調整される。",
+     ulist ["レベル1-23では10%デバフ",
+            "レベル24-43では20%デバフ",
+            "レベル44-50では30%デバフ"],
+     secalb "Death Servant (スペック)",
+     text "以前は Deathsight にあった単体スネアは以下のようになる。Decrepit Form でなくても詠唱できる。",
+     ulist ["Crippling Exhaustion - level 4.",
+            "Constricting Exhaustion - level 14.",
+            "Disabling Exhaustion - level 24.",
+            "Debilitating Exhaustion - level 34.",
+            "Snaring Exhaustion - level 44."],
+     text "単体ボルトは Decrepit Form と Spirit Form で使えるようになった。",
+     text "すべてのレベルでスネアDDのスネア効果は20%となった。",
+     secalb "Painworking (基本)",
+     text "グラウンドエリアダメージスペルの再使用時間は90秒になる。",
+     text "グラウンドエリアダメージスペルのダメージは以下のように減少する。",
+     ulist ["Level 1 - Icy Ground - 4 damage/tick.",
+            "Level 11 - Chilling Ground - 18 damage/tick.",
+            "Level 21 - Frigid Ground - 42 damage/tick.",
+            "Level 31 - Numbing Ground - 112 damage/tick.",
+            "Level 41 - Freezing Ground - 175 damage/tick."],
+     secalb "Painworking (スペック)",
+     text "魔法吸収パルスの初期パワーコストはすべてのレベルで30%となり、5秒の詠唱時間となる。移動しながらでも詠唱できるが妨害は受ける。",
+     ulist ["Level 16 - Arctic Death - 攻撃速度低下の効果は18%から26%に増加する。",
+            "Level 27 - Freezing Terror - ダメージは30から20に低下する。",
+            "Level 37 - Freezing Clench - ダメージは54から42に低下する。",
+            "Level 31 - Ice Chain - 持続時間は3秒から4秒に増加する。",
+            "Level 41 - Ice Bracelet - 持続時間は4秒から6秒に増加する。"],
+     text "単体レジストデバフの射程は1500から2000になる。",
+     text "Nethersbane のスネアはAoEではなく単体になるが持続時間は2秒から4秒に増加する。また proc ダメージは150から175に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -466,3 +518,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_122C_HotFixNotes
+      ++ patch_1_123

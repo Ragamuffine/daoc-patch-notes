@@ -20,5 +20,13 @@ patch_1_121 =
             "Level 50 - Annihilation - Rear - ダメージ増加"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ヒーロー 1.123"],
+     sechib "Celtic Spear (スペック)",
+     text "レベル39スタイルの Wyvern Talon のダメージは High から Very High に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121
+      ++ patch_1_123

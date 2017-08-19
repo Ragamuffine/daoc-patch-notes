@@ -162,6 +162,23 @@ patch_20170202 =
      text "レベル50ペット Hunter's Elder Avatar の被ダメージは15%減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ハンター 1.123"],
+     secmid "Archery (スペック)",
+     text "クリティカルショットの endo コストは15%に増加する。",
+     text "クリティカルショットのダメージは以下のように低下する。",
+     ulist ["Level 35 - Critical Shot 6 - 190に低下(以前は204)",
+            "Level 41 - Critical Shot 7 - 215に低下(以前は242)",
+            "Level 47 - Critical Shot 8 - 250に低下(以前は285)",
+            "Level 49 - Critical Shot 9 - 290に低下(以前は305)"],
+     secmid "Beastcraft (スペック)",
+     text "ペット召喚スペルの再使用時間は90秒になる。",
+     text "Avatar の継続時間は5分になる。",
+     text "armor wither スタイルはすべての Avatar から削除される。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
       ++ patch_20170202
+      ++ patch_1_123

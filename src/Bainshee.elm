@@ -116,6 +116,22 @@ patch_1_122C =
      text "frontal cone slow 呪文は slow ではなく snare になる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "バンシー 1.123"],
+     sechib "Phantasmal Wail (スペック)",
+     text "レベル50バフシア Shatter Empowerment は次のように変更される。",
+     ulist ["ランダムで3つのバフを取り除く。(以前は一つ。)",
+            "再使用時間が1分になる。(以前は3分。)",
+            "パワーコストが25%になる。(以前は50%。)"],
+     sechib "Ethereal Shriek (スペック)",
+     text "レベル50 PBAoE ペットスネア Ethereal Shriek は次のように変更される。",
+     ulist ["半径が2000になる。(以前は1250。)",
+            "詠唱時間は3秒になる。(以前は5秒。)",
+            "持続時間は60秒になる。(以前は20秒。)"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_123

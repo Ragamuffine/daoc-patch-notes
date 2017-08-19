@@ -82,6 +82,14 @@ patch_1_122C_HotFixNotes =
      text "すべての AF debuff スペルの持続時間は45秒から15秒に減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "アニミスト 1.123"],
+     sechib "Creeping Path (スペック)",
+     text "すべての AF debuff スペルの持続時間は15秒から20秒に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B ++ patch_20170202
       ++ patch_1_122C_HotFixNotes
+      ++ patch_1_123

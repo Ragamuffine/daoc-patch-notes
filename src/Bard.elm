@@ -28,5 +28,21 @@ patch_1_122B =
      text "Level 45 - Superior Skin of the Redwood - AF の値は 55 から 150 に増加する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "バード 1.123"],
+     sechib "Nurture (スペック)",
+     text "すべてのスピード呪文は基本ラインに移される。",
+     sechib "Music (基本)",
+     text "レベル23単体ルート Melody of Tangling はレベル20になる。レベル43単体メツ Fascinating Hymn はレベル44になる。すべてのスピードソングは以下のレベルになる。なお威力は変わらない。",
+     ulist ["Level 3 - Clear Path",
+            "Level 13 - Clear Trail",
+            "Level 23 - Clear Road",
+            "Level 33 - Clear Field",
+            "Level 43 - Clear Horizon"],
+     text "すべての水バフはベースラインになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_123

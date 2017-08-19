@@ -21,12 +21,17 @@ SRC_FONTS = src/fonts/FontAwesome.otf src/fonts/fontawesome-webfont.woff \
 
 TARGET_ELM = docs/main.js
 
+TARGET_JS = docs/main.min.js
+
 TARGET_HTML = docs/index.html
 
 TARGET_FONTS = docs/fonts/FontAwesome.otf docs/fonts/fontawesome-webfont.woff \
 	docs/fonts/fontawesome-webfont.ttf docs/fonts/fontawesome-webfont.woff2
 
-all: $(TARGET_ELM) $(TARGET_HTML) $(TARGET_FONTS)
+all: $(TARGET_JS) $(TARGET_HTML) $(TARGET_FONTS)
+
+$(TARGET_JS): $(TARGET_ELM)
+	node_modules/.bin/uglifyjs -c -m -o docs/main.min.js docs/main.js
 
 $(TARGET_ELM): $(SRC_ELM) $(SRC_ELM_CLASS)
 	elm make $(SRC_ELM) --output $(TARGET_ELM)

@@ -135,6 +135,20 @@ patch_1_122B_HotFix5 =
      text "タウントが再び敵を妨害できるようになる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "フライアー 1.123"],
+     secalb "Staff (スペック)",
+     text "Excommunicate の proc 率は30%から75%に増加する。",
+     secalb "Rejuvenation (スペック)",
+     text "グループHoTの効果は以下のように増加する。",
+     ulist ["Level 34 - Holy Encouragement - 3秒ごとに60ヘルス(以前は50ヘルス)",
+            "Level 44 - Divine Encouragement - 3秒ごとに130ヘルス(以前は60ヘルス)"],
+     secalb "Enhancements (スペック)",
+     text "Tranquility の持続時間は15秒になり、ダメージ減少効果は25%に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
       ++ patch_1_122B_HotFix5
+      ++ patch_1_123

@@ -67,6 +67,13 @@ patch_1_122C =
             "すべてのダメージは75%減少する。"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "バーサーカー 1.123"],
+     text "Freezing Predator Vest のグループダメージ増加 proc は自分のみに適用される。"]
+
+
 all : List (Html Message)
 all = patch_1_121
       ++ patch_1_122C
+      ++ patch_1_123

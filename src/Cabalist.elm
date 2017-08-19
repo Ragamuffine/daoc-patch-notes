@@ -143,6 +143,18 @@ patch_1_122C =
      text "Emerald Simulacrum は snare スタイルを使わなくなる。Jade Simulacrum の移動速度は減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "カバリスト 1.123"],
+     text "Amber Simulacrum と Ruby Simulacrum のダメージは25%減少する。Emerald Simulacrum のダメージは55%減少する。",
+     br [] [],
+     text "Simulacrum Brilliance の slow 効果はスネアを与えるようになる。",
+     br [] [],
+     text "Jade Simulacrum はプレイヤーに攻撃された場合は2倍のダメージを受ける。PvE では変わらない。",
+     br [] [],
+     text "Ruby Simulacrum の呪文の詠唱時間は2.2秒から2.6秒に増加する。呪文のデバフ効果はレベル23までは10%, レベル43までは20%, それ以上は30%となる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -150,3 +162,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix5
       ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_123

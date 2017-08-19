@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123_Page = {ctor: 'Patch_1_123_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFixNotes_Page = {ctor: 'Patch_1_122C_HotFixNotes_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFix_Page = {ctor: 'Patch_1_122C_HotFix_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_Page = {ctor: 'Patch_1_122C_Page'};
@@ -8873,6 +8874,26 @@ var _Ragamuffine$daoc_patch_notes$Style$ulist = function (l) {
 			l));
 };
 
+var _Ragamuffine$daoc_patch_notes$Animist$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('アニミスト 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Creeping Path (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('すべての AF debuff スペルの持続時間は15秒から20秒に増加する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes = {
 	ctor: '::',
 	_0: A2(
@@ -9195,8 +9216,44 @@ var _Ragamuffine$daoc_patch_notes$Animist$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Animist$patch_1_122B,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Animist$patch_20170202, _Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Animist$patch_20170202,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Animist$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Animist$patch_1_123)))));
 
+var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('アームズマン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('アームズマンはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('長柄 (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('新しいスタイルが追加される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 48 - Defender\'s Advance - High Endurance - Very High Damage - Low Hit Bonus - Medium Defensive Bonus - 出血20ダメージ, 4秒ごと, 20秒持続',
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -9259,8 +9316,70 @@ var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Armsman$all = _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Armsman$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121, _Ragamuffine$daoc_patch_notes$Armsman$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バンシー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Phantasmal Wail (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レベル50バフシア Shatter Empowerment は次のように変更される。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'ランダムで3つのバフを取り除く。(以前は一つ。)',
+						_1: {
+							ctor: '::',
+							_0: '再使用時間が1分になる。(以前は3分。)',
+							_1: {
+								ctor: '::',
+								_0: 'パワーコストが25%になる。(以前は50%。)',
+								_1: {ctor: '[]'}
+							}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Ethereal Shriek (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('レベル50 PBAoE ペットスネア Ethereal Shriek は次のように変更される。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: '半径が2000になる。(以前は1250。)',
+									_1: {
+										ctor: '::',
+										_0: '詠唱時間は3秒になる。(以前は5秒。)',
+										_1: {
+											ctor: '::',
+											_0: '持続時間は60秒になる。(以前は20秒。)',
+											_1: {ctor: '[]'}
+										}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -9773,8 +9892,68 @@ var _Ragamuffine$daoc_patch_notes$Bainshee$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122B,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123)))));
 
+var _Ragamuffine$daoc_patch_notes$Bard$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バード 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Nurture (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('すべてのスピード呪文は基本ラインに移される。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Music (基本)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('レベル23単体ルート Melody of Tangling はレベル20になる。レベル43単体メツ Fascinating Hymn はレベル44になる。すべてのスピードソングは以下のレベルになる。なお威力は変わらない。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 3 - Clear Path',
+								_1: {
+									ctor: '::',
+									_0: 'Level 13 - Clear Trail',
+									_1: {
+										ctor: '::',
+										_0: 'Level 23 - Clear Road',
+										_1: {
+											ctor: '::',
+											_0: 'Level 33 - Clear Field',
+											_1: {
+												ctor: '::',
+												_0: 'Level 43 - Clear Horizon',
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('すべての水バフはベースラインになる。'),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -9861,8 +10040,27 @@ var _Ragamuffine$daoc_patch_notes$Bard$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Bard$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bard$patch_1_121, _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Bard$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Bard$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B, _Ragamuffine$daoc_patch_notes$Bard$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バーサーカー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Freezing Predator Vest のグループダメージ増加 proc は自分のみに適用される。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -10170,7 +10368,10 @@ var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Berserker$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121, _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C);
+var _Ragamuffine$daoc_patch_notes$Berserker$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Berserker$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C, _Ragamuffine$daoc_patch_notes$Berserker$patch_1_123));
 
 var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C = {
 	ctor: '::',
@@ -10445,6 +10646,58 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C);
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Darkness (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Sable Totem の再使用タイマーは5分から10分に増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Obsidian Totem の系列のキャスト時間は2秒になり、詠唱妨害も受けるようになる。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Bone Army (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Fossil Defender が intercept される確率は20%減少する。プレイヤーから攻撃を受けた時のダメージは2倍になる。PvEでは変わらない。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('Fossil Healer のヒール力は7%減少する。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Fossil Seer の病気スペルの詠唱時間は0.7秒短縮される。'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('Fossil Seer の病気スペルがレジストされる確率は5%増加する。'),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Suppression (スペック)'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('Grasping Totem の系列のキャスト時間は2秒になり、詠唱妨害も受けるようになる。'),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes = {
 	ctor: '::',
 	_0: A2(
@@ -11417,8 +11670,60 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 				A2(
 					_elm_lang$core$Basics_ops['++'],
 					_Ragamuffine$daoc_patch_notes$Bonedancer$patch_20170202,
-					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes))))));
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C,
+						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123)))))));
 
+var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('カバリスト 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Amber Simulacrum と Ruby Simulacrum のダメージは25%減少する。Emerald Simulacrum のダメージは55%減少する。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Simulacrum Brilliance の slow 効果はスネアを与えるようになる。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Jade Simulacrum はプレイヤーに攻撃された場合は2倍のダメージを受ける。PvE では変わらない。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Ruby Simulacrum の呪文の詠唱時間は2.2秒から2.6秒に増加する。呪文のデバフ効果はレベル23までは10%, レベル43までは20%, それ以上は30%となる。'),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -12002,8 +12307,31 @@ var _Ragamuffine$daoc_patch_notes$Cabalist$all = A2(
 					A2(
 						_elm_lang$core$Basics_ops['++'],
 						_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122B_HotFix5,
-						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C)))))));
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202,
+							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123))))))));
 
+var _Ragamuffine$daoc_patch_notes$Champion$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('チャンピオン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Valor (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レベル40以上のデバフは半径350のAoEになる。加えて半径500以内にいるグループメンバーに対してもデバフによる有益な効果が適用される。ヘイストデバフによるクリティカル率増加は物理と魔法の両方に適用される。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix3 = {
 	ctor: '::',
 	_0: A2(
@@ -12326,8 +12654,419 @@ var _Ragamuffine$daoc_patch_notes$Champion$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Champion$patch_1_122B,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix3))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix2,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Champion$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Champion$patch_1_123)))));
 
+var _Ragamuffine$daoc_patch_notes$Cleric$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('クレリック 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('クレリックはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Rejuvenation (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('単体インスタントヒール Divine Light と Pure Light はスペックに移動される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Smite (基本)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('スマイトは全面的に変更される。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('AoEスネアが追加される。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 3 - Minor Deliverance - Instant cast - 半径350 - 29秒継続 - 再使用5分 - 9 power - 移動速度50%低下',
+											_1: {
+												ctor: '::',
+												_0: 'Level 13 - Lesser Deliverance - Instant cast - 半径350 - 39秒継続 - 再使用5分 - 14 power - 移動速度50%低下',
+												_1: {
+													ctor: '::',
+													_0: 'Level 23 - Mighty Deliverance - Instant cast - 半径350 - 47秒継続 - 再使用5分 - 21 power - 移動速度50%低下',
+													_1: {
+														ctor: '::',
+														_0: 'Level 33 - Greater Deliverance - Instant cast - 半径350 - 59秒継続 - 再使用5分 - 25 power - 移動速度50%低下',
+														_1: {
+															ctor: '::',
+															_0: 'Level 43 - Blessed Deliverance - Instant cast - 半径350 - 69秒継続 - 再使用5分 - 30 power - 移動速度50%低下',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('単体スタンのレベルは次のように変更される。'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 7 - Stunning Flash',
+													_1: {
+														ctor: '::',
+														_0: 'Level 17 - Stunning Flare',
+														_1: {
+															ctor: '::',
+															_0: 'Level 27 - Stunning Glare',
+															_1: {
+																ctor: '::',
+																_0: 'Level 37 - Stunning Halo',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 47 - Stunning Aura',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('単体DDのレベルは次のように変更される。'),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+														{
+															ctor: '::',
+															_0: 'Level 8 - Smite',
+															_1: {
+																ctor: '::',
+																_0: 'Level 18 - Greater Smite',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 28 - Lesser Judgement',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 38 - Greater Judgement',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 48 - Supreme Judgement',
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Smite (スペック)'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('ダメージ反射自己バフが追加される。'),
+															_1: {
+																ctor: '::',
+																_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																	{
+																		ctor: '::',
+																		_0: 'Level 10 - Virtuous Reflection - 3s cast - 20分持続 - 10% - あらゆるダメージの3%を攻撃者に反射する。',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 20 - Heavenly Reflection - 3s cast - 20分持続 - 10% - あらゆるダメージの5%を攻撃者に反射する。',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 30 - Rapturous Reflection - 3s cast - 20分持続 - 10% - あらゆるダメージの7%を攻撃者に反射する。',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 40 - Radiant Reflection - 3s cast - 20分持続 - 10% - あらゆるダメージの10%を攻撃者に反射する。',
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
+																	}),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('ダメージ増加自己バフのレベルは次のように変更される。'),
+																	_1: {
+																		ctor: '::',
+																		_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																			{
+																				ctor: '::',
+																				_0: 'Level 1 - Hammer of Faith - 3s cast - 2 power - 物理攻撃 5 spirit damage 追加',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 11 - Hammer of Justice - 3s cast - 11 power - 物理攻撃 10 spirit damage 追加',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 21 - Hammer of Zeal - 3s cast - 15 power - 物理攻撃 14 spirit damage 追加',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 31 - Hammer of Holiness - 3s cast - 25 power - 物理攻撃 22 spirit damage 追加',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 41 - Hammer of the Sanctified - 3s cast - 33 power - 物理攻撃 35 spirit damage 追加',
+																								_1: {ctor: '[]'}
+																							}
+																						}
+																					}
+																				}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text('単体DD呪文は次のように変更される。'),
+																			_1: {
+																				ctor: '::',
+																				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																					{
+																						ctor: '::',
+																						_0: 'Level 4 - Divine Anger - 1500 range - 2.8s cast - 6 power - 32 spirit damage',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 14 - Divine Rage - 1500 range - 2.8s cast - 11 power - 60 spirit damage',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 24 - Divine Wrath - 1550 range - 2.8s cast - 19 power - 136 spirit damage',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 34 - Divine Fury - 1600 range - 2.8s cast - 25 power - 192 spirit damage',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 44 - Divine Vengeance - 1650 range - 2.8s cast - 32 power - 214 spirit damage',
+																										_1: {ctor: '[]'}
+																									}
+																								}
+																							}
+																						}
+																					}),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('単体mezz呪文のレベルは次のように変更される。'),
+																					_1: {
+																						ctor: '::',
+																						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																							{
+																								ctor: '::',
+																								_0: 'Level 5 - Heavenly Slumber',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 15 - Graceful Slumber',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 25 - Hallowed Slumber',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 35 - Divine Slumber',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 45 - Holy Slumber',
+																												_1: {ctor: '[]'}
+																											}
+																										}
+																									}
+																								}
+																							}),
+																						_1: {
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text('単体回復バリアー呪文が追加される。単体バリアーとグループバリアーはスタックするが同種のバリアーはスタックしない。'),
+																							_1: {
+																								ctor: '::',
+																								_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																									{
+																										ctor: '::',
+																										_0: 'Level 6 - Barrier Heal - 1500 range - 3.0s cast - 13 power - 38回復10吸収',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 16 - Barrier Resuscitation - 1500 range - 2.9s cast - 21 power - 108回復25吸収',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 26 - Barrier Reviction - 1500 range - 2.8s cast - 32 power - 185回復40吸収',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 36 - Barrier Refection - 1500 range - 2.6s cast - 43 power - 241回復75吸収',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 46 - Barrier Refocillation - 1500 range - 2.5s cast - 55 power - 302回復100吸収',
+																														_1: {ctor: '[]'}
+																													}
+																												}
+																											}
+																										}
+																									}),
+																								_1: {
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text('グループ回復バリアー呪文が追加される。単体バリアーとグループバリアーはスタックするが同種のバリアーはスタックしない。'),
+																									_1: {
+																										ctor: '::',
+																										_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																											{
+																												ctor: '::',
+																												_0: 'Level 9 - Barrier Grace - 1500 range - 3.2s cast - 25% power - 20回復5吸収',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 19 - Barrier Commendation - 1500 range - 3s cast - 25% power - 50回復25吸収',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 29 - Barrier Benediction - 1500 range - 2.8s cast - 25% power - 145回復55吸収',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 39 - Barrier Blessing - 1500 range - 2.6s cast - 25% power - 160回復75吸収',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 49 - Barrier Absolution - 1500 range - 2.5s cast - 25% power - 205回復135吸収',
+																																_1: {ctor: '[]'}
+																															}
+																														}
+																													}
+																												}
+																											}),
+																										_1: {
+																											ctor: '::',
+																											_0: _elm_lang$html$Html$text('ターゲットの攻撃procデバフが追加される。ただしこのデバフよりもアイテムの攻撃proc(例えば Otherworldly Disarm)が優先される。'),
+																											_1: {
+																												ctor: '::',
+																												_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																													{
+																														ctor: '::',
+																														_0: 'Level 3 - Helping Hand - 1000 range - 2.8s cast - 20秒持続 - 11 power - 物理攻撃は攻撃対象を5回復する。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 13 - Healing Hand - 1000 range - 2.8s cast - 20秒持続 - 24 power - 物理攻撃は攻撃対象を10回復する。',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 23 - Light Hand - 1000 range - 2.8s cast - 20秒持続 - 24 power - 物理攻撃は攻撃対象を25回復する。',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 33 - Pure Hand - 1000 range - 2.8s cast - 20秒持続 - 24 power - 物理攻撃は攻撃対象を60回復する。',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 43 - Holy Hand - 1000 range - 2.8s cast - 20秒持続 - 24 power - 物理攻撃は攻撃対象を100回復する。',
+																																		_1: {ctor: '[]'}
+																																	}
+																																}
+																															}
+																														}
+																													}),
+																												_1: {
+																													ctor: '::',
+																													_0: _elm_lang$html$Html$text('新しいダメージ増加バフが追加される。'),
+																													_1: {
+																														ctor: '::',
+																														_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																															{
+																																ctor: '::',
+																																_0: 'Level 50 - Ascendance - Instant cast - 25秒継続 - 再使用10分 - すべてのダメージが2倍になる。効果中はヒール、蘇生ができない。MoC と同時使用はできない。MoC を使うとキャンセルされる。',
+																																_1: {ctor: '[]'}
+																															}),
+																														_1: {
+																															ctor: '::',
+																															_0: _elm_lang$html$Html$text('単体ヒール Divine Light と Pure Light は Rejuvenation (スペック) に移動する。'),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('ルート解除 Blessing of Movement は Smite (スペック) のままである。'),
+																																_1: {
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html$text('PBAoE インスタントダメージ呪文のレベルが以下のように変更される。'),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																			{
+																																				ctor: '::',
+																																				_0: 'Level 8 - Drive Evil',
+																																				_1: {
+																																					ctor: '::',
+																																					_0: 'Level 18 - Repulse Evil',
+																																					_1: {
+																																						ctor: '::',
+																																						_0: 'Level 28 - Dispel Evil',
+																																						_1: {
+																																							ctor: '::',
+																																							_0: 'Level 38 - Banish Evil',
+																																							_1: {
+																																								ctor: '::',
+																																								_0: 'Level 48 - Annihilate Evil',
+																																								_1: {ctor: '[]'}
+																																							}
+																																						}
+																																					}
+																																				}
+																																			}),
+																																		_1: {
+																																			ctor: '::',
+																																			_0: _elm_lang$html$Html$text('AoE ダメージ呪文が以下のように習性される。'),
+																																			_1: {
+																																				ctor: '::',
+																																				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																					{
+																																						ctor: '::',
+																																						_0: 'Level 7 - Heavenly Strike - 1500 range - 半径350 - 3s cast - 11 power - 26 spirit damage',
+																																						_1: {
+																																							ctor: '::',
+																																							_0: 'Level 17 - Heavenly Blast - 1500 range - 半径350 - 3s cast - 23 power - 52 spirit damage',
+																																							_1: {
+																																								ctor: '::',
+																																								_0: 'Level 27 - Heavenly Bolt - 1550 range - 半径350 - 3s cast - 36 power - 78 spirit damage',
+																																								_1: {
+																																									ctor: '::',
+																																									_0: 'Level 37 - Heavenly Force - 1600 range - 半径350 - 3s cast - 47 power - 102 spirit damage',
+																																									_1: {
+																																										ctor: '::',
+																																										_0: 'Level 47 - Heavenly Detonation - 1650 range - 半径350 - 3s cast - 60 power - 128 spirit damage',
+																																										_1: {ctor: '[]'}
+																																									}
+																																								}
+																																							}
+																																						}
+																																					}),
+																																				_1: {ctor: '[]'}
+																																			}
+																																		}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cleric$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -12504,8 +13243,357 @@ var _Ragamuffine$daoc_patch_notes$Cleric$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Cleric$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cleric$patch_1_121, _Ragamuffine$daoc_patch_notes$Cleric$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Cleric$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Cleric$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cleric$patch_1_122B, _Ragamuffine$daoc_patch_notes$Cleric$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Druid$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ドルイド 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ドルイドはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Nature (基本)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('単体攻撃スペルが追加される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 9 - Violent Winds - 1500 range - 2.6s cast - 7 power - 35 energy damage',
+							_1: {
+								ctor: '::',
+								_0: 'Level 19 - Fierce Winds - 1500 range - 2.6s cast - 15 power - 73 energy damage',
+								_1: {
+									ctor: '::',
+									_0: 'Level 29 - Forceful Winds - 1500 range - 2.6s cast - 19 power - 92 energy damage',
+									_1: {
+										ctor: '::',
+										_0: 'Level 39 - Turbid Winds - 1500 range - 2.6s cast - 30 power - 128 energy damage',
+										_1: {
+											ctor: '::',
+											_0: 'Level 49 - Tempest Winds - 1500 range - 2.6s cast - 37 power - 148 energy damage',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('古い Nature (基本)ラインの呪文は新しい単体攻撃スペルを追加するために整理統合されている。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Nature (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Nature ラインは全面的に改修された。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('単体ヒール&amp;HoTスペルが追加された。なお単体HoTとグループHoTはスタックする。'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 6 - Regenerating Heal - 1500 range - 3.0s cast - 13 power - 38ヒール, 10秒間で10ヒール',
+													_1: {
+														ctor: '::',
+														_0: 'Level 16 - Regenerating Resurgence - 1500 range - 2.9s cast - 21 power - 108ヒール, 10秒間で70ヒール',
+														_1: {
+															ctor: '::',
+															_0: 'Level 26 - Regenerating Regrowth - 1500 range - 2.8s cast - 32 power - 185ヒール, 10秒間で130ヒール',
+															_1: {
+																ctor: '::',
+																_0: 'Level 36 - Regenerating Renascence - 1500 range - 2.6 cast - 43 power - 241ヒール, 10秒間で190ヒール',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 46 - Regenerating Apotheosis - 1500 range - 2.5s cast - 55 power - 302ヒール, 10秒間で250ヒール',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('グループヒール&amp;HoTスペルが追加された。なお単体HoTとグループHoTはスタックする。同種のHoTは上書きされない。'),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+														{
+															ctor: '::',
+															_0: 'Level 9 - Healing Breeze - 1500 range - 3.2s cast - 25% power - 20ヒール, 10秒間で4%',
+															_1: {
+																ctor: '::',
+																_0: 'Level 19 - Recuperating Breeze - 1500 range - 3s cast - 25% power - 50ヒール, 10秒間で5%',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 29 - Regenerating Breeze - 1500 range - 2.8s cast - 25% power - 145ヒール, 10秒間で7%',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 39 - Renewing Breeze - 1500 range - 2.6s cast - 25% power - 160ヒール, 10秒間で10%',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 49 - Regrowing Breeze - 1500 range - 2.5s cast - 25% power - 205ヒール, 10秒間で15%',
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('新しいDoTスペルが追加される。このDoTはベースラインDoTとスタックする。'),
+														_1: {
+															ctor: '::',
+															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																{
+																	ctor: '::',
+																	_0: 'Level 2 - Sparkgrass - 1500 range - 2.5s cast - 7 power - 2秒ごとに 10 heat damage',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 12 - Windburn - 1500 range - 2.5s cast - 14 power - 2秒ごとに 27 heat damage',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 22 - Emberleaf - 1500 range - 2.5s cast - 20 power - 2秒ごとに 50 heat damage',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 32 - Wildfire - 1500 range - 2.5s cast - 31 power - 2秒ごとに 80 heat damage',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Leve 42 - Flamethorn - 1500 range - 2.5s cast - 44 power - 2秒ごとに 116 heat damage',
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
+																	}
+																}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('単体スネアスペルは以下のように変更される。'),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																		{
+																			ctor: '::',
+																			_0: 'Level 3 - Grasping Ivy - 1500 range - 2.5s cast - 20秒持続 - 再使用5分 - 20% power - スネア50%',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 13 - Grasping Tendrils - 1500 range - 2.5s cast - 30秒継続 - 再使用5分 - 20% power - スネア50%',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 23 - Grasping Creepers - 1500 range - 2.5s cast - 40秒継続 - 再使用1分 - 20% power - スネア50%',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 33 - Grasping Tangleweed - 1500 range - 2.5s cast - 50秒継続 - 再使用30秒 - 20% power - スネア50%',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 43 - Grasping Thornweed - 1500 range - 2.5s cast - 60秒継続 - 再使用30秒 - 20% power - スネア50%',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}
+																			}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('AoEルートスペルは以下のように変更される。'),
+																		_1: {
+																			ctor: '::',
+																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																				{
+																					ctor: '::',
+																					_0: 'Level 4 - Patch of Ivy - 1500 range - 半径350 - 2.5s cast - 12秒継続 - 3 power',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 14 - Patch of Tangleweed - 1500 range - 半径350 - 2.5s cast - 30秒継続 - 10 power',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 24 - Patch of Brambles - 1500 range - 半径350 - 2.5s cast - 47秒継続 - 18 power',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 34 - Patch of Thistles - 1500 range - 半径350 - 2.5s cast - 60秒継続 - 25 power',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 44 - Patch of Underwood - 1500 range - 半径350 - 2.5s cast - 73秒継続 - 32 power',
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text('インスタントルートスペルは以下のように変更される。'),
+																				_1: {
+																					ctor: '::',
+																					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																						{
+																							ctor: '::',
+																							_0: 'Level 20 - Sprouting Thicket - 1500 range - Instant cast - 再使用5分 - 46秒継続 - 17 power',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 30 - Choking Undergrowth - 1500 range - 半径350 - Instant cast - 再使用10分 - 79秒継続 - 30 power',
+																								_1: {ctor: '[]'}
+																							}
+																						}),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('グループメンバーのヘルスと armor factor を増加させる新しいチャントが追加される。'),
+																						_1: {
+																							ctor: '::',
+																							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																								{
+																									ctor: '::',
+																									_0: 'Level 5 - Stoutness of Oak - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを1%増加させる',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 15 - Girth of Oak - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを3%増加させる',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 25 - Resilience of Oak - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを5%増加させる',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 35 - Vigor of Oak - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを7%増加させる',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 45 - Vitality of Oak - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを10%増加させる',
+																													_1: {ctor: '[]'}
+																												}
+																											}
+																										}
+																									}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('新しい防御 proc が追加される。'),
+																								_1: {
+																									ctor: '::',
+																									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																										{
+																											ctor: '::',
+																											_0: 'Level 8 - Vine Skin - 1500 range - 2.8s cast - 再使用5分 - 20秒持続 - 10% power - 物理攻撃者を5秒間ルート。このルートは無効時間を持たないが既に無効中であれば適用されない。',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 18 - Leaf Skin - 1500 range - 2.8s cast - 再使用5分 - 20秒持続 - 10% power - 物理攻撃者を10秒間ルート。このルートは無効時間を持たないが既に無効中であれば適用されない。',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 28 - Root Skin - 1500 range - 2.8s cast - 3m reuse - 20秒持続 - 10% power - 物理攻撃者を20秒間ルート。このルートは無効時間を持たないが既に無効中であれば適用されない。',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 38 - Lush Skin - 1500 range - 2.8s cast - 60s reuse - 20秒持続 - 10% power - 物理攻撃者を34秒間ルート。このルートは無効時間を持たないが既に無効中であれば適用されない。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 48 - Fertile Skin - 1500 range - 2.8s cast - 60s reuse - 20秒持続 - 10% power - 物理攻撃者を48秒間ルート。このルートは無効時間を持たないが既に無効中であれば適用されない。',
+																															_1: {ctor: '[]'}
+																														}
+																													}
+																												}
+																											}
+																										}),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('新しいスペルが追加される。'),
+																										_1: {
+																											ctor: '::',
+																											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																												{
+																													ctor: '::',
+																													_0: 'Level 50 - Heart of Nature - Instant cast - 再使用10分 - 25% power - グループメンバーのすべてのルートとスネアを除去し、味方の200ユニット以内にいる敵を最大2体15秒間ルート状態にする。このルートは無効時間であっても効力を持ち、ダメージを受けても解除されない。このルートは無効時間を無視するがこのルートが解除された後は無効時間が存在する。',
+																													_1: {ctor: '[]'}
+																												}),
+																											_1: {
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text('Free Wind はレベル17のままである。'),
+																												_1: {
+																													ctor: '::',
+																													_0: _elm_lang$html$Html$text('Call Nature Sage はレベル40で習得する。これはレベル40ベースラインペットの `Summon Grove Protector\' を置き換える。'),
+																													_1: {
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text('樹木に加えて bear, lynx, wolf の nature sage も追加される。'),
+																														_1: {
+																															ctor: '::',
+																															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																{
+																																	ctor: '::',
+																																	_0: 'Lynx Sage は Dexterity/Quickness buff を持つ。',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Wolf Sage は damage add buff を持つ。',
+																																		_1: {
+																																			ctor: '::',
+																																			_0: 'Bear Sage は Constitution buff を持つ。',
+																																			_1: {
+																																				ctor: '::',
+																																				_0: 'Nature Sage は disease defensive proc を持つ。',
+																																				_1: {ctor: '[]'}
+																																			}
+																																		}
+																																	}
+																																}),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('単体グラップルは削除された。'),
+																																_1: {
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html$text('単体ダメージ吸収バフは削除された。'),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: _elm_lang$html$Html$text('PBAoE ルートは削除された。'),
+																																		_1: {ctor: '[]'}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix = {
 	ctor: '::',
 	_0: A2(
@@ -12735,7 +13823,10 @@ var _Ragamuffine$daoc_patch_notes$Druid$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Druid$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Druid$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B, _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Druid$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Druid$patch_1_123)));
 
 var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 	ctor: '::',
@@ -12859,6 +13950,51 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Enchantment of Mana の proc 率は50%まで増加する。'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Underhill Stalker のダメージは25%低下する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Underhill Compatriot はプレイヤーから攻撃をされると2倍のダメージを受ける。PvEでは変わらない。'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Underhill Companion のダメージは25%低下する。デバフDDの効果は以下のように調整される。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'レベル1-23ペットではデバフの効果は10%',
+								_1: {
+									ctor: '::',
+									_0: 'レベル24-43ペットではデバフの効果は20%',
+									_1: {
+										ctor: '::',
+										_0: 'レベル44-50ペットではデバフの効果は30%',
+										_1: {ctor: '[]'}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -13489,8 +14625,60 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 							A2(
 								_elm_lang$core$Basics_ops['++'],
 								_Ragamuffine$daoc_patch_notes$Enchanter$patch_20170117,
-								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C)))))))));
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202,
+									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Friar$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('フライアー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Staff (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Excommunicate の proc 率は30%から75%に増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Rejuvenation (スペック)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('グループHoTの効果は以下のように増加する。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 34 - Holy Encouragement - 3秒ごとに60ヘルス(以前は50ヘルス)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 44 - Divine Encouragement - 3秒ごとに130ヘルス(以前は60ヘルス)',
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Enhancements (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Tranquility の持続時間は15秒になり、ダメージ減少効果は25%に増加する。'),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5 = {
 	ctor: '::',
 	_0: A2(
@@ -14071,7 +15259,10 @@ var _Ragamuffine$daoc_patch_notes$Friar$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Friar$patch_1_121C,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B, _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Friar$patch_1_122B,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Friar$patch_1_122B_HotFix5, _Ragamuffine$daoc_patch_notes$Friar$patch_1_123)))));
 
 var _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B = {
 	ctor: '::',
@@ -14218,6 +15409,134 @@ var _Ragamuffine$daoc_patch_notes$Healer$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Healer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Healer$patch_1_121, _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヘレティック 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ヘレティックはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Crush (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 30 - Hellfire Tendrils - Concussion 後 - Medium Endurance - Very High Damage - Medium Offensive Penalty - Medium Defensive Bonus - 習得している最も高いレベルの Fiery Grasp が半径200以内にいる敵に最大3体まで適用される。もし Fiery Grasp を習得していない時は何も起こらない。',
+						_1: {
+							ctor: '::',
+							_0: 'Level 50 - Shadowfire - Back - Medium Endurance - High Damage - No Hit Bonus - Medium Defensive Bonus - 113 heat damage',
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('レベル39スタイル Bonecrusher は半径350以内のすべての敵からランダムでバフを除去する。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Flexible (スペック)'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Level 50 - Leviathan - Back - Medium Endurance - High Damage - Medium Hit Bonus - No Defensive Bonus - 113 heat damage',
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Enhancement (スペック)'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('グループヘルス&amp;AF強化チャントが新しく追加された。'),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+											{
+												ctor: '::',
+												_0: 'Level 5 - Hellflower\'s Flourish - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを1%増加する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 15 - Hellflower\'s Bud - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを3%増加する。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 25 - Hellflower\'s Sprout - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを5%増加する。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 35 - Hellflower\'s Effloresce - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを7%増加する。',
+															_1: {
+																ctor: '::',
+																_0: 'Level 45 - Hellflower\'s Bloom - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを10%増加する。',
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Rejuvenation (スペック)'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('インスタントDoTはインスタントDDに変更される。'),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+														{
+															ctor: '::',
+															_0: 'Level 5 - Flickering Embers - Instant cast - 1500 range - 再使用15秒 - 3 power - 19 heat damage',
+															_1: {
+																ctor: '::',
+																_0: 'Level 10 - Smoldering Embers - Instant cast - 1500 range - 再使用15秒 - 6 power - 34 heat damage',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 16 - Heated Embers - Instant cast - 1500 range - 再使用15秒 - 10 power - 48 heat damage',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 23 - Molten Embers - Instant cast - 1500 range - 再使用15秒 - 13 power - 76 heat damage',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 30 - Flaming Embers - Instant cast - 1500 range - 再使用15秒 - 19 power - 96 heat damage',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 38 - Bursting Embers - Instant cast - 1500 range - 再使用15秒 - 25 power - 129 heat damage',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 48 - Incinerating Embers - Instant cast - 1500 range - 再使用15秒 - 32 power - 160 heat damage',
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('インスタントスネア Fiery Stranglehold の射程は500から1000に増加する。'),
+														_1: {ctor: '[]'}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes = {
 	ctor: '::',
 	_0: A2(
@@ -14515,8 +15834,31 @@ var _Ragamuffine$daoc_patch_notes$Heretic$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_123))));
 
+var _Ragamuffine$daoc_patch_notes$Hero$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヒーロー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Celtic Spear (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レベル39スタイルの Wyvern Talon のダメージは High から Very High に増加する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -14579,8 +15921,69 @@ var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Hero$all = _Ragamuffine$daoc_patch_notes$Hero$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Hero$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hero$patch_1_121, _Ragamuffine$daoc_patch_notes$Hero$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ハンター 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Archery (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('クリティカルショットの endo コストは15%に増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('クリティカルショットのダメージは以下のように低下する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 35 - Critical Shot 6 - 190に低下(以前は204)',
+							_1: {
+								ctor: '::',
+								_0: 'Level 41 - Critical Shot 7 - 215に低下(以前は242)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 47 - Critical Shot 8 - 250に低下(以前は285)',
+									_1: {
+										ctor: '::',
+										_0: 'Level 49 - Critical Shot 9 - 290に低下(以前は305)',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Beastcraft (スペック)'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('ペット召喚スペルの再使用時間は90秒になる。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Avatar の継続時間は5分になる。'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('armor wither スタイルはすべての Avatar から削除される。'),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Hunter$patch_20170202 = {
 	ctor: '::',
 	_0: A2(
@@ -15284,8 +16687,108 @@ var _Ragamuffine$daoc_patch_notes$Hunter$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Hunter$patch_1_121C,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_1_122B, _Ragamuffine$daoc_patch_notes$Hunter$patch_20170202))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Hunter$patch_1_122B,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_20170202, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123)))));
 
+var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('インフィルトレーター 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('インフィルトレーターはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Stealth (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Vanish はステルスラインから削除されレルムアビリティーに戻される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Critical Strike (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 2 - Backstab - Rear, stealthed - Low End - Devastating Damage - Med. Hit Bonus - Med. Def. Penalty - 2秒スタン',
+								_1: {
+									ctor: '::',
+									_0: 'Level 4 - Eviscerate - Follows Backstab - Med. End - Med. Damage - Low Hit Bonus - Low Def. Penalty - 16% 攻撃速度デバフ, 20秒持続',
+									_1: {
+										ctor: '::',
+										_0: 'Level 6 - Kidney Rupture - Follows Eviscerate - High End - Very High damage - High Hit Bonus - High Def. Penalty - 8 damage, 4秒ごと, 20秒出血.',
+										_1: {
+											ctor: '::',
+											_0: 'Level 8 - Pincer - Side - Med. End - High Damage - Low Hit Bonus - High Def. Penalty - 4秒スタン.',
+											_1: {
+												ctor: '::',
+												_0: 'Level 10 - Backstab II - Rear, stealthed - Low End - Devastating Damage - High Hit Bonus - No Def. Bonus - 3秒スタン',
+												_1: {
+													ctor: '::',
+													_0: 'Level 12 - Hamstring - You Evade - Low End - High Damage - Med. Hit Bonus - No Def. Bonus - 21% 攻撃速度デバフ, 20秒持続',
+													_1: {
+														ctor: '::',
+														_0: 'Level 15 - Thigh Cut - Follows Backstab II - Med. End - Very High Damage - Med. Hit Bonus - Low Def. Penalty - 26 damage, 4秒ごと, 20秒出血.',
+														_1: {
+															ctor: '::',
+															_0: 'Level 18 - Garrote - Anytime - Med. End - Med. Damage - Low Hit Bonus - Med. Def. Penalty - 特殊効果なし.',
+															_1: {
+																ctor: '::',
+																_0: 'Level 21 - Perforate Artery - Frontal, stealthed - Low End - Devastating Damage - High Hit Bonus - Low Def. Penalty - 32 damage, 4秒ごと, 20秒出血. スタイルダメージは15%低下。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 25 - Achilles Heel - Follows Hamstring - Low End - Very High Damage - High Hit Bonus - Low Def. Bonus - 26 damage, 4秒ごと, 20秒出血.',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 29 - Leaper - Follows Pincer - Med. End - Very High Damage - Low Hit Bonus - High Def. Bonus - 3% ABS debuff, 30秒継続.',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 34 - Creeping Death - Follows Perforate Artery - Low End - High Damage - High Hit Bonus - Med Def. Penalty - 7秒スタン.',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 39 - Rib Separation - Follows Creeping Death - Low End - Very High Damage - High Hit Bonus - High Def. Penalty - 3% ABS debuff, 30秒継続.',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 44 - Stunning Stab - Rear - High End - Low Damage - Low Hit Bonus - Med Def. Penalty - 6秒スタン.',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 45 - Death\'s Door - Follows Garrote - High End - High Damage - Med. Hit Bonus - Low Def. Penalty - 2% ABS debuff, 30秒継続.',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 50 - Ripper - Follows Achilles Heel - Low End - Very High Damage - Very High Hit Bonus - Med. Def. Bonus - 5% ABS debuff, 30秒継続.',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -15925,8 +17428,435 @@ var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Infiltrator$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_121, _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Infiltrator$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_122B, _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Mauler$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('モーラー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('モーラーはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$seccommon('Staff (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 1 - Wild Swing - Any - Medium Endurance - High Damage - Low Hit Penalty - Medium Defensive Penalty - 9秒間自分の攻撃はブレードターンを無視する。',
+						_1: {
+							ctor: '::',
+							_0: 'Level 2 - Splintered Strike - Follows Wild Swing - Low Endurance - Medium Damage - Low Hit Bonus - Low Defensive Bonus - ターゲットの攻撃速度を20秒間8%低下させる。',
+							_1: {
+								ctor: '::',
+								_0: 'Level 4 - Focused Breach - Follows Splintered Strike - Low Endurance - High Damage - Medium Hit Bonus - No Defensive Bonus - ターゲットのABSを30秒間5%低下させる。',
+								_1: {
+									ctor: '::',
+									_0: 'Level 8 - Percussion - Side - Medium Endurance - Low Damage - Medium Hit Bonus - Low Defensive Penalty - 5秒スタン。',
+									_1: {
+										ctor: '::',
+										_0: 'Level 10 - Cinder Strike - Front - Medium Endurance - Low Damage - Medium Hit Bonus - Low Defensive Bonus - 20ダメージ、与えたダメージの50%を自分のパワーとする。',
+										_1: {
+											ctor: '::',
+											_0: 'Level 15 - Jolting Staff - Follows Wild Swing - Medium Endurance - Medium Damage - Medium Hit Bonus - Low Defensive Bonus - 60秒間自分の物理攻撃は 50 energy damage を追加で与える。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 21 - Turbid staff - Follows Wild Swing - Medium Endurance - Medium Damage - Medium Hit Bonus - Low Defensive Bonus - 9秒間戦闘中の移動速度を上昇させる。この効果はスピードワープを無視する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 25 - Wildbull\'s Staff - Follows Percussion - Very High Endurance - Very High Damage - No Hit Bonus - Very High Defensive Penalty - ターゲットの ablative barrier をキャンセルする。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 29 - Ember Clip - Evade - Medium Endurance - Medium Damage - Medium Hit Bonus - Low Defensive Bonus - 20秒間ターゲットの攻撃速度を30%低下させる。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 34 - Burning Cloud - Behind - High Endurance - High Damage - Low Hit Bonus - No Defensive Bonus - 7秒スタン',
+															_1: {
+																ctor: '::',
+																_0: 'Level 39 - Scorching Cloud - Follows Burning Cloud - High Endurance - Very High Damage - High Hit Bonus - Low Defensive Penalty - 30秒間ターゲットの詠唱時間を50%増加させる。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 44 - Forging Clip - Follows Ember Clip - Medium Endurance - Very High Damage - High Hit Bonus - No Defensive Bonus - 30秒間5秒ごとに 35 heat damage を与える。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 50 - Farseer\'s Staff - Follows Turbid Staff - Medium Endurance - Very High Damage - High Hit Bonus - Medium Defensive Bonus - 15秒間呪文、スタイルのパワー、endo コストがかからない。',
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$seccommon('Aura Manipulation (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('ほとんどの Aura Manipulation スキルを使うためには Staff スペックを選択し Mauler Staff を装備していなければならない。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('以下のスペルによって Aura Manipulation スペルの効果が変化する。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Aura of the Wildbull',
+											_1: {
+												ctor: '::',
+												_0: 'Aura of the Farseer',
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Gift of Nethuni (Aura of the Wildbull) - 3s cast - 再使用45秒'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 4 - 15秒継続 - 5 power - 3秒ごとに 10 ヘルス回復',
+													_1: {
+														ctor: '::',
+														_0: 'Level 14 - 15秒継続 - 15 power - 3秒ごとに 25 ヘルス回復',
+														_1: {
+															ctor: '::',
+															_0: 'Level 24 - 15秒継続 - 35 power - 3秒ごとに 40 ヘルス回復',
+															_1: {
+																ctor: '::',
+																_0: 'Level 34 - 15秒継続 - 45 power - 3秒ごとに 50 ヘルス回復',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 44 - 15秒継続 - 55 power - 3秒ごとに 60 ヘルス回復',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Gift of Nethuni (Aura of the Farseer) - 3s cast - 再使用45秒'),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+														{
+															ctor: '::',
+															_0: 'Level 4 - 5 power - 25 ヘルス回復',
+															_1: {
+																ctor: '::',
+																_0: 'Level 14 - 15 power - 62 ヘルス回復',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 24 - 35 power - 100 ヘルス回復',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 34 - 45 power - 125 ヘルス回復',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 44 - 55 power - 150 ヘルス回復',
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Gift of Tegashrig (Aura of the Wildbull) - 3s cast - 再使用15秒'),
+														_1: {
+															ctor: '::',
+															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																{
+																	ctor: '::',
+																	_0: 'Level 3 - 30秒継続 - 16 power - staff weaponskill を5%増加。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 13 - 30秒継続 - 24 power - staff weaponskill を10%増加。5 Mauler Staff 必要。',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 23 - 30秒継続 - 48 power - staff weaponskill を15%増加。15 Mauler Staff 必要。',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 33 - 30秒継続 - 60 power - staff weaponskill を20%増加。25 Mauler Staff 必要。',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 43 - 30秒継続 - 76 power - staff weaponskill を25%増加。35 Mauler Staff 必要。',
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
+																	}
+																}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Gift of Tegashrig (Aura of the Farseer) - 3s cast - 再使用15秒'),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																		{
+																			ctor: '::',
+																			_0: 'Level 3 - 60秒継続 - 16 power - evasion 率を 4%増加。',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 13 - 60秒継続 - 24 power - evasion 率を 12%増加。5 Mauler Staff 必要。',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 23 - 60秒継続 - 48 power - evasion 率を 18%増加。15 Mauler Staff 必要。',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 33 - 60秒継続 - 60 power - evasion 率を 24%増加。25 Mauler Staff 必要。',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 43 - 60秒継続 - 76 power - evasion 率を 40%増加。35 Mauler Staff 必要。',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}
+																			}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('Gift of Perizor (Aura of the Wildbull) - 2.5s cast - 10% power'),
+																		_1: {
+																			ctor: '::',
+																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																				{
+																					ctor: '::',
+																					_0: 'Level 7 - 1500 range - 13秒継続 - ターゲットをルート。',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 17 - 1550 range - 26秒継続 - ターゲットをルート。5 Mauler Staff 必要。',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 27 - 1600 range - 41秒継続 - ターゲットをルート。15 Mauler Staff 必要。',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 37 - 1700 range - 61秒継続 - ターゲットをルート。25 Mauler Staff 必要。',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 47 - 1750 range - 73秒継続 - ターゲットをルート。35 Mauler Staff 必要。',
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text('Gift of Perizor (Aura of the Farseer) - 2.5s cast - 10% power'),
+																				_1: {
+																					ctor: '::',
+																					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																						{
+																							ctor: '::',
+																							_0: 'Level 7 - 1500 range - ターゲットのパワーを 12% 吸収。',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 17 - 1550 range - ターゲットのパワーを 15% 吸収。5 Mauler Staff 必要。',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 27 - 1600 range - ターゲットのパワーを 25% 吸収。15 Mauler Staff 必要。',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 37 - 1700 range - ターゲットのパワーを 30% 吸収。25 Mauler Staff 必要。',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 47 - 1750 range - ターゲットのパワーを 35% 吸収。35 Mauler Staff 必要。',
+																											_1: {ctor: '[]'}
+																										}
+																									}
+																								}
+																							}
+																						}),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('Gift of Arasthai (Aura of the Wildbull) - 5s cast - 30% power - 再使用3分'),
+																						_1: {
+																							ctor: '::',
+																							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																								{
+																									ctor: '::',
+																									_0: 'Level 9 - 10秒継続 - 物理ダメージ 1%.',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 19 - 10秒継続 - 物理ダメージ 2% 増加。5 Mauler Staff 必要。',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 29 - 20秒持続 - 物理ダメージ 3% 増加。15 Mauler Staff 必要。',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 39 - 30秒継続 - 物理ダメージ 7% 増加。25 Mauler Staff 必要。',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 49 - 40秒継続 - 物理ダメージ 10% 増加。35 Mauler Staff 必要。',
+																													_1: {ctor: '[]'}
+																												}
+																											}
+																										}
+																									}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('Gift of Arasthai (Aura of the Farseer) - 5s cast - 30% power - 再使用3分'),
+																								_1: {
+																									ctor: '::',
+																									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																										{
+																											ctor: '::',
+																											_0: 'Level 9 - 10秒継続 - 魔法ダメージ 1% 増加。',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 19 - 10秒継続 - 魔法ダメージ 2% 増加。5 Mauler Staff 必要。',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 29 - 20秒持続 - 魔法ダメージ 3% 増加。15 Mauler Staff 必要。',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 39 - 30秒継続 - 魔法ダメージ 7% 増加。25 Mauler Staff 必要。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 49 - 40秒継続 - 魔法ダメージ 10% 増加。35 Mauler Staff 必要。',
+																															_1: {ctor: '[]'}
+																														}
+																													}
+																												}
+																											}
+																										}),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('Gift of Albion/Midgard/Hibernia (Aura of the Wildbull) - 2s cast - 1500 range - 30% power'),
+																										_1: {
+																											ctor: '::',
+																											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																												{
+																													ctor: '::',
+																													_0: 'Level 5 - 45 matter/cold/heat damage',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 15 - 100 matter/cold/heat damage. 5 Mauler Staff 必要。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 25 - 190 matter/cold/heat damage. 15 Mauler Staff 必要。',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 35 - 350 matter/cold/heat damage. 25 Mauler Staff 必要。',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 45 - 550 matter/cold/heat damage. 35 Mauler Staff 必要。',
+																																	_1: {ctor: '[]'}
+																																}
+																															}
+																														}
+																													}
+																												}),
+																											_1: {
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text('Gift of Albion/Midgard/Hibernia (Aura of the Farseer) - 2s cast - 1500 range - 30% power'),
+																												_1: {
+																													ctor: '::',
+																													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																														{
+																															ctor: '::',
+																															_0: 'Level 5 - 45 body/spirit/energy damage',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 15 - 100 body/spirit/energy damage. 5 Mauler Staff 必要。',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 25 - 190 body/spirit/energy damage. 15 Mauler Staff 必要。',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 35 - 350 body/spirit/energy damage. 25 Mauler Staff 必要。',
+																																		_1: {
+																																			ctor: '::',
+																																			_0: 'Level 45 - 550 body/spirit/energy damage. 35 Mauler Staff 必要。',
+																																			_1: {ctor: '[]'}
+																																		}
+																																	}
+																																}
+																															}
+																														}),
+																													_1: {
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text('以下のスキルが追加させる。'),
+																														_1: {
+																															ctor: '::',
+																															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																{
+																																	ctor: '::',
+																																	_0: 'Level 50 - Aura Convergence - 5s cast - 2000 range - 半径500 - 30秒継続 - 再使用10分 - 範囲内の味方および敵からパワーを吸収する。さらに自分または味方が受けたダメージの25%は自分を回復させる。',
+																																	_1: {ctor: '[]'}
+																																}),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('自己 offensive ヒール proc Gift of Renewal は変更されていない。Mauler Staff を使う必要はない。'),
+																																_1: {
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html$text('グループニアサイト緩和パルスは削除された。'),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: _elm_lang$html$Html$text('グループメツ緩和パルスは削除された。'),
+																																		_1: {ctor: '[]'}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -15943,7 +17873,7 @@ var _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121 = {
 		_1: {ctor: '[]'}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Mauler$all = _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Mauler$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mauler$patch_1_121, _Ragamuffine$daoc_patch_notes$Mauler$patch_1_123);
 
 var _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_122C_HotFixNotes = {
 	ctor: '::',
@@ -16389,6 +18319,149 @@ var _Ragamuffine$daoc_patch_notes$Mercenary$all = A2(
 	_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C, _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C));
 
+var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ミンストレル 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ミンストレルはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Instruments (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('すべてのスピードソングはベースに移される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 3 - Motivational Chant',
+							_1: {
+								ctor: '::',
+								_0: 'Level 13 - Motivational Song',
+								_1: {
+									ctor: '::',
+									_0: 'Level 23 - Motivational Hymn',
+									_1: {
+										ctor: '::',
+										_0: 'Level 33 - Motivational Strains',
+										_1: {
+											ctor: '::',
+											_0: 'Level 43 - Motivational Anthem',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('水バフスペルはベースに移される。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('新しい celerity ソングが追加される。この celerity の効果はパラディンの celerity と共存可能だがペットに対しては無効である。また効果時間が終わった後に自動的に更新されない。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 16 - Song of Inspiring Fervor - 3.5s cast - 2000 range - 15秒継続 - グループの攻撃速度を 24% 増加させる',
+											_1: {
+												ctor: '::',
+												_0: 'Level 26 - Song of Rallying Fervor - 3.5s cast - 2000 range - 15秒継続 - グループの攻撃速度を 28% 増加させる',
+												_1: {
+													ctor: '::',
+													_0: 'Level 36 - Song of Awakening Fervor - 3.5s cast - 2000 range - 15秒継続 - グループの攻撃速度を 31% 増加させる',
+													_1: {
+														ctor: '::',
+														_0: 'Level 46 - Song of Everlasting Fervor - 3.5s cast - 2000 range - 15秒継続 - グループの攻撃速度を 37% 増加させる',
+														_1: {ctor: '[]'}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('新しい魔法ダメージ緩和ソングが追加される。このソングは効果時間が終わった後に自動的に更新されない。'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 9 - Song of Spell Protection - 3.5s cast - 1500 range - 15秒継続 - グループの二次魔法レジストを 3% 増加させる。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 19 - Song of Spell Warding - 3.5s cast - 1500 range - 15秒継続 - グループの二次魔法レジストを 7% 増加させる。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 29 - Song of Spell Shielding - 3.5s cast - 1500 range - 15秒継続 - グループの二次魔法レジストを 10% 増加させる。',
+															_1: {
+																ctor: '::',
+																_0: 'Level 39 - Song of Spell Degradation - 3.5s cast - 1500 range - 15秒継続 - グループの二次魔法レジストを 15% 増加させる。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 49 - Song of Spell Invulnerability - 3.5s cast - 1500 range - 15秒継続 - グループの二次魔法レジストを 20% 増加させる。',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('新しいスペル射程ソングが追加される。このソングは効果時間が終わった後に自動的に更新されない。'),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+														{
+															ctor: '::',
+															_0: 'Level 8 - Song of Magical Reach - 3.5s cast - 1500 range - 30秒継続 - グループの魔法の射程を 2% 増加させる。',
+															_1: {
+																ctor: '::',
+																_0: 'Level 18 - Song of Arcane Reach - 3.5s cast - 1500 range - 30秒継続 - グループの魔法の射程を 4% 増加させる。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 28 - Song of Wizardic Reach - 3.5s cast - 1500 range - 30秒継続 - グループの魔法の射程を 6% 増加させる。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 38 - Song of Supreme Reach - 3.5s cast - 1500 range - 30秒継続 - グループの魔法の射程を 8% 増加させる。',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 48 - Song of Sorcerous Reach - 3.5s cast - 1500 range - 30秒継続 - グループの魔法の射程を 10% 増加させる。',
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}
+														}),
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2 = {
 	ctor: '::',
 	_0: A2(
@@ -16540,8 +18613,236 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Plated Fiend と Soultorn のダメージは25%低下する。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (基本)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('グラウンドエリア病気スペルの再使用時間は90秒に延長される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('単体スネアは Death Servant に移された。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('AF デバフの持続時間は15秒に短縮された。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Bringer of Death の有効ダメージは25%低下し、病気の継続時間は16秒になり、ダメージペナルティーは削除された。'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('Decrepit Form のレベル35-45の体力回復効果は25%低下した。'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('PBAoE スペルは Decrepit Form と Spirit Form で使用できるようになった。'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('PBAoE スペルのダメージは以下のように調整された。'),
+											_1: {
+												ctor: '::',
+												_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+													{
+														ctor: '::',
+														_0: 'Level 35 - Channeled Wrath - 240 spirit damage.',
+														_1: {
+															ctor: '::',
+															_0: 'Level 45 - Channeled Frenzy - 305 spirit damage.',
+															_1: {ctor: '[]'}
+														}
+													}),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (基本)'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Umbral Aegis はプレイヤーから攻撃された場合に2倍のダメージを受ける。PvE では変わらない。'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html$text('パワードレインのダメージは75%低下するが吸収されるパワーは50%増える。'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('グラウンドアリアパワー回復スペルの再使用は90秒になる。'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Soultorn のスペル詠唱時間は2.3秒から2.6秒になり、Spirit Form のペットはDoTを使わなくなり病気のみを適用する。'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('Soultorn のデバフは以下のように調整される。'),
+																		_1: {
+																			ctor: '::',
+																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																				{
+																					ctor: '::',
+																					_0: 'レベル1-23では10%デバフ',
+																					_1: {
+																						ctor: '::',
+																						_0: 'レベル24-43では20%デバフ',
+																						_1: {
+																							ctor: '::',
+																							_0: 'レベル44-50では30%デバフ',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (スペック)'),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('以前は Deathsight にあった単体スネアは以下のようになる。Decrepit Form でなくても詠唱できる。'),
+																					_1: {
+																						ctor: '::',
+																						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																							{
+																								ctor: '::',
+																								_0: 'Crippling Exhaustion - level 4.',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Constricting Exhaustion - level 14.',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Disabling Exhaustion - level 24.',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Debilitating Exhaustion - level 34.',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Snaring Exhaustion - level 44.',
+																												_1: {ctor: '[]'}
+																											}
+																										}
+																									}
+																								}
+																							}),
+																						_1: {
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text('単体ボルトは Decrepit Form と Spirit Form で使えるようになった。'),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('すべてのレベルでスネアDDのスネア効果は20%となった。'),
+																								_1: {
+																									ctor: '::',
+																									_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (基本)'),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('グラウンドエリアダメージスペルの再使用時間は90秒になる。'),
+																										_1: {
+																											ctor: '::',
+																											_0: _elm_lang$html$Html$text('グラウンドエリアダメージスペルのダメージは以下のように減少する。'),
+																											_1: {
+																												ctor: '::',
+																												_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																													{
+																														ctor: '::',
+																														_0: 'Level 1 - Icy Ground - 4 damage/tick.',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 11 - Chilling Ground - 18 damage/tick.',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 21 - Frigid Ground - 42 damage/tick.',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 31 - Numbing Ground - 112 damage/tick.',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 41 - Freezing Ground - 175 damage/tick.',
+																																		_1: {ctor: '[]'}
+																																	}
+																																}
+																															}
+																														}
+																													}),
+																												_1: {
+																													ctor: '::',
+																													_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (スペック)'),
+																													_1: {
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text('魔法吸収パルスの初期パワーコストはすべてのレベルで30%となり、5秒の詠唱時間となる。移動しながらでも詠唱できるが妨害は受ける。'),
+																														_1: {
+																															ctor: '::',
+																															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																{
+																																	ctor: '::',
+																																	_0: 'Level 16 - Arctic Death - 攻撃速度低下の効果は18%から26%に増加する。',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 27 - Freezing Terror - ダメージは30から20に低下する。',
+																																		_1: {
+																																			ctor: '::',
+																																			_0: 'Level 37 - Freezing Clench - ダメージは54から42に低下する。',
+																																			_1: {
+																																				ctor: '::',
+																																				_0: 'Level 31 - Ice Chain - 持続時間は3秒から4秒に増加する。',
+																																				_1: {
+																																					ctor: '::',
+																																					_0: 'Level 41 - Ice Bracelet - 持続時間は4秒から6秒に増加する。',
+																																					_1: {ctor: '[]'}
+																																				}
+																																			}
+																																		}
+																																	}
+																																}),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('単体レジストデバフの射程は1500から2000になる。'),
+																																_1: {
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html$text('Nethersbane のスネアはAoEではなく単体になるが持続時間は2秒から4秒に増加する。また proc ダメージは150から175に増加する。'),
+																																	_1: {ctor: '[]'}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes = {
 	ctor: '::',
 	_0: A2(
@@ -17778,13 +20079,13 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122B = {
 																																																							_0: 'Level 7 - Edge of Hatred - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 5.8 spirit damage',
 																																																							_1: {
 																																																								ctor: '::',
-																																																								_0: 'Level 17 - Eviscerating Protector - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 8.9 spirit damage',
+																																																								_0: 'Level 17 - Eviscerating Protector - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 8.9 spirit damage',
 																																																								_1: {
 																																																									ctor: '::',
-																																																									_0: 'Level 27 - Knives of Death - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 11.6 spirit damage',
+																																																									_0: 'Level 27 - Knives of Death - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 11.6 spirit damage',
 																																																									_1: {
 																																																										ctor: '::',
-																																																										_0: 'Level 37 - Flaying Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象にDeals 15.3 spirit damage',
+																																																										_0: 'Level 37 - Flaying Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 15.3 spirit damage',
 																																																										_1: {
 																																																											ctor: '::',
 																																																											_0: 'Level 47 - Soul Sundering Shield - 詠唱2.2秒 - 持続時間20分 - 20% power - 物理攻撃する対象に 21.1 spirit damage',
@@ -18622,8 +20923,104 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 								A2(
 									_elm_lang$core$Basics_ops['++'],
 									_Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202,
-									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes))))))))));
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C,
+										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123)))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ナイトシェード 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Stealth (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Vanish はステルスラインから削除されレルムアビリティーに戻される。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Critical Strike (スペック)'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 2 - Backstab - Rear, stealthed - Low End - Devastating Damage - Med. Hit Bonus - Med. Def. Penalty - 2秒スタン',
+							_1: {
+								ctor: '::',
+								_0: 'Level 4 - Eviscerate - Follows Backstab - Med. End - Med. Damage - Low Hit Bonus - Low Def. Penalty - 16% 攻撃速度デバフ, 20秒持続',
+								_1: {
+									ctor: '::',
+									_0: 'Level 6 - Kidney Rupture - Follows Eviscerate - High End - Very High damage - High Hit Bonus - High Def. Penalty - 8 damage, 4秒ごと, 20秒出血.',
+									_1: {
+										ctor: '::',
+										_0: 'Level 8 - Pincer - Side - Med. End - High Damage - Low Hit Bonus - High Def. Penalty - 4秒スタン.',
+										_1: {
+											ctor: '::',
+											_0: 'Level 10 - Backstab II - Rear, stealthed - Low End - Devastating Damage - High Hit Bonus - No Def. Bonus - 3秒スタン',
+											_1: {
+												ctor: '::',
+												_0: 'Level 12 - Hamstring - You Evade - Low End - High Damage - Med. Hit Bonus - No Def. Bonus - 21% 攻撃速度デバフ, 20秒持続',
+												_1: {
+													ctor: '::',
+													_0: 'Level 15 - Thigh Cut - Follows Backstab II - Med. End - Very High Damage - Med. Hit Bonus - Low Def. Penalty - 26 damage, 4秒ごと, 20秒出血.',
+													_1: {
+														ctor: '::',
+														_0: 'Level 18 - Garrote - Anytime - Med. End - Med. Damage - Low Hit Bonus - Med. Def. Penalty - 特殊効果なし.',
+														_1: {
+															ctor: '::',
+															_0: 'Level 21 - Perforate Artery - Frontal, stealthed - Low End - Devastating Damage - High Hit Bonus - Low Def. Penalty - 32 damage, 4秒ごと, 20秒出血. スタイルダメージは15%低下。',
+															_1: {
+																ctor: '::',
+																_0: 'Level 25 - Achilles Heel - Follows Hamstring - Low End - Very High Damage - High Hit Bonus - Low Def. Bonus - 26 damage, 4秒ごと, 20秒出血.',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 29 - Leaper - Follows Pincer - Med. End - Very High Damage - Low Hit Bonus - High Def. Bonus - 3% ABS debuff, 30秒継続.',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 34 - Creeping Death - Follows Perforate Artery - Low End - High Damage - High Hit Bonus - Med Def. Penalty - 7秒スタン.',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 39 - Rib Separation - Follows Creeping Death - Low End - Very High Damage - High Hit Bonus - High Def. Penalty - 3% ABS debuff, 30秒継続.',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 44 - Stunning Stab - Rear - High End - Low Damage - Low Hit Bonus - Med Def. Penalty - 6秒スタン.',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 45 - Death\'s Door - Follows Garrote - High End - High Damage - Med. Hit Bonus - Low Def. Penalty - 2% ABS debuff, 30秒継続.',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 50 - Ripper - Follows Achilles Heel - Low End - Very High Damage - Very High Hit Bonus - Med. Def. Bonus - 5% ABS debuff, 30秒継続.',
+																						_1: {ctor: '[]'}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -19267,8 +21664,56 @@ var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Nightshade$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Nightshade$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('パラディン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('パラディンはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Chants (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('新しいグループヒールが追加される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 15 - Heaven\'s Commendation - Group - 2.6s cast - 2000 range - 32 power - 97回復',
+							_1: {
+								ctor: '::',
+								_0: 'Level 26 - Heaven\'s Benediction - Group - 2.4s cast - 2000 range - 50 power - 163回復',
+								_1: {
+									ctor: '::',
+									_0: 'Level 36 - Heaven\'s Blessing - Group - 2.2s cast - 2000 range - 64 power - 223回復',
+									_1: {
+										ctor: '::',
+										_0: 'Level 46 - Heaven\'s Approbation - Group - 2.0s cast - 2000 range - 75 power - 283回復',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5 = {
 	ctor: '::',
 	_0: A2(
@@ -19584,8 +22029,56 @@ var _Ragamuffine$daoc_patch_notes$Paladin$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_123))));
 
+var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レンジャー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Archery (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('クリティカルショットの endo コストは15%に増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('クリティカルショットのダメージは以下のように低下する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 35 - Critical Shot 6 - 190に低下(以前は204)',
+							_1: {
+								ctor: '::',
+								_0: 'Level 41 - Critical Shot 7 - 215に低下(以前は242)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 47 - Critical Shot 8 - 250に低下(以前は285)',
+									_1: {
+										ctor: '::',
+										_0: 'Level 49 - Critical Shot 9 - 290に低下(以前は305)',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -20131,8 +22624,35 @@ var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Ranger$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Ranger$patch_1_121, _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Ranger$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Ranger$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B, _Ragamuffine$daoc_patch_notes$Ranger$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Reaver$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('リーバー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Soulrending (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Circle of Despair の再使用時間は90秒から60秒に短縮される。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('インスタントエナジーデバフは除去された。'),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Reaver$patch_1_121B = {
 	ctor: '::',
 	_0: A2(
@@ -20473,7 +22993,10 @@ var _Ragamuffine$daoc_patch_notes$Reaver$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Reaver$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Reaver$patch_1_121, _Ragamuffine$daoc_patch_notes$Reaver$patch_1_121B);
+var _Ragamuffine$daoc_patch_notes$Reaver$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Reaver$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Reaver$patch_1_121B, _Ragamuffine$daoc_patch_notes$Reaver$patch_1_123));
 
 var _Ragamuffine$daoc_patch_notes$Runemaster$patch_1_121 = {
 	ctor: '::',
@@ -21112,6 +23635,51 @@ var _Ragamuffine$daoc_patch_notes$Savage$all = A2(
 			_Ragamuffine$daoc_patch_notes$Savage$patch_1_122B,
 			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C))));
 
+var _Ragamuffine$daoc_patch_notes$Scout$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スカウト 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Archery (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('クリティカルショットの endo コストは15%に増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('クリティカルショットのダメージは以下のように低下する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 35 - Critical Shot 6 - 190に低下(以前は204)',
+							_1: {
+								ctor: '::',
+								_0: 'Level 41 - Critical Shot 7 - 215に低下(以前は242)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 47 - Critical Shot 8 - 250に低下(以前は285)',
+									_1: {
+										ctor: '::',
+										_0: 'Level 49 - Critical Shot 9 - 290に低下(以前は305)',
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Scout$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -21598,8 +24166,108 @@ var _Ragamuffine$daoc_patch_notes$Scout$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Scout$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Scout$patch_1_121, _Ragamuffine$daoc_patch_notes$Scout$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Scout$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Scout$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Scout$patch_1_122B, _Ragamuffine$daoc_patch_notes$Scout$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('シャドウブレード 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('シャドウブレードはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Stealth (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Vanish はステルスラインから削除されレルムアビリティーに戻される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Critical Strike (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 2 - Backstab - Rear, stealthed - Low End - Devastating Damage - Med. Hit Bonus - Med. Def. Penalty - 2秒スタン',
+								_1: {
+									ctor: '::',
+									_0: 'Level 4 - Eviscerate - Follows Backstab - Med. End - Med. Damage - Low Hit Bonus - Low Def. Penalty - 16% 攻撃速度デバフ, 20秒持続',
+									_1: {
+										ctor: '::',
+										_0: 'Level 6 - Kidney Rupture - Follows Eviscerate - High End - Very High damage - High Hit Bonus - High Def. Penalty - 8 damage, 4秒ごと, 20秒出血.',
+										_1: {
+											ctor: '::',
+											_0: 'Level 8 - Pincer - Side - Med. End - High Damage - Low Hit Bonus - High Def. Penalty - 4秒スタン.',
+											_1: {
+												ctor: '::',
+												_0: 'Level 10 - Backstab II - Rear, stealthed - Low End - Devastating Damage - High Hit Bonus - No Def. Bonus - 3秒スタン',
+												_1: {
+													ctor: '::',
+													_0: 'Level 12 - Hamstring - You Evade - Low End - High Damage - Med. Hit Bonus - No Def. Bonus - 21% 攻撃速度デバフ, 20秒持続',
+													_1: {
+														ctor: '::',
+														_0: 'Level 15 - Thigh Cut - Follows Backstab II - Med. End - Very High Damage - Med. Hit Bonus - Low Def. Penalty - 26 damage, 4秒ごと, 20秒出血.',
+														_1: {
+															ctor: '::',
+															_0: 'Level 18 - Garrote - Anytime - Med. End - Med. Damage - Low Hit Bonus - Med. Def. Penalty - 特殊効果なし.',
+															_1: {
+																ctor: '::',
+																_0: 'Level 21 - Perforate Artery - Frontal, stealthed - Low End - Devastating Damage - High Hit Bonus - Low Def. Penalty - 32 damage, 4秒ごと, 20秒出血. スタイルダメージは15%低下。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 25 - Achilles Heel - Follows Hamstring - Low End - Very High Damage - High Hit Bonus - Low Def. Bonus - 26 damage, 4秒ごと, 20秒出血.',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 29 - Leaper - Follows Pincer - Med. End - Very High Damage - Low Hit Bonus - High Def. Bonus - 3% ABS debuff, 30秒継続.',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 34 - Creeping Death - Follows Perforate Artery - Low End - High Damage - High Hit Bonus - Med Def. Penalty - 7秒スタン.',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 39 - Rib Separation - Follows Creeping Death - Low End - Very High Damage - High Hit Bonus - High Def. Penalty - 3% ABS debuff, 30秒継続.',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 44 - Stunning Stab - Rear - High End - Low Damage - Low Hit Bonus - Med Def. Penalty - 6秒スタン.',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 45 - Death\'s Door - Follows Garrote - High End - High Damage - Med. Hit Bonus - Low Def. Penalty - 2% ABS debuff, 30秒継続.',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 50 - Ripper - Follows Achilles Heel - Low End - Very High Damage - Very High Hit Bonus - Med. Def. Bonus - 5% ABS debuff, 30秒継続.',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -22299,8 +24967,479 @@ var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Shadowblade$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_121B, _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_122B));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_121B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('シャーマン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('シャーマンはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Mending (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Frigg のHoTスペルの回復量が大幅に増加する。ただしグループHoTとはスタックしない。最高レベルのHoTのみが有効になる。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 16 - Frigg\'s Cure - 75ヘルス回復(以前は51)',
+							_1: {
+								ctor: '::',
+								_0: 'Level 21 - Frigg\'s Elixir - 125ヘルス回復(以前は66)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 27 - Frigg\'s Panacea - 200ヘルス回復(以前は84)',
+									_1: {
+										ctor: '::',
+										_0: 'Level 32 - Frigg\'s Remedy - 300ヘルス回復(以前は99)',
+										_1: {
+											ctor: '::',
+											_0: 'Level 43 - Frigg\'s Balm - 500ヘルス回復(以前は132)',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('グループHoTは以下のように修正される。持続時間は20秒になる。シングルHoTとはスタックせず、最高レベルのHoTのみが有効になる。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Level 26 - Fungal Rejuvenation - 81 から 175 ヘルスに増加',
+									_1: {
+										ctor: '::',
+										_0: 'Level 35 - Fungal Regeneration - 108 から 250 ヘルスに増加',
+										_1: {
+											ctor: '::',
+											_0: 'Level 46 - Fungal Restoration - 141 から 450 ヘルスに増加',
+											_1: {ctor: '[]'}
+										}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Cave Magic (基本)'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('DoT のダメージはわずかに上昇する。'),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+											{
+												ctor: '::',
+												_0: 'Level 25 - Fungal Degeneration - 55ダメージ(以前は45)',
+												_1: {
+													ctor: '::',
+													_0: 'Level 30 - Fungal Degeneration - 70ダメージ(以前は53)',
+													_1: {
+														ctor: '::',
+														_0: 'Level 35 - Fungal Decrepitude - 82ダメージ(以前は63)',
+														_1: {
+															ctor: '::',
+															_0: 'Level 41 - Fungal Dilapidation - 90ダメージ(以前は73)',
+															_1: {
+																ctor: '::',
+																_0: 'Level 48 - Fungal Blight - 102ダメージ(以前は87)',
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('DDスペルが追加された。'),
+											_1: {
+												ctor: '::',
+												_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+													{
+														ctor: '::',
+														_0: 'Level 9 - Ancestor\'s Call - 1500 range - 2.6s cast - 7 power - 35 spirit damage',
+														_1: {
+															ctor: '::',
+															_0: 'Level 19 - Ancestor\'s Burial - 1500 range - 2.6s cast - 15 power - 73 spirit damage',
+															_1: {
+																ctor: '::',
+																_0: 'Level 29 - Ancestor\'s Oppression - 1500 range - 2.6s cast - 19 power - 92 spirit damage',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 39 - Ancestor\'s Torment - 1500 range - 2.6s cast - 30 power - 128 spirit damage',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 49 - Ancestor\'s Ruin - 1500 range - 2.6s cast - 37 power - 148 spirit damage',
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}),
+												_1: {
+													ctor: '::',
+													_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Cave Magic (スペック)'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('物理ダメージ低下デバフは以下のように調整された。'),
+														_1: {
+															ctor: '::',
+															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																{
+																	ctor: '::',
+																	_0: 'Level 1 - Break Arms - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 10% power - ターゲットの物理ダメージを5%減少させる。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 11 - Ruin Arms - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 10% power - ターゲットの物理ダメージを10%減少させる。',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 21 - Crumble Arms - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 10% power - ターゲットの物理ダメージを20%減少させる。',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 31 - Break Arms - 1500 range - 2.8s cast - 30秒継続 - 再使用45秒 - 15% power - ターゲットの物理ダメージを30%減少させる。',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 41 - Break Arms - 1500 range - 2.8s cast - 30秒継続 - 再使用45秒 - 20% power - ターゲットの物理ダメージを50%減少させる。',
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
+																	}
+																}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('単体ボルトスペルは以下のように変更される。'),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																		{
+																			ctor: '::',
+																			_0: 'Level 2 - Fungal Pin - 1875 range - 2.5s cast - 再使用20秒 - 2 power - 62 matter damage',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 12 - Fungal Bramble - 1875 range - 2.5s cast - 再使用20秒 - 7 power - 134 matter damage',
+																				_1: {
+																					ctor: '::',
+																					_0: 'Level 22 - Fungal Thorn - 1875 range - 2.5s cast - 再使用20秒 - 15 power - 200 matter damage',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 32 - Fungal Barb - 1875 range - 2.5s cast - 再使用20秒 - 22 power - 290 matter damage',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 42 - Fungal Spine - 1875 range - 2.5s cast - 再使用20秒 - 26 power - 350 matter damage',
+																							_1: {ctor: '[]'}
+																						}
+																					}
+																				}
+																			}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('魔法ダメージ低下デバフは以下のように調整された。'),
+																		_1: {
+																			ctor: '::',
+																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																				{
+																					ctor: '::',
+																					_0: 'Level 3 - Weary Magic - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 15% power - ターゲットの魔法ダメージを5%減少させる。',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 13 - Fizzle Magic - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 15% power - ターゲットの魔法ダメージを10%減少させる。',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 23 - Suppress Magic - 1000 range - 2.8s cast - 30秒継続 - 再使用45秒 - 15% power - ターゲットの魔法ダメージを25%減少させる。',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 33 - Suspend Magic - 1500 range - 2.8s cast - 30秒継続 - 再使用45秒 - 20% power - ターゲットの魔法ダメージを50%減少させる。',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 43 - Halt Magic - 1500 range - 2.8s cast - 30秒継続 - 再使用45秒 - 30% power - ターゲットの魔法ダメージを75%減少させる。',
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text('AoE DoT スペルのレベルは以下のように変更された。'),
+																				_1: {
+																					ctor: '::',
+																					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																						{
+																							ctor: '::',
+																							_0: 'Level 4 - Spore Mist',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 14 - Spore Cloud',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 24 - Spore Explosion',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 34 - Spore Storm',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 44 - Spore Whirlwind',
+																											_1: {ctor: '[]'}
+																										}
+																									}
+																								}
+																							}
+																						}),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('AoE ルートのレベルは以下のように変更された。'),
+																						_1: {
+																							ctor: '::',
+																							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																								{
+																									ctor: '::',
+																									_0: 'Level 5 - Thicket field - 1500 range - 2.5s cast - 半径350 - 14秒継続 - 6 power',
+																									_1: {
+																										ctor: '::',
+																										_0: 'Level 15 - Vine Field - 1500 range - 2.5s cast - 半径350 - 25秒継続 - 13 power',
+																										_1: {
+																											ctor: '::',
+																											_0: 'Level 25 - Weed Field - 1500 range - 2.5s cast - 半径350 - 41秒継続 - 19 power',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 35 - Creeper Field - 1500 range - 2.5s cast - 半径350 - 55秒継続 - 25 power',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 45 - Tendril Field - 1500 range - 2.5s cast - 半径350 - 73秒継続 - 32 power',
+																													_1: {ctor: '[]'}
+																												}
+																											}
+																										}
+																									}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('新しい単体ヒールキュアスペルが追加された。'),
+																								_1: {
+																									ctor: '::',
+																									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																										{
+																											ctor: '::',
+																											_0: 'Level 6 - Purifying Heal - 1500 range - 3.0s cast - 13 power - ターゲットのヘルスを38回復し、毒を解除する。',
+																											_1: {
+																												ctor: '::',
+																												_0: 'Level 16 - Purifying Amelioration - 1500 range - 2.9s cast - 21 power - ターゲットのヘルスを108回復し、毒、ニアサイトを解除する。',
+																												_1: {
+																													ctor: '::',
+																													_0: 'Level 26 - Purifying Restoration - 1500 range - 2.8s cast - 32 power - ターゲットのヘルスを185回復し、毒、に朝と、サイレンスを解除する。',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 36 - Purifying Reconstruction - 1500 range - 2.6s cast - 43 power - ターゲットのヘルスを241回復し、毒、ニアサイト、サイレンス、病気を解除する。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 46 - Purifying Emendation - 1500 range - 2.5s cast - 55 power - ターゲットのヘルスを302回復し、毒、ニアサイト、サイレンス、病気、魔法スタンを解除する。',
+																															_1: {ctor: '[]'}
+																														}
+																													}
+																												}
+																											}
+																										}),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text('PBAoE 病気のレベルは以下のように変更された。'),
+																										_1: {
+																											ctor: '::',
+																											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																												{
+																													ctor: '::',
+																													_0: 'Level 7 - Mold Spray - Instant cast - 半径350 - 10秒継続 - 再使用60秒 - 10% power - 移動速度5%低下、strength 5 低下、ヒール50%カット。',
+																													_1: {
+																														ctor: '::',
+																														_0: 'Level 17 - Mold Blast - Instant cast - 半径350 - 30秒継続 - 再使用8秒 - 10% power - 移動速度15%低下、strength 25 低下、ヒール50%カット。',
+																														_1: {
+																															ctor: '::',
+																															_0: 'Level 27 - Mold Cloud - Instant cast - 半径350 - 40秒継続 - 再使用8秒 - 10% power - 移動速度15%低下、strength 35 低下、ヒール50%カット。',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 37 - Mold Burst - Instant cast - 半径350 - 50秒継続 - 再使用8秒 - 10% power - 移動速度15%低下、strength 45 低下、ヒール50%カット。',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 47 - Mold Explosion - Instant cast - 半径350 - 60秒継続 - 再使用6秒 - 10% power - 移動速度15%低下、strength 55 低下、ヒール50%カット',
+																																	_1: {ctor: '[]'}
+																																}
+																															}
+																														}
+																													}
+																												}),
+																											_1: {
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text('新しい endo コスト増加デバフが追加された。このデバフの対象には物理攻撃スタイル、スプリント、フェイズシフトが含まれる。'),
+																												_1: {
+																													ctor: '::',
+																													_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																														{
+																															ctor: '::',
+																															_0: 'Level 8 - Tiring Curse - 1500 range - 3.2s cast - 60秒継続 - 再使用30秒 - 20% power - endo コスト10%増加',
+																															_1: {
+																																ctor: '::',
+																																_0: 'Level 18 - Waning Curse - 1500 range - 3.2s cast - 60秒継続 - 再使用30秒 - 20% power - endo コスト25%増加',
+																																_1: {
+																																	ctor: '::',
+																																	_0: 'Level 28 - Demanding Curse - 1500 range - 3.2s cast - 60秒継続 - 再使用30秒 - 20% power - endo コスト50%増加',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 38 - Exacting Curse - 1500 range 3.2s cast - 60秒継続 - 再使用30秒 - 20% power - endo コスト75%増加',
+																																		_1: {
+																																			ctor: '::',
+																																			_0: 'Level 48 - Exhausting Curse - 1500 range 3.2s cast - 60秒継続 - 再使用30秒 - 20% power - endo コスト100%増加',
+																																			_1: {ctor: '[]'}
+																																		}
+																																	}
+																																}
+																															}
+																														}),
+																													_1: {
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text('新しいグループヒール&amp;ダメージ緩和スペルが追加された。ダメージ緩和効果は Spirit Shell と共存するがスタックはしない。'),
+																														_1: {
+																															ctor: '::',
+																															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																{
+																																	ctor: '::',
+																																	_0: 'Level 9 - Warding Aid - 1500 range - 3.2s cast - 25% power - グループのヘルスを20回復し、10秒間すべてのダメージを2%緩和する。',
+																																	_1: {
+																																		ctor: '::',
+																																		_0: 'Level 19 - Warding - 1500 range - 3s cast - 25% power - グループのヘルスを50回復し、10秒間すべてのダメージを4%緩和する。',
+																																		_1: {
+																																			ctor: '::',
+																																			_0: 'Level 29 - Warding - 1500 range - 2.8s cast - 25% power - グループのヘルスを145回復し、10秒間すべてのダメージを6%緩和する。',
+																																			_1: {
+																																				ctor: '::',
+																																				_0: 'Level 39 - Warding - 1500 range - 2.6s cast - 25% power - グループのヘルスを160回復し、10秒間すべてのダメージを8%緩和する。',
+																																				_1: {
+																																					ctor: '::',
+																																					_0: 'Level 49 - Warding Breeze - 1500 range - 2.5s cast - 25% power - グループのヘルスを205回復し、10秒間すべてのダメージを10%緩和する。',
+																																					_1: {ctor: '[]'}
+																																				}
+																																			}
+																																		}
+																																	}
+																																}),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('パワーコスト増加デバフが新しく追加された。'),
+																																_1: {
+																																	ctor: '::',
+																																	_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																		{
+																																			ctor: '::',
+																																			_0: 'Level 9 - Bane of Magic - 1500 range - 3.0s cast - 30秒継続 - 再使用30秒 - 25% power - ターゲットの呪文詠唱の消費パワーが10%増加',
+																																			_1: {
+																																				ctor: '::',
+																																				_0: 'Level 19 - Bane of Arcane - 1500 range - 3.0s cast - 30秒継続 - 再使用30秒 - 25% power - ターゲットの呪文詠唱の消費パワーが25%増加',
+																																				_1: {
+																																					ctor: '::',
+																																					_0: 'Level 29 - Bane of Power - 1500 range - 3.0s cast - 30秒継続 - 再使用30秒 - 25% power - ターゲットの呪文詠唱の消費パワーが50%増加',
+																																					_1: {
+																																						ctor: '::',
+																																						_0: 'Level 39 - Bane of Augury - 1500 range - 3.0s cast - 30秒継続 - 再使用30秒 - 25% power - ターゲットの呪文詠唱の消費パワーが75%増加',
+																																						_1: {
+																																							ctor: '::',
+																																							_0: 'Level 49 - Bane of Prophecy - 1500 range - 3.0s cast - 30秒継続 - 再使用30秒 - 25% power - ターゲットの呪文詠唱の消費パワーが100%増加',
+																																							_1: {ctor: '[]'}
+																																						}
+																																					}
+																																				}
+																																			}
+																																		}),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: _elm_lang$html$Html$text('PBAoE 病気スペルが新しく追加された。'),
+																																		_1: {
+																																			ctor: '::',
+																																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																				{
+																																					ctor: '::',
+																																					_0: 'Level 50 - Blight Surge - Instant cast - 半径350 - 10秒継続 - 2秒ごと - 再使用10分 - 30% power - すべての攻撃に対して無敵になる。最大ヘルスの15%を回復する。半径内にいる敵は病気になり、25 endurance を失い、2秒ごとに 50 matter damage を受ける。',
+																																					_1: {ctor: '[]'}
+																																				}),
+																																			_1: {
+																																				ctor: '::',
+																																				_0: _elm_lang$html$Html$text('インスタントルートスペルのレベルが変更された。'),
+																																				_1: {
+																																					ctor: '::',
+																																					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																																						{
+																																							ctor: '::',
+																																							_0: 'Level 20 - Rotting Clench - 1500 range - Instant cast - 46秒継続 - 再使用5分 - 17 power',
+																																							_1: {
+																																								ctor: '::',
+																																								_0: 'Level 40 - Rotting Undergrowth - 1500 range - Instant cast - 半径350 - 56秒継続 - 再使用10分 - 23 power',
+																																								_1: {ctor: '[]'}
+																																							}
+																																						}),
+																																					_1: {
+																																						ctor: '::',
+																																						_0: _elm_lang$html$Html$text('単体ルート解除 Escape Hold は 13 Cave スペックで習得する。'),
+																																						_1: {
+																																							ctor: '::',
+																																							_0: _elm_lang$html$Html$text('PBAoE endurance 吸収は削除された。'),
+																																							_1: {
+																																								ctor: '::',
+																																								_0: _elm_lang$html$Html$text('単体 matter DD スペルはベースラインに移動した。'),
+																																								_1: {ctor: '[]'}
+																																							}
+																																						}
+																																					}
+																																				}
+																																			}
+																																		}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																											}
+																										}
+																									}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -22690,8 +25829,177 @@ var _Ragamuffine$daoc_patch_notes$Shaman$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Shaman$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Shaman$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_121B, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Shaman$patch_1_121B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Skald$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スカルド 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('スカルドはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Sword (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('レベル29スタイル Rush のダメージがやや増加する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Hammer (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 48 - Grand Finale - Follows Frost Hammer - High Endurance - Very High Damage - High Hit Bonus - Medium Defensive Penalty - 距離1500内にいるグループメンバーの物理攻撃クリティカル率を25%増加させる。5秒間グループメンバーが受けたダメージの75%を攻撃者に反射する。この能力は duration 増加ボーナスの影響を受けない。',
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Battlesongs (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('スカルドが維持できるソングの数は12に増加する。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('スピードソングはすべてベースラインに移される。'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 3 - Simple Song of Travel',
+													_1: {
+														ctor: '::',
+														_0: 'Level 13 - Song of Travel',
+														_1: {
+															ctor: '::',
+															_0: 'Level 23 - Harmonic Song of Travel',
+															_1: {
+																ctor: '::',
+																_0: 'Level 33 - Magnificent Song of Travel',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 43 - Heavenly Song of Travel',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('水バフはベースラインに移される。'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('endo 消費緩和ソングとパワー回復ソングは統合される。'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('ヘルス回復ソングと ablative ソングは統合される。'),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$br,
+																{ctor: '[]'},
+																{ctor: '[]'}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Crescendo はグループを対象としたチャントになる。'),
+																_1: {
+																	ctor: '::',
+																	_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																		{
+																			ctor: '::',
+																			_0: 'Level 35 - Crescendo - Instant cast - 1500 range - 5秒継続 - 4秒ごと - 再使用6秒 - 25% power - 戦闘中の移動速度を10%増加させる。スピードワープの影響を受ける。',
+																			_1: {
+																				ctor: '::',
+																				_0: 'Level 44 - Great Crescendo - Instant cast - 1500 range - 5秒継続 - 4秒ごと - 再使用6秒 - 25% power - 戦闘中の移動速度を25%増加させる。スピードワープの影響を受ける。',
+																				_1: {ctor: '[]'}
+																			}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('グループメンバーのヘルスと armor factor を増加させるチャントが新しく追加される。'),
+																		_1: {
+																			ctor: '::',
+																			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																				{
+																					ctor: '::',
+																					_0: 'Level 3 - Song of Ivar - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを1%増加',
+																					_1: {
+																						ctor: '::',
+																						_0: 'Level 13 - Song of Bjorn - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを3%増加',
+																						_1: {
+																							ctor: '::',
+																							_0: 'Level 23 - Song of Harald - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを5%増加',
+																							_1: {
+																								ctor: '::',
+																								_0: 'Level 33 - Song of Eirik - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを7%増加',
+																								_1: {
+																									ctor: '::',
+																									_0: 'Level 43 - Song of Ragnar - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを10%増加',
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text('March of Bragi はスピードワープを無視するようになる。'),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text('Disorienting Cry の再使用時間は60秒に短縮される。'),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('Chant of Blood はレベル44に移動する。'),
+																						_1: {
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text('Battle Howl はレベル46に移動する。'),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('War Howl はレベル47に移動する。'),
+																								_1: {ctor: '[]'}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2 = {
 	ctor: '::',
 	_0: A2(
@@ -22982,7 +26290,10 @@ var _Ragamuffine$daoc_patch_notes$Skald$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Skald$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Skald$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_122B, _Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Skald$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Skald$patch_1_123)));
 
 var _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B = {
 	ctor: '::',
@@ -23236,6 +26547,43 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 	_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Spirit Warrior はプレイヤーから攻撃をされると2倍のダメージを受ける。PvEでは変わらない。'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Spirit Runemaster のダメージは25%低下する。デバフDDの効果は以下のように調整される。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'レベル1-23ペットではデバフの効果は10%',
+						_1: {
+							ctor: '::',
+							_0: 'レベル24-43ペットではデバフの効果は20%',
+							_1: {
+								ctor: '::',
+								_0: 'レベル44-50ペットではデバフの効果は30%',
+								_1: {ctor: '[]'}
+							}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -23800,8 +27148,52 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 						A2(
 							_elm_lang$core$Basics_ops['++'],
 							_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170117,
-							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C))))))));
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202,
+								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Thane$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('セイン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Sword (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レベル29スタイル Rush のダメージがやや増加する。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 50 - Ragnarok - Back - Medium Endurance - High Damage - Medium Hit Bonus - Medium Defensive Penalty - 75 energy damage',
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Stormcalling (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Swirling Thunder はインスタントになり再使用時間は60秒に延長される。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('Thor\'s Reach の射程は2000になり、自分を含むグループを対象とする。'),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -23869,7 +27261,7 @@ var _Ragamuffine$daoc_patch_notes$Thane$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Thane$all = _Ragamuffine$daoc_patch_notes$Thane$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Thane$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Thane$patch_1_121, _Ragamuffine$daoc_patch_notes$Thane$patch_1_123);
 
 var _Ragamuffine$daoc_patch_notes$Theurgist$patch_1_121 = {
 	ctor: '::',
@@ -23897,6 +27289,134 @@ var _Ragamuffine$daoc_patch_notes$Theurgist$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Theurgist$all = _Ragamuffine$daoc_patch_notes$Theurgist$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヴェールウォーカー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ヴェールウォーカーはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Arboreal Path (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('新しく cold デバフ攻撃 proc が追加される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 50 - Blizzardstrike - 3s cast - 20分持続 - 30 power - 20%の確率でターゲットの cold レジストを30%低下させる。',
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('グループ物理 ablative は以下のように調整された。なお詠唱者本人への効果は半分になる。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Level 13 - Barkcrust - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 50 吸収する。',
+									_1: {
+										ctor: '::',
+										_0: 'Level 26 - Barkcoat - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 100 吸収する。',
+										_1: {
+											ctor: '::',
+											_0: 'Level 33 - Barksheath - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 200 吸収する。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 43 - Barkshell - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 物理ダメージを 300 吸収する。',
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('魔法の射程を延長するパルスが新しく追加された。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 4 - Forest Sage\'s Presence - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 2% 増加させる。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 17 - Forest Sage\'s Ubiquity - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 4% 増加させる。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 24 - Forest Sage\'s Acumen - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 6% 増加させる。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 30 - Forest Sage\'s Sagacity - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程 8% 増加させる。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 45 - Forest Sage\'s Perfection - Instant cast - 1500 range - 6秒継続 - 5秒ごと - 10% power - グループの魔法の射程を 10% 増加させる。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Blight Swarm の射程は1500から1600に延長される。'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('グループダメージ増加はベースラインに移動する。'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('インスタント spirit デバフは削除された。'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('インスタントDDスペルの再使用時間は25秒に短縮された。'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('自己攻撃速度増加バフは半径250内の最大12人の味方に適用される。'),
+														_1: {
+															ctor: '::',
+															_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Scythe (スペック)'),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('Flaming Scythe はレベル32に移動する。'),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Damaging Grasp はレベル39に移動する。'),
+																	_1: {
+																		ctor: '::',
+																		_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																			{
+																				ctor: '::',
+																				_0: 'Level 43 - Snow Blade - Follows Damaging Grasp - Low Endurance - Medium Damage - Medium Hit Bonus - No Defensive Bonus - 125 cold damage 半径350 PBAoE',
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_122B_HotFix3 = {
 	ctor: '::',
 	_0: A2(
@@ -24187,8 +27707,81 @@ var _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Valewalker$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Valewalker$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_121B, _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_122B_HotFix3));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Valewalker$patch_1_121B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_122B_HotFix3, _Ragamuffine$daoc_patch_notes$Valewalker$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヴァルキリー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ヴァルキリーはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Sword (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('レベル29スタイル Rush のダメージがやや増加する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Level 50 - Ragnarok - Back - Medium Endurance - High Damage - Medium Hit Bonus - Medium Defensive Penalty - 75 energy damage',
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Odin\'s Will (スペック)'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('グループ魔法吸収 ablative は以下のように調整される。詠唱者に対する効果は半分になる。'),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+									{
+										ctor: '::',
+										_0: 'Level 13 - Odin\'s Hope - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 魔法ダメージ 100 吸収',
+										_1: {
+											ctor: '::',
+											_0: 'Level 23 - Odin\'s Faith - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 魔法ダメージ 200 吸収',
+											_1: {
+												ctor: '::',
+												_0: 'Level 33 - Odin\'s Virtue - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 魔法ダメージ 350 吸収',
+												_1: {
+													ctor: '::',
+													_0: 'Level 43 - Odin\'s Temperance - Instant Cast - 1500 range - 30秒継続 - 再使用30秒 - 10% power - 魔法ダメージ 600 吸収',
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('インスタント CAoE DD スペルの再使用時間は25秒に短縮される。'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('インスタント body デバフは削除された。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121B = {
 	ctor: '::',
 	_0: A2(
@@ -24267,8 +27860,106 @@ var _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Valkyrie$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121, _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121B);
+var _Ragamuffine$daoc_patch_notes$Valkyrie$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121B, _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヴァンピール 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ヴァンピールはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Devouring Bolt の系列はすべて戦闘中でも詠唱できる。射程は1875で再使用は45秒となる。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Mastery of Magery と Dual Threat を習得可能となる。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Piercing (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 41 - Vampiiric Feint - Follows Asp\'s Bite - Medium Endurance - Very High Damage - Medium Hit Bonus - Low Defensive Penalty - 10秒間魔法クリティカル率を25%上昇',
+								_1: {
+									ctor: '::',
+									_0: 'Level 43 - Eye Shot - Front - Low Endurance - Very High Damage - Low Hit Bonus - Low Defensive Penalty - ターゲットの頭部をヒット',
+									_1: {
+										ctor: '::',
+										_0: 'Level 44 - Lung Shot - Side - Low Endurance - Very High Damage - High Hit Bonus - No Defensive Penalty - ターゲットの胴体をヒット',
+										_1: {
+											ctor: '::',
+											_0: 'Level 45 - Knee Cap - Back - Low Endurance - Very high Damage - High Hit Bonus - No Defensive Penalty - ターゲットの脚部をヒット',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Shadow Mastery (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('自己スピードバフは戦闘中でも有効でスピードワープを無視するようになる。持続時間は45秒に短縮される。パワーコストは15%になる。スピードバフは移動しながら詠唱することはできず、詠唱は妨害を受ける。スネア、ルート、メツ、スタンは受ける。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 2 - Flight of the Bat',
+											_1: {
+												ctor: '::',
+												_0: 'Level 10 - Flight of the Marrach',
+												_1: {
+													ctor: '::',
+													_0: 'Level 19 - Flight of the Gargoyle',
+													_1: {
+														ctor: '::',
+														_0: 'Level 33 - Flight of Shadow',
+														_1: {
+															ctor: '::',
+															_0: 'Level 44 - Flight of Darkness',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Dementia (スペック)'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 38 - Summon Night\'s Servant - パワーコストが150に減少する。',
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -24530,7 +28221,7 @@ var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121 = {
 																									_0: _elm_lang$html$Html$text('レベル 32 Endurance Drain, Enervating Embrace は削除される。'),
 																									_1: {
 																										ctor: '::',
-																										_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Piercing Spec'),
+																										_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Piercing (スペック)'),
 																										_1: {
 																											ctor: '::',
 																											_0: _elm_lang$html$Html$text('新しいスタイル Vampiir\'s Bite が 45 Pierce に追加される。5 秒背後スタン。'),
@@ -24565,8 +28256,52 @@ var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Vampiir$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121C, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121C,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Warden$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーデン 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Nurture (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピードはベースラインになる。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Regrowth (スペック)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('グループHoTの効果は以下のようになる。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 34 - Nature\'s Uplift - 3秒ごとに60ヘルス回復(以前は50)',
+								_1: {
+									ctor: '::',
+									_0: 'Level 44 - Nature\'s Invigoration - 3秒ごとに130ヘルス回復(以前は60)',
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -24778,8 +28513,138 @@ var _Ragamuffine$daoc_patch_notes$Warden$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Warden$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_121, _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B);
+var _Ragamuffine$daoc_patch_notes$Warden$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Warden$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warden$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーロック 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('ウォーロックはフルリスペックされる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Witchcraft (スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 47 - Agony - ダメージが 110 から 125 に増加する。',
+						_1: {
+							ctor: '::',
+							_0: 'Level 50 - Doom - ダメージが 205 から 215 に増加する。Detonate のダメージは 425 から 475 に増加する。',
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('AFデバフの継続時間は15秒から20秒に増加する。'),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$br,
+							{ctor: '[]'},
+							{ctor: '[]'}),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('ヒール増幅オーラが新しく追加される。'),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+									{
+										ctor: '::',
+										_0: 'Level 9 - Relaxing Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が2%増加する。',
+										_1: {
+											ctor: '::',
+											_0: 'Level 19 - Restful Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が4%増加する。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 27 - Soothing Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が6%増加する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 34 - Calming Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が10%増加する。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 45 - Ameliorating Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が15%増加する。',
+														_1: {ctor: '[]'}
+													}
+												}
+											}
+										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('新しい AoE DoT スペルが追加される。このスペルはトレーニングウィンドウには表示されない。'),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+											{
+												ctor: '::',
+												_0: 'Level 3 - Puny Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 9 power - 12秒間2秒ごとに 6 spirit damage',
+												_1: {
+													ctor: '::',
+													_0: 'Level 13 - Weak Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 17 power - 12秒間2秒ごとに 33 spirit damage',
+													_1: {
+														ctor: '::',
+														_0: 'Level 23 - Minor Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 23 power - 12秒間2秒ごとに 53 spirit damage',
+														_1: {
+															ctor: '::',
+															_0: 'Level 33 - Lesser Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 36 power - 12秒間2秒ごとに 65 spirit damage',
+															_1: {
+																ctor: '::',
+																_0: 'Level 43 - Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 47 power - 12秒間2秒ごとに 83 spirit damage',
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('グループヒールは以下のように強化される。'),
+											_1: {
+												ctor: '::',
+												_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+													{
+														ctor: '::',
+														_0: 'Level 15 - Confluence of Renewal - 103ヘルス回復',
+														_1: {
+															ctor: '::',
+															_0: 'Level 29 - Confluence of Restoration - 163ヘルス回復',
+															_1: {
+																ctor: '::',
+																_0: 'Level 38 - Confluence of Healing - 223ヘルス回復',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 46 - Confluence of Mending - 283ヘルス回復',
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}),
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes = {
 	ctor: '::',
 	_0: A2(
@@ -25029,8 +28894,31 @@ var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Warlock$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォリアー 1.123'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Sword (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レベル29スタイル Rush のダメージがやや増加する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121 = {
 	ctor: '::',
 	_0: A2(
@@ -25143,7 +29031,7 @@ var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Warrior$all = _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121;
+var _Ragamuffine$daoc_patch_notes$Warrior$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warrior$patch_1_121, _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123);
 
 var _Ragamuffine$daoc_patch_notes$Wizard$patch_1_121 = {
 	ctor: '::',
@@ -26587,6 +30475,243 @@ var _Ragamuffine$daoc_patch_notes$Patch20170202$patch_20170202 = A2(
 								_Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202,
 								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123 = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.123'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h2,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('クラス全般'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('新しいクラウドコントロール効果 Slow が導入される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Slow 状態のターゲットは戦闘時・非戦闘時両方で速度が低下する。',
+							_1: {
+								ctor: '::',
+								_0: 'Slow 状態に無効タイマーはない。',
+								_1: {
+									ctor: '::',
+									_0: 'Slow は root または snare と重複する。',
+									_1: {
+										ctor: '::',
+										_0: 'Slow 状態はダメージで解除されない。',
+										_1: {
+											ctor: '::',
+											_0: 'Slow 状態中の速度低下効果は一定である。徐々に解除されるようなことはない。',
+											_1: {
+												ctor: '::',
+												_0: 'root または snare 無効中であっても Slow 状態になる。',
+												_1: {
+													ctor: '::',
+													_0: 'Slow 効果は詠唱妨害ではない。',
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Astral Blade of Illusions, Astral Conflagrant Short Sword, Astral Conflagrant Hatchet, Astral Voltaics 系武器, Traitor\'s Dagger の proc rate はやや減少する。'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$br,
+								{ctor: '[]'},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Camelot Cleric, Jordheim Shaman, Tir na Nog Druid NPC の販売するベースAFバフの効果は125に強化される。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('NPCバフは Necromancer 本人にのみ適用されペットには影響しない。'),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h2,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('バグ修正'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Loyalty Cloak の /use タイマーは正しく90秒になる。'),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$br,
+														{ctor: '[]'},
+														{ctor: '[]'}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Loyal cloak を使うには cloak のレベルを 5 以上にする必要がある。以前は level 1 でアビリティーを使用可能だった cloak がある。'),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$br,
+																{ctor: '[]'},
+																{ctor: '[]'}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('マーセナリー、ブレードマスター、バーサーカー、ザベジは Loyal Cloak を再び使えるようになる。'),
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$br,
+																		{ctor: '[]'},
+																		{ctor: '[]'}),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text('浅い水面の水が飛び散るアニメーションを変更しラグを大幅に削減した。'),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Animist$patch_1_123,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Armsman$patch_1_123,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Bard$patch_1_123,
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Berserker$patch_1_123,
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123,
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123,
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Champion$patch_1_123,
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Cleric$patch_1_123,
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											_Ragamuffine$daoc_patch_notes$Druid$patch_1_123,
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123,
+												A2(
+													_elm_lang$core$Basics_ops['++'],
+													_Ragamuffine$daoc_patch_notes$Friar$patch_1_123,
+													A2(
+														_elm_lang$core$Basics_ops['++'],
+														_Ragamuffine$daoc_patch_notes$Heretic$patch_1_123,
+														A2(
+															_elm_lang$core$Basics_ops['++'],
+															_Ragamuffine$daoc_patch_notes$Hero$patch_1_123,
+															A2(
+																_elm_lang$core$Basics_ops['++'],
+																_Ragamuffine$daoc_patch_notes$Hunter$patch_1_123,
+																A2(
+																	_elm_lang$core$Basics_ops['++'],
+																	_Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123,
+																	A2(
+																		_elm_lang$core$Basics_ops['++'],
+																		_Ragamuffine$daoc_patch_notes$Mauler$patch_1_123,
+																		A2(
+																			_elm_lang$core$Basics_ops['++'],
+																			_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123,
+																			A2(
+																				_elm_lang$core$Basics_ops['++'],
+																				_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123,
+																				A2(
+																					_elm_lang$core$Basics_ops['++'],
+																					_Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123,
+																					A2(
+																						_elm_lang$core$Basics_ops['++'],
+																						_Ragamuffine$daoc_patch_notes$Paladin$patch_1_123,
+																						A2(
+																							_elm_lang$core$Basics_ops['++'],
+																							_Ragamuffine$daoc_patch_notes$Ranger$patch_1_123,
+																							A2(
+																								_elm_lang$core$Basics_ops['++'],
+																								_Ragamuffine$daoc_patch_notes$Reaver$patch_1_123,
+																								A2(
+																									_elm_lang$core$Basics_ops['++'],
+																									_Ragamuffine$daoc_patch_notes$Scout$patch_1_123,
+																									A2(
+																										_elm_lang$core$Basics_ops['++'],
+																										_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123,
+																										A2(
+																											_elm_lang$core$Basics_ops['++'],
+																											_Ragamuffine$daoc_patch_notes$Shaman$patch_1_123,
+																											A2(
+																												_elm_lang$core$Basics_ops['++'],
+																												_Ragamuffine$daoc_patch_notes$Skald$patch_1_123,
+																												A2(
+																													_elm_lang$core$Basics_ops['++'],
+																													_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123,
+																													A2(
+																														_elm_lang$core$Basics_ops['++'],
+																														_Ragamuffine$daoc_patch_notes$Thane$patch_1_123,
+																														A2(
+																															_elm_lang$core$Basics_ops['++'],
+																															_Ragamuffine$daoc_patch_notes$Valewalker$patch_1_123,
+																															A2(
+																																_elm_lang$core$Basics_ops['++'],
+																																_Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_123,
+																																A2(
+																																	_elm_lang$core$Basics_ops['++'],
+																																	_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123,
+																																	A2(
+																																		_elm_lang$core$Basics_ops['++'],
+																																		_Ragamuffine$daoc_patch_notes$Warden$patch_1_123,
+																																		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123)))))))))))))))))))))))))))))))))));
+
 var _Ragamuffine$daoc_patch_notes$Main$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };
@@ -27232,7 +31357,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																									}
 																								}
 																							}),
-																						_1: {ctor: '[]'}
+																						_1: {
+																							ctor: '::',
+																							_0: A2(
+																								_elm_lang$html$Html$li,
+																								{ctor: '[]'},
+																								{
+																									ctor: '::',
+																									_0: A2(
+																										_elm_lang$html$Html$a,
+																										{
+																											ctor: '::',
+																											_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_123_Page),
+																											_1: {ctor: '[]'}
+																										},
+																										{
+																											ctor: '::',
+																											_0: _elm_lang$html$Html$text('1.123'),
+																											_1: {ctor: '[]'}
+																										}),
+																									_1: {
+																										ctor: '::',
+																										_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1123-live-patch-notes'),
+																										_1: {
+																											ctor: '::',
+																											_0: _elm_lang$html$Html$text(' (2017/7/17)'),
+																											_1: {ctor: '[]'}
+																										}
+																									}
+																								}),
+																							_1: {ctor: '[]'}
+																						}
 																					}
 																				}
 																			}
@@ -28527,6 +32682,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_122$patch_1_122C_HotFixNotes),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_123_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123),
 						_1: {ctor: '[]'}
 					}
 				});

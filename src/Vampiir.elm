@@ -36,7 +36,7 @@ patch_1_121 =
      text "Vampiir's Strike はレベル19 SM に移される。",
      text "Renewal はレベル20 SM に移される。",
      text "レベル 32 Endurance Drain, Enervating Embrace は削除される。",
-     sechib "Piercing Spec",
+     sechib "Piercing (スペック)",
      text "新しいスタイル Vampiir's Bite が 45 Pierce に追加される。5 秒背後スタン。"]
 
 
@@ -76,5 +76,28 @@ patch_1_122B =
      text "Level 49 Blazing Claw - power cost は 36 から 28 に減少"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ヴァンピール 1.123"],
+     text "ヴァンピールはフルリスペックされる。",
+     text "Devouring Bolt の系列はすべて戦闘中でも詠唱できる。射程は1875で再使用は45秒となる。",
+     text "Mastery of Magery と Dual Threat を習得可能となる。",
+     sechib "Piercing (スペック)",
+     ulist ["Level 41 - Vampiiric Feint - Follows Asp's Bite - Medium Endurance - Very High Damage - Medium Hit Bonus - Low Defensive Penalty - 10秒間魔法クリティカル率を25%上昇",
+            "Level 43 - Eye Shot - Front - Low Endurance - Very High Damage - Low Hit Bonus - Low Defensive Penalty - ターゲットの頭部をヒット",
+            "Level 44 - Lung Shot - Side - Low Endurance - Very High Damage - High Hit Bonus - No Defensive Penalty - ターゲットの胴体をヒット",
+            "Level 45 - Knee Cap - Back - Low Endurance - Very high Damage - High Hit Bonus - No Defensive Penalty - ターゲットの脚部をヒット"],
+     sechib "Shadow Mastery (スペック)",
+     text "自己スピードバフは戦闘中でも有効でスピードワープを無視するようになる。持続時間は45秒に短縮される。パワーコストは15%になる。スピードバフは移動しながら詠唱することはできず、詠唱は妨害を受ける。スネア、ルート、メツ、スタンは受ける。",
+     ulist ["Level 2 - Flight of the Bat",
+            "Level 10 - Flight of the Marrach",
+            "Level 19 - Flight of the Gargoyle",
+            "Level 33 - Flight of Shadow",
+            "Level 44 - Flight of Darkness"],
+     sechib "Dementia (スペック)",
+     ulist ["Level 38 - Summon Night's Servant - パワーコストが150に減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B
+      ++ patch_1_123

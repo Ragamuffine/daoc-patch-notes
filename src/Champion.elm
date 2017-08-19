@@ -80,6 +80,14 @@ patch_1_122B_HotFix3 =
      text "strength/constituion と dexterity/quickness の共同バフは一方が shear された状態でも両方とも有効とする。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "チャンピオン 1.123"],
+     sechib "Valor (スペック)",
+     text "レベル40以上のデバフは半径350のAoEになる。加えて半径500以内にいるグループメンバーに対してもデバフによる有益な効果が適用される。ヘイストデバフによるクリティカル率増加は物理と魔法の両方に適用される。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
+      ++ patch_1_123

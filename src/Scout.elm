@@ -113,5 +113,18 @@ patch_1_122B =
      text "Realm Rank 5 アビリティーは再びチャージ中でないターゲットにスネアを与え、スカウト自身のスピードを増加させるようになる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "スカウト 1.123"],
+     secalb "Archery (スペック)",
+     text "クリティカルショットの endo コストは15%に増加する。",
+     text "クリティカルショットのダメージは以下のように低下する。",
+     ulist ["Level 35 - Critical Shot 6 - 190に低下(以前は204)",
+            "Level 41 - Critical Shot 7 - 215に低下(以前は242)",
+            "Level 47 - Critical Shot 8 - 250に低下(以前は285)",
+            "Level 49 - Critical Shot 9 - 290に低下(以前は305)"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_123

@@ -141,6 +141,16 @@ patch_1_122C =
      text "単体 power drain により得られるパワーは与えたダメージの10%から20%に増加する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "スピリットマスター 1.123"],
+     text "Spirit Warrior はプレイヤーから攻撃をされると2倍のダメージを受ける。PvEでは変わらない。",
+     text "Spirit Runemaster のダメージは25%低下する。デバフDDの効果は以下のように調整される。",
+     ulist ["レベル1-23ペットではデバフの効果は10%",
+            "レベル24-43ペットではデバフの効果は20%",
+            "レベル44-50ペットではデバフの効果は30%"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -149,3 +159,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_20170117
       ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_123

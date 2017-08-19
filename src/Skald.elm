@@ -70,5 +70,43 @@ patch_1_122B_HotFix2 =
      text "シージチャントは正しくグループメンバーに効果を及ぼすようになる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "スカルド 1.123"],
+     text "スカルドはフルリスペックされる。",
+     secmid "Sword (スペック)",
+     text "レベル29スタイル Rush のダメージがやや増加する。",
+     secmid "Hammer (スペック)",
+     ulist ["Level 48 - Grand Finale - Follows Frost Hammer - High Endurance - Very High Damage - High Hit Bonus - Medium Defensive Penalty - 距離1500内にいるグループメンバーの物理攻撃クリティカル率を25%増加させる。5秒間グループメンバーが受けたダメージの75%を攻撃者に反射する。この能力は duration 増加ボーナスの影響を受けない。"],
+     secmid "Battlesongs (スペック)",
+     text "スカルドが維持できるソングの数は12に増加する。",
+     br [] [],
+     text "スピードソングはすべてベースラインに移される。",
+     ulist ["Level 3 - Simple Song of Travel",
+            "Level 13 - Song of Travel",
+            "Level 23 - Harmonic Song of Travel",
+            "Level 33 - Magnificent Song of Travel",
+            "Level 43 - Heavenly Song of Travel"],
+     text "水バフはベースラインに移される。",
+     text "endo 消費緩和ソングとパワー回復ソングは統合される。",
+     text "ヘルス回復ソングと ablative ソングは統合される。",
+     br [] [],
+     text "Crescendo はグループを対象としたチャントになる。",
+     ulist ["Level 35 - Crescendo - Instant cast - 1500 range - 5秒継続 - 4秒ごと - 再使用6秒 - 25% power - 戦闘中の移動速度を10%増加させる。スピードワープの影響を受ける。",
+            "Level 44 - Great Crescendo - Instant cast - 1500 range - 5秒継続 - 4秒ごと - 再使用6秒 - 25% power - 戦闘中の移動速度を25%増加させる。スピードワープの影響を受ける。"],
+     text "グループメンバーのヘルスと armor factor を増加させるチャントが新しく追加される。",
+     ulist ["Level 3 - Song of Ivar - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを1%増加",
+            "Level 13 - Song of Bjorn - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを3%増加",
+            "Level 23 - Song of Harald - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを5%増加",
+            "Level 33 - Song of Eirik - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを7%増加",
+            "Level 43 - Song of Ragnar - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを10%増加"],
+     text "March of Bragi はスピードワープを無視するようになる。",
+     text "Disorienting Cry の再使用時間は60秒に短縮される。",
+     text "Chant of Blood はレベル44に移動する。",
+     text "Battle Howl はレベル46に移動する。",
+     text "War Howl はレベル47に移動する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
+      ++ patch_1_123

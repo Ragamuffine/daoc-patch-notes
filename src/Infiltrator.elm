@@ -145,5 +145,31 @@ patch_1_122B =
      text "レベル49 Vanish III は Vanish II に変更される。したがって再使用タイマーは15分になる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "インフィルトレーター 1.123"],
+     text "インフィルトレーターはフルリスペックされる。",
+     secalb "Stealth (スペック)",
+     text "Vanish はステルスラインから削除されレルムアビリティーに戻される。",
+     secalb "Critical Strike (スペック)",
+     ulist ["Level 2 - Backstab - Rear, stealthed - Low End - Devastating Damage - Med. Hit Bonus - Med. Def. Penalty - 2秒スタン",
+            "Level 4 - Eviscerate - Follows Backstab - Med. End - Med. Damage - Low Hit Bonus - Low Def. Penalty - 16% 攻撃速度デバフ, 20秒持続",
+            "Level 6 - Kidney Rupture - Follows Eviscerate - High End - Very High damage - High Hit Bonus - High Def. Penalty - 8 damage, 4秒ごと, 20秒出血.",
+            "Level 8 - Pincer - Side - Med. End - High Damage - Low Hit Bonus - High Def. Penalty - 4秒スタン.",
+            "Level 10 - Backstab II - Rear, stealthed - Low End - Devastating Damage - High Hit Bonus - No Def. Bonus - 3秒スタン",
+            "Level 12 - Hamstring - You Evade - Low End - High Damage - Med. Hit Bonus - No Def. Bonus - 21% 攻撃速度デバフ, 20秒持続",
+            "Level 15 - Thigh Cut - Follows Backstab II - Med. End - Very High Damage - Med. Hit Bonus - Low Def. Penalty - 26 damage, 4秒ごと, 20秒出血.",
+            "Level 18 - Garrote - Anytime - Med. End - Med. Damage - Low Hit Bonus - Med. Def. Penalty - 特殊効果なし.",
+            "Level 21 - Perforate Artery - Frontal, stealthed - Low End - Devastating Damage - High Hit Bonus - Low Def. Penalty - 32 damage, 4秒ごと, 20秒出血. スタイルダメージは15%低下。",
+            "Level 25 - Achilles Heel - Follows Hamstring - Low End - Very High Damage - High Hit Bonus - Low Def. Bonus - 26 damage, 4秒ごと, 20秒出血.",
+            "Level 29 - Leaper - Follows Pincer - Med. End - Very High Damage - Low Hit Bonus - High Def. Bonus - 3% ABS debuff, 30秒継続.",
+            "Level 34 - Creeping Death - Follows Perforate Artery - Low End - High Damage - High Hit Bonus - Med Def. Penalty - 7秒スタン.",
+            "Level 39 - Rib Separation - Follows Creeping Death - Low End - Very High Damage - High Hit Bonus - High Def. Penalty - 3% ABS debuff, 30秒継続.",
+            "Level 44 - Stunning Stab - Rear - High End - Low Damage - Low Hit Bonus - Med Def. Penalty - 6秒スタン.",
+            "Level 45 - Death's Door - Follows Garrote - High End - High Damage - Med. Hit Bonus - Low Def. Penalty - 2% ABS debuff, 30秒継続.",
+            "Level 50 - Ripper - Follows Achilles Heel - Low End - Very High Damage - Very High Hit Bonus - Med. Def. Bonus - 5% ABS debuff, 30秒継続."]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_123

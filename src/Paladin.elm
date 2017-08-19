@@ -78,6 +78,19 @@ patch_1_122B_HotFix5 =
      text "タウントが再び敵を妨害できるようになる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "パラディン 1.123"],
+     text "パラディンはフルリスペックされる。",
+     secalb "Chants (スペック)",
+     text "新しいグループヒールが追加される。",
+     ulist ["Level 15 - Heaven's Commendation - Group - 2.6s cast - 2000 range - 32 power - 97回復",
+            "Level 26 - Heaven's Benediction - Group - 2.4s cast - 2000 range - 50 power - 163回復",
+            "Level 36 - Heaven's Blessing - Group - 2.2s cast - 2000 range - 64 power - 223回復",
+            "Level 46 - Heaven's Approbation - Group - 2.0s cast - 2000 range - 75 power - 283回復"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix5
+      ++ patch_1_123

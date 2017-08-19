@@ -20,5 +20,15 @@ patch_1_121 =
             "Level 50 - Sun and Moon - Doubler - スタイルダメージ増加"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "アームズマン 1.123"],
+     text "アームズマンはフルリスペックされる。",
+     secalb "長柄 (スペック)",
+     text "新しいスタイルが追加される。",
+     ulist ["Level 48 - Defender's Advance - High Endurance - Very High Damage - Low Hit Bonus - Medium Defensive Bonus - 出血20ダメージ, 4秒ごと, 20秒持続"]]
+
+
 all : List (Html Message)
 all = patch_1_121
+      ++ patch_1_123

@@ -20,5 +20,17 @@ patch_1_121 =
      text "group fatigue reduction buff はバフではなく pulse になる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "セイン 1.123"],
+     secmid "Sword (スペック)",
+     text "レベル29スタイル Rush のダメージがやや増加する。",
+     ulist ["Level 50 - Ragnarok - Back - Medium Endurance - High Damage - Medium Hit Bonus - Medium Defensive Penalty - 75 energy damage"],
+     secmid "Stormcalling (スペック)",
+     text "Swirling Thunder はインスタントになり再使用時間は60秒に延長される。",
+     text "Thor's Reach の射程は2000になり、自分を含むグループを対象とする。"]
+
+
 all : List (Html Message)
 all = patch_1_121
+      ++ patch_1_123

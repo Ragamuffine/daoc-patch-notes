@@ -75,5 +75,14 @@ patch_1_121B =
             "Level 40 debuff Energy Void の効果は50%から40%に低下する。"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "リーバー 1.123"],
+     secalb "Soulrending (スペック)",
+     text "Circle of Despair の再使用時間は90秒から60秒に短縮される。",
+     text "インスタントエナジーデバフは除去された。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B
+      ++ patch_1_123

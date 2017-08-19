@@ -63,6 +63,35 @@ patch_1_122C_HotFixNotes =
      text "すべての AF debuff スペルの持続時間は45秒から15秒に減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ウォーロック 1.123"],
+     text "ウォーロックはフルリスペックされる。",
+     secmid "Witchcraft (スペック)",
+     ulist ["Level 47 - Agony - ダメージが 110 から 125 に増加する。",
+            "Level 50 - Doom - ダメージが 205 から 215 に増加する。Detonate のダメージは 425 から 475 に増加する。"],
+     text "AFデバフの継続時間は15秒から20秒に増加する。",
+     br [] [],
+     text "ヒール増幅オーラが新しく追加される。",
+     ulist ["Level 9 - Relaxing Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が2%増加する。",
+            "Level 19 - Restful Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が4%増加する。",
+            "Level 27 - Soothing Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が6%増加する。",
+            "Level 34 - Calming Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が10%増加する。",
+            "Level 45 - Ameliorating Incantation - 1500 range - 3.0s cast - 8秒継続 - 8秒ごと - 10% power - グループメンバーへのヒール量が15%増加する。"],
+     text "新しい AoE DoT スペルが追加される。このスペルはトレーニングウィンドウには表示されない。",
+     ulist ["Level 3 - Puny Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 9 power - 12秒間2秒ごとに 6 spirit damage",
+            "Level 13 - Weak Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 17 power - 12秒間2秒ごとに 33 spirit damage",
+            "Level 23 - Minor Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 23 power - 12秒間2秒ごとに 53 spirit damage",
+            "Level 33 - Lesser Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 36 power - 12秒間2秒ごとに 65 spirit damage",
+            "Level 43 - Misery - 1500 range - 半径350 - 3.0s cast - 12秒継続 - 2秒ごと - 47 power - 12秒間2秒ごとに 83 spirit damage"],
+     text "グループヒールは以下のように強化される。",
+     ulist ["Level 15 - Confluence of Renewal - 103ヘルス回復",
+            "Level 29 - Confluence of Restoration - 163ヘルス回復",
+            "Level 38 - Confluence of Healing - 223ヘルス回復",
+            "Level 46 - Confluence of Mending - 283ヘルス回復"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFixNotes
+      ++ patch_1_123

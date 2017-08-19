@@ -156,6 +156,18 @@ patch_1_122C =
      text "Enchantment of Ice の slow 効果は snare になる。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "エンチャンター 1.123"],
+     text "Enchantment of Mana の proc 率は50%まで増加する。",
+     text "Underhill Stalker のダメージは25%低下する。",
+     text "Underhill Compatriot はプレイヤーから攻撃をされると2倍のダメージを受ける。PvEでは変わらない。",
+     text "Underhill Companion のダメージは25%低下する。デバフDDの効果は以下のように調整される。",
+     ulist ["レベル1-23ペットではデバフの効果は10%",
+            "レベル24-43ペットではデバフの効果は20%",
+            "レベル44-50ペットではデバフの効果は30%"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -165,3 +177,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_20170117
       ++ patch_20170202
       ++ patch_1_122C
+      ++ patch_1_123

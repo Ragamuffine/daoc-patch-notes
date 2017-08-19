@@ -52,5 +52,17 @@ patch_1_122B =
      text "Stone Breaker の防御ペナルティーは減少する。"]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ウォーデン 1.123"],
+     sechib "Nurture (基本)",
+     text "スピードはベースラインになる。",
+     sechib "Regrowth (スペック)",
+     text "グループHoTの効果は以下のようになる。",
+     ulist ["Level 34 - Nature's Uplift - 3秒ごとに60ヘルス回復(以前は50)",
+            "Level 44 - Nature's Invigoration - 3秒ごとに130ヘルス回復(以前は60)"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
+      ++ patch_1_123

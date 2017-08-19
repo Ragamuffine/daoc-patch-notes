@@ -75,7 +75,37 @@ patch_1_122C_HotFixNotes =
             "Level 42 - Whirling Blaze - 115 ダメージで 2 秒ごとに45%増加、最大110%。射程1600。持続時間15秒"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ヘレティック 1.123"],
+     text "ヘレティックはフルリスペックされる。",
+     secalb "Crush (スペック)",
+     ulist ["Level 30 - Hellfire Tendrils - Concussion 後 - Medium Endurance - Very High Damage - Medium Offensive Penalty - Medium Defensive Bonus - 習得している最も高いレベルの Fiery Grasp が半径200以内にいる敵に最大3体まで適用される。もし Fiery Grasp を習得していない時は何も起こらない。",
+            "Level 50 - Shadowfire - Back - Medium Endurance - High Damage - No Hit Bonus - Medium Defensive Bonus - 113 heat damage"],
+     text "レベル39スタイル Bonecrusher は半径350以内のすべての敵からランダムでバフを除去する。",
+     secalb "Flexible (スペック)",
+     ulist ["Level 50 - Leviathan - Back - Medium Endurance - High Damage - Medium Hit Bonus - No Defensive Bonus - 113 heat damage"],
+     secalb "Enhancement (スペック)",
+     text "グループヘルス&amp;AF強化チャントが新しく追加された。",
+     ulist ["Level 5 - Hellflower's Flourish - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを1%増加する。",
+            "Level 15 - Hellflower's Bud - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを3%増加する。",
+            "Level 25 - Hellflower's Sprout - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを5%増加する。",
+            "Level 35 - Hellflower's Effloresce - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを7%増加する。",
+            "Level 45 - Hellflower's Bloom - Instant cast - 6秒継続 - 6秒ごと - 再使用5秒 - 1500 range - 10% power - ヘルスとAFを10%増加する。"],
+     secalb "Rejuvenation (スペック)",
+     text "インスタントDoTはインスタントDDに変更される。",
+     ulist ["Level 5 - Flickering Embers - Instant cast - 1500 range - 再使用15秒 - 3 power - 19 heat damage",
+            "Level 10 - Smoldering Embers - Instant cast - 1500 range - 再使用15秒 - 6 power - 34 heat damage",
+            "Level 16 - Heated Embers - Instant cast - 1500 range - 再使用15秒 - 10 power - 48 heat damage",
+            "Level 23 - Molten Embers - Instant cast - 1500 range - 再使用15秒 - 13 power - 76 heat damage",
+            "Level 30 - Flaming Embers - Instant cast - 1500 range - 再使用15秒 - 19 power - 96 heat damage",
+            "Level 38 - Bursting Embers - Instant cast - 1500 range - 再使用15秒 - 25 power - 129 heat damage",
+            "Level 48 - Incinerating Embers - Instant cast - 1500 range - 再使用15秒 - 32 power - 160 heat damage"],
+     text "インスタントスネア Fiery Stranglehold の射程は500から1000に増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFix
       ++ patch_1_122C_HotFixNotes
+      ++ patch_1_123

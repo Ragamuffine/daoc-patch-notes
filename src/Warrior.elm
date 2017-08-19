@@ -30,5 +30,13 @@ patch_1_121 =
             "Level 50 - Ragnarok - Rear - ダメージ増加"]]
 
 
+patch_1_123 : List (Html Message)
+patch_1_123 =
+    [h2 [] [text "ウォリアー 1.123"],
+     secmid "Sword (スペック)",
+     text "レベル29スタイル Rush のダメージがやや増加する。"]
+
+
 all : List (Html Message)
 all = patch_1_121
+      ++ patch_1_123
