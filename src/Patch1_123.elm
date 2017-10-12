@@ -122,3 +122,10 @@ patch_1_123B =
     ++ Druid.patch_1_123B
     ++ Necromancer.patch_1_123B
     ++ Warlock.patch_1_123B
+
+
+patch_1_123C : List (Html Message)
+patch_1_123C =
+    [h1 [] [text "1.123C Hot Fix"]]
+    ++ Enchanter.patch_1_123C
+    ++ Hunter.patch_1_123C

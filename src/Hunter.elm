@@ -178,7 +178,19 @@ patch_1_123 =
      text "armor wither スタイルはすべての Avatar から削除される。"]
 
 
+patch_1_123C : List (Html Message)
+patch_1_123C =
+    [h2 [] [text "ハンター 1.123C"],
+     secmid "Beastcraft (スペック)",
+     text "Hunter's Avatar の背後スタンは完全に除去される。",
+     br [] [],
+     text "Hunter's Avatar が病気を proc する確率は以下のように低下する。",
+     ulist ["Level 40 - 10%から7%へ",
+            "Level 50 - 15%から10%へ"]]
+
+    
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
       ++ patch_20170202
       ++ patch_1_123
+      ++ patch_1_123C

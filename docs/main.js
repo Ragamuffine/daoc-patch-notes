@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123C_Page = {ctor: 'Patch_1_123C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123B_Page = {ctor: 'Patch_1_123B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123_Page = {ctor: 'Patch_1_123_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFixNotes_Page = {ctor: 'Patch_1_122C_HotFixNotes_Page'};
@@ -14146,6 +14147,26 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.123C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Enchanting (Enchantments スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Enchantment of Mana の proc 率は50%から40%に減少する。'),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -14824,7 +14845,10 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 								A2(
 									_elm_lang$core$Basics_ops['++'],
 									_Ragamuffine$daoc_patch_notes$Enchanter$patch_20170202,
-									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123))))))))));
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C,
+										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C)))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_123 = {
 	ctor: '::',
@@ -16119,6 +16143,50 @@ var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Hero$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hero$patch_1_121, _Ragamuffine$daoc_patch_notes$Hero$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ハンター 1.123C'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Beastcraft (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Hunter\'s Avatar の背後スタンは完全に除去される。'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Hunter\'s Avatar が病気を proc する確率は以下のように低下する。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 40 - 10%から7%へ',
+								_1: {
+									ctor: '::',
+									_0: 'Level 50 - 15%から10%へ',
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -16886,7 +16954,10 @@ var _Ragamuffine$daoc_patch_notes$Hunter$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Hunter$patch_1_122B,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_20170202, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Hunter$patch_20170202,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C))))));
 
 var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123 = {
 	ctor: '::',
@@ -30883,6 +30954,21 @@ var _Ragamuffine$daoc_patch_notes$Patch20170202$patch_20170202 = A2(
 								_Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202,
 								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123C = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('1.123C Hot Fix'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C));
 var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123B = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -31847,7 +31933,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																											}
 																										}
 																									}),
-																								_1: {ctor: '[]'}
+																								_1: {
+																									ctor: '::',
+																									_0: A2(
+																										_elm_lang$html$Html$li,
+																										{ctor: '[]'},
+																										{
+																											ctor: '::',
+																											_0: A2(
+																												_elm_lang$html$Html$a,
+																												{
+																													ctor: '::',
+																													_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_123C_Page),
+																													_1: {ctor: '[]'}
+																												},
+																												{
+																													ctor: '::',
+																													_0: _elm_lang$html$Html$text('1.123C'),
+																													_1: {ctor: '[]'}
+																												}),
+																											_1: {
+																												ctor: '::',
+																												_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1123c-hot-fix'),
+																												_1: {
+																													ctor: '::',
+																													_0: _elm_lang$html$Html$text(' (2017/8/31)'),
+																													_1: {ctor: '[]'}
+																												}
+																											}
+																										}),
+																									_1: {ctor: '[]'}
+																								}
 																							}
 																						}
 																					}
@@ -33170,6 +33286,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123B),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_123C_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123C),
 						_1: {ctor: '[]'}
 					}
 				});

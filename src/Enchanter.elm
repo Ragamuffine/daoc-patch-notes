@@ -168,6 +168,13 @@ patch_1_123 =
             "レベル44-50ペットではデバフの効果は30%"]]
 
 
+patch_1_123C : List (Html Message)
+patch_1_123C =
+    [h2 [] [text "エンチャンター 1.123C"],
+     sechib "Enchanting (Enchantments スペック)",
+     text "Enchantment of Mana の proc 率は50%から40%に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -178,3 +185,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_123
+      ++ patch_1_123C
