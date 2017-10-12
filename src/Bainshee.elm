@@ -109,6 +109,7 @@ patch_20170202 =
      text "新しいペット召喚スペルが追加される。",
      ulist ["Level 50 - Sound Vortex - 1500 range - 詠唱10秒 - 持続時間20秒 - 4秒毎 - 再使用10分 - 25% power - グラウンドターゲットの地点に Sound Vortex を召喚する。Sound Vortex は1500以内にいる最大8つのターゲットに対して300ダメージを与える。Sound Vortex を破壊、スタン、fear することができるが mezz, 混乱は無効である。同一エリアに最大3体まで設置可能。このスペルはすでに 50 Spectral Guard のスキルを持っていてもリスペックしないとスキルラインに現れない。"]]
 
+
 patch_1_122C : List (Html Message)
 patch_1_122C =
     [h2 [] [text "バンシー 1.122C"],
@@ -131,7 +132,19 @@ patch_1_123 =
             "持続時間は60秒になる。(以前は20秒。)"]]
 
 
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h2 [] [text "バンシー 1.123B"],
+     sechib "Ethereal Shriek (スペック)",
+     text "単体ペット fear の継続時間が減少する。",
+     ulist ["Level 18 - Expel Minion - 13 秒から 9 秒に減少",
+            "Level 28 - Intimidate Minion - 21 秒から 15 秒に減少",
+            "Level 38 - Daunt Minion - 30 秒から 22 秒に減少",
+            "Level 48 - Terrify Minion - 42 秒から 30 秒に減少"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_123
+      ++ patch_1_123B

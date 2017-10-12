@@ -236,9 +236,38 @@ patch_1_123 =
      text "Grasping Totem の系列のキャスト時間は2秒になり、詠唱妨害も受けるようになる。"]
 
 
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h2 [] [text "ボーンダンサー 1.123B"],
+     secmid "Bone Army (基本)",
+     text "Commander はスプリントしなくなり移動速度が低下する。",
+     br [] [],
+     text "Dread Commander は以下のように変更になる。",
+     ulist ["召喚呪文はレベル1になる。プレイヤーのレベルに応じてDread Commanderのレベルが決まる。",
+            "スペックの召喚呪文は以前と変わらない。",
+            "レベル1から24ではCommanderは1体のサブペットを持つ。",
+            "レベル25から39ではCommanderは2体のサブペットを持つ。",
+            "レベル40から50ではCommanderは3体のサブペットを持つ。",
+            "スペックのDread Lordは以前と同様に5体のサブペットを持つ。",
+            "Dread Commanderはチャージをしなくなるが以下の呪文が追加される。",
+            "Level 50 - Dread Charge - instant cast - 単体ペットターゲット - 移動速度+165%、移動中はCC不可、スピードワープを無視する - 再利用90秒 - 10秒継続 - 2000 range - 10% power cost",
+            "Dread Captainは削除された。"],
+     secmid "Suppression (スペック)",
+     text "Dread Guardianのヘルスリジェネレーションの効果は150から175に増加する。",
+     secmid "Bone Army (スペック)",
+     text "Dread Lordはスプリントしなくなり移動速度が低下する。",
+     br [] [],
+     text "Dread Lordはチャージをしなくなる。",
+     br [] [],
+     text "Dread Guardianのヘルスリジェネレーションの効果は150から175に増加する。",
+     br [] [],
+     text "fossil healerのヘルスリジェネレーションバフは削除されfossil guardianに追加される。このバフの効果は比率ベースになり3秒ごとに5%のヘルスを回復する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2 ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
+      ++ patch_1_123B

@@ -508,6 +508,32 @@ patch_1_123 =
      text "Nethersbane のスネアはAoEではなく単体になるが持続時間は2秒から4秒に増加する。また proc ダメージは150から175に増加する。"]
 
 
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h2 [] [text "ネクロマンサー 1.123B"],
+     secalb "Painworking (基本)",
+     text "Chthonic Form は以下のように変更になる。",
+     ulist ["ヘルスボーナスは変わらない。",
+            "吸収ボーナスは25から20に減少する。",
+            "Armor は減少する。レベル50時点で250AFから125AFになる。",
+            "すべての二次魔法レジストに15%のボーナスが付く。このボーナスはアイテムによる二次魔法レジストボーナスとスタックしない。Painworking の反魔法バリアーとスタックする。Avoidance of Magic ともスタックする"],
+     secalb "Deathsight (スペック)",
+     text "Bringer of Death のダメージ低下は25%から35%になる。",
+     secalb "Painworking (スペック)",
+     text "魔法吸収&回復パルスは以下のように変更される。",
+     ulist ["Level 34 - Expectancy of Magic - ダメージ吸収量は65%から40%になる。"],
+     text "単体ルートは以下のように変更される。",
+     ulist ["Level 11 - Ice Bond - 再使用1分から5分へ。射程は1000から500へ。",
+            "Level 21 - Ice Cable - 再使用1分から5分へ。射程は1000から500へ。",
+            "Level 31 - Ice Chain - 再使用1分から5分へ。射程は1000から500へ。"],
+     secalb "Death Servant (スペック)",
+     text "単体ペット退散魔法の持続時間が以下のように短縮される。",
+     ulist ["Level 12 - Expel Servant - 13秒から9秒へ。",
+            "Level 22 - Intimidate Servant - 21秒から15秒へ。",
+            "Level 32 - Daunt Servant - 30秒から22秒へ。",
+            "Level 42 - Terrify Servant - 42秒から30秒へ。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -519,3 +545,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122C
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
+      ++ patch_1_123B

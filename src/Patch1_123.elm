@@ -112,3 +112,13 @@ patch_1_123 =
     ++ Warden.patch_1_123
     ++ Warlock.patch_1_123
     ++ Warrior.patch_1_123
+
+
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h1 [] [text "1.123B Live Patch Notes"]]
+    ++ Bainshee.patch_1_123B
+    ++ Bonedancer.patch_1_123B
+    ++ Druid.patch_1_123B
+    ++ Necromancer.patch_1_123B
+    ++ Warlock.patch_1_123B

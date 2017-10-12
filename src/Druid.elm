@@ -132,6 +132,15 @@ patch_1_123 =
      text "PBAoE ルートは削除された。"]
 
 
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h2 [] [text "ドルイド 1.123B"],
+     sechib "Nature (スペック)",
+     text "グループHoTは正しく機能するようになる。",
+     text "ルート解除 Free Wind はレベル13に戻る。ただしリスペックしないとスペルリストに反映されない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_123
+      ++ patch_1_123B

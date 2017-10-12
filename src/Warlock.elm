@@ -91,7 +91,30 @@ patch_1_123 =
             "Level 46 - Confluence of Mending - 283ヘルス回復"]]
 
 
+patch_1_123B : List (Html Message)
+patch_1_123B =
+    [h2 [] [text "ウォーロック 1.123B"],
+     secmid "Witchcraft (スペック)",
+     text "Doom は通常の魔法になる。",
+     text "Doom は Essence 属性から Matter 属性に変更される。",
+     text "Doom の DoT は duration bonus で継続時間を伸ばすことが可能になる。同様に Matter レジストによって短縮されるようになる。",
+     secmid "Hexing (スペック)",
+     text "妨害不可第一魔法は以下のように変更される。",
+     ulist ["Level 2 - Steady Cast - ダメージ低下量40%から50%へ。パワーコスト増加32%から40%へ。",
+            "Level 12 - Solid Cast - ダメージ低下量35%から40%へ。パワーコスト増加25%から32%へ。",
+            "Level 22 - Fixed Cast - ダメージ低下量30%から35%へ。パワーコスト増加19%から25%へ。",
+            "Level 29 - Fortified Cast - ダメージ低下量25%のまま。パワーコスト増加14%から19%へ。",
+            "Level 39 - Anchored Cast - ダメージ低下量20%のまま。パワーコスト増加10%から14%へ。",
+            "Level 48 - Unshakeable Cast - ダメージ低下量10%のまま。パワーコスト増加7%から10%へ。"],
+     text "単体ペット退散魔法の持続時間が以下のように短縮される。",
+     ulist ["Level 11 - Expel Slave - 13秒から9秒へ。",
+            "Level 21 - Intimidate Slave - 21秒から15秒へ。",
+            "Level 31 - Daunt Slave - 30秒から22秒へ。",
+            "Level 41 - Terrify Slave - 42秒から30秒へ。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
+      ++ patch_1_123B

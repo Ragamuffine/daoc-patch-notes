@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123B_Page = {ctor: 'Patch_1_123B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123_Page = {ctor: 'Patch_1_123_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFixNotes_Page = {ctor: 'Patch_1_122C_HotFixNotes_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_122C_HotFix_Page = {ctor: 'Patch_1_122C_HotFix_Page'};
@@ -9318,6 +9319,47 @@ var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Armsman$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121, _Ragamuffine$daoc_patch_notes$Armsman$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バンシー 1.123B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Ethereal Shriek (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('単体ペット fear の継続時間が減少する。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 18 - Expel Minion - 13 秒から 9 秒に減少',
+						_1: {
+							ctor: '::',
+							_0: 'Level 28 - Intimidate Minion - 21 秒から 15 秒に減少',
+							_1: {
+								ctor: '::',
+								_0: 'Level 38 - Daunt Minion - 30 秒から 22 秒に減少',
+								_1: {
+									ctor: '::',
+									_0: 'Level 48 - Terrify Minion - 42 秒から 30 秒に減少',
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -9895,7 +9937,10 @@ var _Ragamuffine$daoc_patch_notes$Bainshee$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Bainshee$patch_20170202,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B))))));
 
 var _Ragamuffine$daoc_patch_notes$Bard$patch_1_123 = {
 	ctor: '::',
@@ -10646,6 +10691,127 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C);
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.123B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Bone Army (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Commander はスプリントしなくなり移動速度が低下する。'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Dread Commander は以下のように変更になる。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: '召喚呪文はレベル1になる。プレイヤーのレベルに応じてDread Commanderのレベルが決まる。',
+								_1: {
+									ctor: '::',
+									_0: 'スペックの召喚呪文は以前と変わらない。',
+									_1: {
+										ctor: '::',
+										_0: 'レベル1から24ではCommanderは1体のサブペットを持つ。',
+										_1: {
+											ctor: '::',
+											_0: 'レベル25から39ではCommanderは2体のサブペットを持つ。',
+											_1: {
+												ctor: '::',
+												_0: 'レベル40から50ではCommanderは3体のサブペットを持つ。',
+												_1: {
+													ctor: '::',
+													_0: 'スペックのDread Lordは以前と同様に5体のサブペットを持つ。',
+													_1: {
+														ctor: '::',
+														_0: 'Dread Commanderはチャージをしなくなるが以下の呪文が追加される。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 50 - Dread Charge - instant cast - 単体ペットターゲット - 移動速度+165%、移動中はCC不可、スピードワープを無視する - 再利用90秒 - 10秒継続 - 2000 range - 10% power cost',
+															_1: {
+																ctor: '::',
+																_0: 'Dread Captainは削除された。',
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Suppression (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('Dread Guardianのヘルスリジェネレーションの効果は150から175に増加する。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Bone Army (スペック)'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Dread Lordはスプリントしなくなり移動速度が低下する。'),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$br,
+												{ctor: '[]'},
+												{ctor: '[]'}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Dread Lordはチャージをしなくなる。'),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$br,
+														{ctor: '[]'},
+														{ctor: '[]'}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Dread Guardianのヘルスリジェネレーションの効果は150から175に増加する。'),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$br,
+																{ctor: '[]'},
+																{ctor: '[]'}),
+															_1: {
+																ctor: '::',
+																_0: _elm_lang$html$Html$text('fossil healerのヘルスリジェネレーションバフは削除されfossil guardianに追加される。このバフの効果は比率ベースになり3秒ごとに5%のヘルスを回復する。'),
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -11673,7 +11839,10 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 					A2(
 						_elm_lang$core$Basics_ops['++'],
 						_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C,
-						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123)))))));
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes,
+							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B))))))));
 
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123 = {
 	ctor: '::',
@@ -13248,6 +13417,30 @@ var _Ragamuffine$daoc_patch_notes$Cleric$all = A2(
 	_Ragamuffine$daoc_patch_notes$Cleric$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cleric$patch_1_122B, _Ragamuffine$daoc_patch_notes$Cleric$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Druid$patch_1_123B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ドルイド 1.123B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Nature (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('グループHoTは正しく機能するようになる。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('ルート解除 Free Wind はレベル13に戻る。ただしリスペックしないとスペルリストに反映されない。'),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Druid$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -13826,7 +14019,10 @@ var _Ragamuffine$daoc_patch_notes$Druid$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Druid$patch_1_122B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix, _Ragamuffine$daoc_patch_notes$Druid$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Druid$patch_1_122B_HotFix,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Druid$patch_1_123, _Ragamuffine$daoc_patch_notes$Druid$patch_1_123B))));
 
 var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 	ctor: '::',
@@ -18618,6 +18814,122 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 		_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.123B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (基本)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Chthonic Form は以下のように変更になる。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'ヘルスボーナスは変わらない。',
+						_1: {
+							ctor: '::',
+							_0: '吸収ボーナスは25から20に減少する。',
+							_1: {
+								ctor: '::',
+								_0: 'Armor は減少する。レベル50時点で250AFから125AFになる。',
+								_1: {
+									ctor: '::',
+									_0: 'すべての二次魔法レジストに15%のボーナスが付く。このボーナスはアイテムによる二次魔法レジストボーナスとスタックしない。Painworking の反魔法バリアーとスタックする。Avoidance of Magic ともスタックする',
+									_1: {ctor: '[]'}
+								}
+							}
+						}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Deathsight (スペック)'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Bringer of Death のダメージ低下は25%から35%になる。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Painworking (スペック)'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('魔法吸収&回復パルスは以下のように変更される。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 34 - Expectancy of Magic - ダメージ吸収量は65%から40%になる。',
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('単体ルートは以下のように変更される。'),
+										_1: {
+											ctor: '::',
+											_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+												{
+													ctor: '::',
+													_0: 'Level 11 - Ice Bond - 再使用1分から5分へ。射程は1000から500へ。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 21 - Ice Cable - 再使用1分から5分へ。射程は1000から500へ。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 31 - Ice Chain - 再使用1分から5分へ。射程は1000から500へ。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}),
+											_1: {
+												ctor: '::',
+												_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (スペック)'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('単体ペット退散魔法の持続時間が以下のように短縮される。'),
+													_1: {
+														ctor: '::',
+														_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+															{
+																ctor: '::',
+																_0: 'Level 12 - Expel Servant - 13秒から9秒へ。',
+																_1: {
+																	ctor: '::',
+																	_0: 'Level 22 - Intimidate Servant - 21秒から15秒へ。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Level 32 - Daunt Servant - 30秒から22秒へ。',
+																		_1: {
+																			ctor: '::',
+																			_0: 'Level 42 - Terrify Servant - 42秒から30秒へ。',
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -20926,7 +21238,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 									A2(
 										_elm_lang$core$Basics_ops['++'],
 										_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C,
-										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123)))))))))));
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes,
+											A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123 = {
 	ctor: '::',
@@ -28518,6 +28833,96 @@ var _Ragamuffine$daoc_patch_notes$Warden$all = A2(
 	_Ragamuffine$daoc_patch_notes$Warden$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warden$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーロック 1.123B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Witchcraft (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Doom は通常の魔法になる。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Doom は Essence 属性から Matter 属性に変更される。'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Doom の DoT は duration bonus で継続時間を伸ばすことが可能になる。同様に Matter レジストによって短縮されるようになる。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Hexing (スペック)'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('妨害不可第一魔法は以下のように変更される。'),
+							_1: {
+								ctor: '::',
+								_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+									{
+										ctor: '::',
+										_0: 'Level 2 - Steady Cast - ダメージ低下量40%から50%へ。パワーコスト増加32%から40%へ。',
+										_1: {
+											ctor: '::',
+											_0: 'Level 12 - Solid Cast - ダメージ低下量35%から40%へ。パワーコスト増加25%から32%へ。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 22 - Fixed Cast - ダメージ低下量30%から35%へ。パワーコスト増加19%から25%へ。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 29 - Fortified Cast - ダメージ低下量25%のまま。パワーコスト増加14%から19%へ。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 39 - Anchored Cast - ダメージ低下量20%のまま。パワーコスト増加10%から14%へ。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 48 - Unshakeable Cast - ダメージ低下量10%のまま。パワーコスト増加7%から10%へ。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('単体ペット退散魔法の持続時間が以下のように短縮される。'),
+									_1: {
+										ctor: '::',
+										_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+											{
+												ctor: '::',
+												_0: 'Level 11 - Expel Slave - 13秒から9秒へ。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 21 - Intimidate Slave - 21秒から15秒へ。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 31 - Daunt Slave - 30秒から22秒へ。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 41 - Terrify Slave - 42秒から30秒へ。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -28897,7 +29302,10 @@ var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Warlock$patch_1_122B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B))));
 
 var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123 = {
 	ctor: '::',
@@ -30475,6 +30883,30 @@ var _Ragamuffine$daoc_patch_notes$Patch20170202$patch_20170202 = A2(
 								_Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202,
 								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_20170202, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123B = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('1.123B Live Patch Notes'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Druid$patch_1_123B,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B)))));
 var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123 = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -31386,7 +31818,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																										}
 																									}
 																								}),
-																							_1: {ctor: '[]'}
+																							_1: {
+																								ctor: '::',
+																								_0: A2(
+																									_elm_lang$html$Html$li,
+																									{ctor: '[]'},
+																									{
+																										ctor: '::',
+																										_0: A2(
+																											_elm_lang$html$Html$a,
+																											{
+																												ctor: '::',
+																												_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_123B_Page),
+																												_1: {ctor: '[]'}
+																											},
+																											{
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text('1.123B'),
+																												_1: {ctor: '[]'}
+																											}),
+																										_1: {
+																											ctor: '::',
+																											_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1123b-live-patch-notes'),
+																											_1: {
+																												ctor: '::',
+																												_0: _elm_lang$html$Html$text(' (2017/7/31)'),
+																												_1: {ctor: '[]'}
+																											}
+																										}
+																									}),
+																								_1: {ctor: '[]'}
+																							}
 																						}
 																					}
 																				}
@@ -32695,6 +33157,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_123B_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123B),
 						_1: {ctor: '[]'}
 					}
 				});
