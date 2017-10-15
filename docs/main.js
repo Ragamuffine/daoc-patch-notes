@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124_Page = {ctor: 'Patch_1_124_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123C_Page = {ctor: 'Patch_1_123C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123B_Page = {ctor: 'Patch_1_123B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123_Page = {ctor: 'Patch_1_123_Page'};
@@ -16143,6 +16144,31 @@ var _Ragamuffine$daoc_patch_notes$Hero$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Hero$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hero$patch_1_121, _Ragamuffine$daoc_patch_notes$Hero$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Hunter$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ハンター 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('RR5アビリティー Entwining は削除され新しいアビリティー Bestial Heart に置き換えられる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Bestial Heart - Instant cast - 30秒継続 - 再使用10分 - Hunter\'s Avatar が必要。ペットが Dire Wolf に変化する。Dire Wolf では物理ダメージが15%増加し、攻撃速度(celerity)が40%増加し、すべての物理攻撃は病気を与えるようになる。Hunter はこの状態では弓を使うことができない。ただしこの能力はいつでもキャンセルできる。この能力を使うとステルス状態は解除される。',
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C = {
 	ctor: '::',
 	_0: A2(
@@ -16957,7 +16983,10 @@ var _Ragamuffine$daoc_patch_notes$Hunter$all = A2(
 				A2(
 					_elm_lang$core$Basics_ops['++'],
 					_Ragamuffine$daoc_patch_notes$Hunter$patch_20170202,
-					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C))))));
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Hunter$patch_1_123,
+						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_124)))))));
 
 var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123 = {
 	ctor: '::',
@@ -18885,6 +18914,22 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 		_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Arawn\'s Legion の詠唱時間は8秒になる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B = {
 	ctor: '::',
 	_0: A2(
@@ -21312,7 +21357,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 										A2(
 											_elm_lang$core$Basics_ops['++'],
 											_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_122C_HotFixNotes,
-											A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B))))))))))));
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123,
+												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124)))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123 = {
 	ctor: '::',
@@ -22420,6 +22468,31 @@ var _Ragamuffine$daoc_patch_notes$Paladin$all = A2(
 			_Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix,
 			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Paladin$patch_1_122B_HotFix5, _Ragamuffine$daoc_patch_notes$Paladin$patch_1_123))));
 
+var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('レンジャー 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('RR5アビリティー Desperate Bowman は除去され Nature\'s Madness に置き換えられる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Nature\'s Madness - Instant cast - 30秒継続 - 再使用10分 - Ranger の足元に半径500のストームを設置する。このストームの中の敵は攻撃速度と詠唱速度が30%低下する。ペットはマスターの元へ帰り10秒後に死亡する。この能力を使うとステルス状態は解除される。',
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -23013,7 +23086,10 @@ var _Ragamuffine$daoc_patch_notes$Ranger$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Ranger$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Ranger$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B, _Ragamuffine$daoc_patch_notes$Ranger$patch_1_123));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Ranger$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Ranger$patch_1_123, _Ragamuffine$daoc_patch_notes$Ranger$patch_1_124)));
 
 var _Ragamuffine$daoc_patch_notes$Reaver$patch_1_123 = {
 	ctor: '::',
@@ -24021,6 +24097,31 @@ var _Ragamuffine$daoc_patch_notes$Savage$all = A2(
 			_Ragamuffine$daoc_patch_notes$Savage$patch_1_122B,
 			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C))));
 
+var _Ragamuffine$daoc_patch_notes$Scout$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スカウト 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('RR5アビリティー Shield Trip は除去され新しいアビリティー Far Sight に置き換えられる。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+				{
+					ctor: '::',
+					_0: 'Far Sight - Instant cast - 30秒継続 - 再使用10分 - 60秒間近視の耐性を得る。弓の射程は20%増加する。Standard Shot はターゲットに50%近視を20秒間与える。この能力を使うとステルス状態は解除される。',
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Scout$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -24555,7 +24656,10 @@ var _Ragamuffine$daoc_patch_notes$Scout$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Scout$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Scout$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Scout$patch_1_122B, _Ragamuffine$daoc_patch_notes$Scout$patch_1_123));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Scout$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Scout$patch_1_123, _Ragamuffine$daoc_patch_notes$Scout$patch_1_124)));
 
 var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123 = {
 	ctor: '::',
@@ -26220,6 +26324,31 @@ var _Ragamuffine$daoc_patch_notes$Shaman$all = A2(
 		_Ragamuffine$daoc_patch_notes$Shaman$patch_1_121B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Skald$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スカルド 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+			{
+				ctor: '::',
+				_0: 'Level 35 - Crescendo - 移動速度ボーナスは115%から105%に減少する。',
+				_1: {
+					ctor: '::',
+					_0: 'Level 44 - Great Crescendo - 移動速度ボーナスは125%から115%に減少する。',
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Skald$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -26679,7 +26808,10 @@ var _Ragamuffine$daoc_patch_notes$Skald$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Skald$patch_1_122B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Skald$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_123, _Ragamuffine$daoc_patch_notes$Skald$patch_1_124))));
 
 var _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B = {
 	ctor: '::',
@@ -26933,6 +27065,22 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 	_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124 = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.124'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Gates of Valhalla の詠唱時間は8秒になる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -27537,7 +27685,10 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 							A2(
 								_elm_lang$core$Basics_ops['++'],
 								_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_20170202,
-								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123)))))))));
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C,
+									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_123 = {
 	ctor: '::',
@@ -31230,6 +31381,34 @@ var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123 = A2(
 																																		_Ragamuffine$daoc_patch_notes$Warden$patch_1_123,
 																																		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123)))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124 = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.124 Live Patch Notes'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Hunter$patch_1_124,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Ranger$patch_1_124,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Scout$patch_1_124,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_124, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124))))));
+
 var _Ragamuffine$daoc_patch_notes$Main$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };
@@ -31962,7 +32141,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																												}
 																											}
 																										}),
-																									_1: {ctor: '[]'}
+																									_1: {
+																										ctor: '::',
+																										_0: A2(
+																											_elm_lang$html$Html$li,
+																											{ctor: '[]'},
+																											{
+																												ctor: '::',
+																												_0: A2(
+																													_elm_lang$html$Html$a,
+																													{
+																														ctor: '::',
+																														_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_124_Page),
+																														_1: {ctor: '[]'}
+																													},
+																													{
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text('1.124'),
+																														_1: {ctor: '[]'}
+																													}),
+																												_1: {
+																													ctor: '::',
+																													_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1124-live-patch-notes'),
+																													_1: {
+																														ctor: '::',
+																														_0: _elm_lang$html$Html$text(' (2017/10/4)'),
+																														_1: {ctor: '[]'}
+																													}
+																												}
+																											}),
+																										_1: {ctor: '[]'}
+																									}
 																								}
 																							}
 																						}
@@ -33299,6 +33508,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123C),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_124_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124),
 						_1: {ctor: '[]'}
 					}
 				});

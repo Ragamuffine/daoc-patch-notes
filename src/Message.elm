@@ -20,6 +20,7 @@ type Message =
   | Patch_1_123_Page
   | Patch_1_123B_Page
   | Patch_1_123C_Page
+  | Patch_1_124_Page
   | AlbionPage
   | MidgardPage
   | HiberniaPage

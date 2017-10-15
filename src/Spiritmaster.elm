@@ -151,6 +151,12 @@ patch_1_123 =
             "レベル44-50ペットではデバフの効果は30%"]]
 
 
+patch_1_124 : List (Html Message)
+patch_1_124 =
+    [h2 [] [text "スピリットマスター 1.124"],
+     text "Gates of Valhalla の詠唱時間は8秒になる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -160,3 +166,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_123
+      ++ patch_1_124

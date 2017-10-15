@@ -189,8 +189,16 @@ patch_1_123C =
             "Level 50 - 15%から10%へ"]]
 
     
+patch_1_124 : List (Html Message)
+patch_1_124 =
+    [h2 [] [text "ハンター 1.124"],
+     text "RR5アビリティー Entwining は削除され新しいアビリティー Bestial Heart に置き換えられる。",
+     ulist ["Bestial Heart - Instant cast - 30秒継続 - 再使用10分 - Hunter's Avatar が必要。ペットが Dire Wolf に変化する。Dire Wolf では物理ダメージが15%増加し、攻撃速度(celerity)が40%増加し、すべての物理攻撃は病気を与えるようになる。Hunter はこの状態では弓を使うことができない。ただしこの能力はいつでもキャンセルできる。この能力を使うとステルス状態は解除される。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_121C ++ patch_1_122B
       ++ patch_20170202
       ++ patch_1_123
       ++ patch_1_123C
+      ++ patch_1_124

@@ -125,6 +125,14 @@ patch_1_123 =
             "Level 49 - Critical Shot 9 - 290に低下(以前は305)"]]
 
 
+patch_1_124 : List (Html Message)
+patch_1_124 =
+    [h2 [] [text "スカウト 1.124"],
+     text "RR5アビリティー Shield Trip は除去され新しいアビリティー Far Sight に置き換えられる。",
+     ulist ["Far Sight - Instant cast - 30秒継続 - 再使用10分 - 60秒間近視の耐性を得る。弓の射程は20%増加する。Standard Shot はターゲットに50%近視を20秒間与える。この能力を使うとステルス状態は解除される。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_123
+      ++ patch_1_124

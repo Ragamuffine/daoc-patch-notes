@@ -107,6 +107,14 @@ patch_1_123 =
      text "War Howl はレベル47に移動する。"]
 
 
+patch_1_124 : List (Html Message)
+patch_1_124 =
+    [h2 [] [text "スカルド 1.124"],
+     ulist ["Level 35 - Crescendo - 移動速度ボーナスは115%から105%に減少する。",
+            "Level 44 - Great Crescendo - 移動速度ボーナスは125%から115%に減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_123
+      ++ patch_1_124

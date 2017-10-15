@@ -136,6 +136,14 @@ patch_1_123 =
             "Level 49 - Critical Shot 9 - 290に低下(以前は305)"]]
 
 
+patch_1_124 : List (Html Message)
+patch_1_124 =
+    [h2 [] [text "レンジャー 1.124"],
+     text "RR5アビリティー Desperate Bowman は除去され Nature's Madness に置き換えられる。",
+     ulist ["Nature's Madness - Instant cast - 30秒継続 - 再使用10分 - Ranger の足元に半径500のストームを設置する。このストームの中の敵は攻撃速度と詠唱速度が30%低下する。ペットはマスターの元へ帰り10秒後に死亡する。この能力を使うとステルス状態は解除される。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_123
+      ++ patch_1_124

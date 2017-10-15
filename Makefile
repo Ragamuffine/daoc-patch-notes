@@ -12,7 +12,7 @@ SRC_ELM_CLASS = src/Animist.elm src/Armsman.elm src/Bainshee.elm src/Bard.elm \
 	src/Spiritmaster.elm src/Thane.elm src/Theurgist.elm \
 	src/Valewalker.elm src/Valkyrie.elm src/Vampiir.elm src/Warden.elm \
 	src/Warlock.elm src/Warrior.elm src/Wizard.elm \
-	src/Patch1_121.elm
+	src/Patch1_121.elm src/Patch1_122.elm src/Patch1_123.elm src/Patch1_124.elm
 
 SRC_HTML = src/index.html
 
