@@ -157,6 +157,22 @@ patch_1_124 =
      text "Gates of Valhalla の詠唱時間は8秒になる。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "スピリットマスター 1.124B"],
+     text "Spirit Warrior の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。",
+     br [] [],
+     text "Spirit Shaman",
+     ulist ["Levels 1-13 - ヒール量は82から42になる。",
+            "Levels 14-23 - ヒール量は145から95になる。",
+            "Levels 24-33 - ヒール量は190から130になる。",
+            "Levels 34-43 - ヒール量は244から175になる。",
+            "Levels 44-50 - ヒール量は302から250になる。"],
+     text "Spirit Valkyrie の詠唱速度は他のヒーリングペットと合うように増加する。物理防御はやや上昇する。バトルグラウンドでは物理スタイル攻撃を行わない。",
+     ulist ["Levels 34-43 - ヒール量は95に減少する。",
+            "Levels 44-50 - ヒール量は130に減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -167,3 +183,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122C
       ++ patch_1_123
       ++ patch_1_124
+      ++ patch_1_124B

@@ -175,6 +175,20 @@ patch_1_123C =
      text "Enchantment of Mana の proc 率は50%から40%に減少する。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "エンチャンター 1.124B"],
+     text "Underhill Compatriot の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。",
+     br [] [],
+     text "Underhill Ally",
+     ulist ["Levels 1-13 - ヒール量は82から42になる。",
+            "Levels 14-23 - ヒール量は145から95になる。",
+            "Levels 24-33 - ヒール量は190から130になる。",
+            "Levels 34-43 - ヒール量は244から175になる。",
+            "Levels 44-50 - ヒール量は302から250になる。"],
+     text "Underhill Stalker はバトルグラウンドでは物理スタイル攻撃を行わない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -186,3 +200,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122C
       ++ patch_1_123
       ++ patch_1_123C
+      ++ patch_1_124B

@@ -98,6 +98,20 @@ patch_1_123 =
      ulist ["Level 38 - Summon Night's Servant - パワーコストが150に減少する。"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ヴァンピール 1.124B"],
+     text "Flight of the Bat は移動中に詠唱できなくなる。",
+     br [] [],
+     text "Level 45 - Vampiir's Bite は以下のように修正される。",
+     ulist ["40 Piercing スペックに移される。",
+            "スタン時間は5秒から4秒に減少する。",
+            "ダメージはやや減少する。",
+            "攻撃ボーナスはなくなる。",
+            "防御ペナルティーは増加する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B
       ++ patch_1_123
+      ++ patch_1_124B

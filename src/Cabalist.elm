@@ -155,6 +155,20 @@ patch_1_123 =
      text "Ruby Simulacrum の呪文の詠唱時間は2.2秒から2.6秒に増加する。呪文のデバフ効果はレベル23までは10%, レベル43までは20%, それ以上は30%となる。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "カバリスト 1.124B"],
+     text "Jade Simulacrum の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。",
+     br [] [],
+     text "Sapphire Simulacrum の詠唱速度は他のヒーリングペットと合うように増加する。",
+     ulist ["Levels 1-13 - ヒール量は30%から42になる。",
+            "Levels 14-23 - ヒール量は30%から95になる。",
+            "Levels 24-33 - ヒール量は30%から130になる。",
+            "Levels 34-43 - ヒール量は30%から175になる。",
+            "Levels 44-50 - ヒール量は30%から250になる。"],
+     text "Amber Simulacrum はバトルグラウンドでは物理スタイル攻撃を行わない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -163,3 +177,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_123
+      ++ patch_1_124B

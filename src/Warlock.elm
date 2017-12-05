@@ -113,8 +113,15 @@ patch_1_123B =
             "Level 41 - Terrify Slave - 42秒から30秒へ。"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ウォーロック 1.124B"],
+     text "単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
       ++ patch_1_123B
+      ++ patch_1_124B

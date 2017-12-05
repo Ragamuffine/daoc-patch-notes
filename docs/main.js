@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124B_Page = {ctor: 'Patch_1_124B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124_Page = {ctor: 'Patch_1_124_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123C_Page = {ctor: 'Patch_1_123C_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123B_Page = {ctor: 'Patch_1_123B_Page'};
@@ -9321,6 +9322,22 @@ var _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Armsman$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Armsman$patch_1_121, _Ragamuffine$daoc_patch_notes$Armsman$patch_1_123);
 
+var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バンシー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B = {
 	ctor: '::',
 	_0: A2(
@@ -9942,7 +9959,10 @@ var _Ragamuffine$daoc_patch_notes$Bainshee$all = A2(
 				A2(
 					_elm_lang$core$Basics_ops['++'],
 					_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_122C,
-					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B))))));
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123,
+						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_123B, _Ragamuffine$daoc_patch_notes$Bainshee$patch_1_124B)))))));
 
 var _Ragamuffine$daoc_patch_notes$Bard$patch_1_123 = {
 	ctor: '::',
@@ -10092,6 +10112,22 @@ var _Ragamuffine$daoc_patch_notes$Bard$all = A2(
 	_Ragamuffine$daoc_patch_notes$Bard$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bard$patch_1_122B, _Ragamuffine$daoc_patch_notes$Bard$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('バーサーカー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('すべてのスタンスは削除される。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -10418,8 +10454,27 @@ var _Ragamuffine$daoc_patch_notes$Berserker$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Berserker$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Berserker$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C, _Ragamuffine$daoc_patch_notes$Berserker$patch_1_123));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Berserker$patch_1_122C,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Berserker$patch_1_123, _Ragamuffine$daoc_patch_notes$Berserker$patch_1_124B)));
 
+var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ブレードマスター 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('すべてのスタンスは削除される。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -10691,8 +10746,27 @@ var _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121 = {
 		}
 	}
 };
-var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C);
+var _Ragamuffine$daoc_patch_notes$Blademaster$all = A2(
+	_elm_lang$core$Basics_ops['++'],
+	_Ragamuffine$daoc_patch_notes$Blademaster$patch_1_121,
+	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_122C, _Ragamuffine$daoc_patch_notes$Blademaster$patch_1_124B));
 
+var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ボーンダンサー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Dread Commander, Fossil Defender, Fossil Guardian, Fossil Soldierはバトルグラウンドで物理スタイル攻撃を行わない。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B = {
 	ctor: '::',
 	_0: A2(
@@ -11844,8 +11918,67 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 						A2(
 							_elm_lang$core$Basics_ops['++'],
 							_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_122C_HotFixNotes,
-							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B))))))));
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123,
+								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_124B)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('カバリスト 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Jade Simulacrum の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Sapphire Simulacrum の詠唱速度は他のヒーリングペットと合うように増加する。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Levels 1-13 - ヒール量は30%から42になる。',
+							_1: {
+								ctor: '::',
+								_0: 'Levels 14-23 - ヒール量は30%から95になる。',
+								_1: {
+									ctor: '::',
+									_0: 'Levels 24-33 - ヒール量は30%から130になる。',
+									_1: {
+										ctor: '::',
+										_0: 'Levels 34-43 - ヒール量は30%から175になる。',
+										_1: {
+											ctor: '::',
+											_0: 'Levels 44-50 - ヒール量は30%から250になる。',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Amber Simulacrum はバトルグラウンドでは物理スタイル攻撃を行わない。'),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -12481,7 +12614,10 @@ var _Ragamuffine$daoc_patch_notes$Cabalist$all = A2(
 						A2(
 							_elm_lang$core$Basics_ops['++'],
 							_Ragamuffine$daoc_patch_notes$Cabalist$patch_20170202,
-							A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123))))))));
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C,
+								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B)))))))));
 
 var _Ragamuffine$daoc_patch_notes$Champion$patch_1_123 = {
 	ctor: '::',
@@ -14148,6 +14284,62 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Underhill Compatriot の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Underhill Ally'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Levels 1-13 - ヒール量は82から42になる。',
+							_1: {
+								ctor: '::',
+								_0: 'Levels 14-23 - ヒール量は145から95になる。',
+								_1: {
+									ctor: '::',
+									_0: 'Levels 24-33 - ヒール量は190から130になる。',
+									_1: {
+										ctor: '::',
+										_0: 'Levels 34-43 - ヒール量は244から175になる。',
+										_1: {
+											ctor: '::',
+											_0: 'Levels 44-50 - ヒール量は302から250になる。',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Underhill Stalker はバトルグラウンドでは物理スタイル攻撃を行わない。'),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C = {
 	ctor: '::',
 	_0: A2(
@@ -14849,7 +15041,10 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 									A2(
 										_elm_lang$core$Basics_ops['++'],
 										_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_122C,
-										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C)))))))))));
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123,
+											A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_123 = {
 	ctor: '::',
@@ -18298,6 +18493,22 @@ var _Ragamuffine$daoc_patch_notes$Mentalist$all = A2(
 	_Ragamuffine$daoc_patch_notes$Mentalist$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mentalist$patch_20170202, _Ragamuffine$daoc_patch_notes$Mentalist$patch_1_122C_HotFixNotes));
 
+var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('マーセナリー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('すべてのスタンスは削除される。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -18613,7 +18824,10 @@ var _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Mercenary$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C, _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_121C,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_122C, _Ragamuffine$daoc_patch_notes$Mercenary$patch_1_124B)));
 
 var _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123 = {
 	ctor: '::',
@@ -18914,6 +19128,118 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 		_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Darkness Form (Realm Rank 5 Form) から他の Form に変わらなくなる。まず Revert Form になりRR5をキャンセルするかまたは有効時間が切れるのを待つ。'),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$br,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Death Servant スペックのDDスネアは以下のように変更になる。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Level 49 - Plague Surge - ダメージは199から179に減少。スネアは20%から35%に増加。',
+									_1: {
+										ctor: '::',
+										_0: 'Level 39 - Plague Barrage - ダメージは153から148に減少。スネアは20%から25%に増加。',
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('他のレベルでは変更はない。'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Netherbane の攻撃 proc Death\'s Door のクリティカルボーナスは 100% から 25% に減少する。'),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$br,
+												{ctor: '[]'},
+												{ctor: '[]'}),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Umbral Aegis の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。'),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$br,
+														{ctor: '[]'},
+														{ctor: '[]'}),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html$text('Priest of Arawn'),
+														_1: {
+															ctor: '::',
+															_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+																{
+																	ctor: '::',
+																	_0: 'Levels 34-43 - ヒール量は302から175になる。',
+																	_1: {
+																		ctor: '::',
+																		_0: 'Levels 44-50 - ヒール量は302から250になる。',
+																		_1: {ctor: '[]'}
+																	}
+																}),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$br,
+																	{ctor: '[]'},
+																	{ctor: '[]'}),
+																_1: {
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text('Plated Fiend はバトルグラウンドでは物理スタイル攻撃を行わない。'),
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124 = {
 	ctor: '::',
 	_0: A2(
@@ -21360,7 +21686,10 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 											A2(
 												_elm_lang$core$Basics_ops['++'],
 												_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123,
-												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124)))))))))))));
+												A2(
+													_elm_lang$core$Basics_ops['++'],
+													_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B,
+													A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B))))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123 = {
 	ctor: '::',
@@ -23577,6 +23906,22 @@ var _Ragamuffine$daoc_patch_notes$Runemaster$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Runemaster$all = _Ragamuffine$daoc_patch_notes$Runemaster$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Savage$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('サヴェジ 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('すべてのスタンスは削除される。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C = {
 	ctor: '::',
 	_0: A2(
@@ -24095,7 +24440,10 @@ var _Ragamuffine$daoc_patch_notes$Savage$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Savage$patch_1_122B,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Savage$patch_1_122B_HotFix2,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Savage$patch_1_122C, _Ragamuffine$daoc_patch_notes$Savage$patch_1_124B)))));
 
 var _Ragamuffine$daoc_patch_notes$Scout$patch_1_124 = {
 	ctor: '::',
@@ -26324,6 +26672,22 @@ var _Ragamuffine$daoc_patch_notes$Shaman$all = A2(
 		_Ragamuffine$daoc_patch_notes$Shaman$patch_1_121B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Skald$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スカルド 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('March of Bragi はスピードワープを無視しないようになる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Skald$patch_1_124 = {
 	ctor: '::',
 	_0: A2(
@@ -26811,8 +27175,27 @@ var _Ragamuffine$daoc_patch_notes$Skald$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Skald$patch_1_122B_HotFix2,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_123, _Ragamuffine$daoc_patch_notes$Skald$patch_1_124))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Skald$patch_1_123,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Skald$patch_1_124, _Ragamuffine$daoc_patch_notes$Skald$patch_1_124B)))));
 
+var _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ソーサラー 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('RR5 アビリティー Shield of Immunity は Friar の Tranquility buff で上書きされなくなる。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B = {
 	ctor: '::',
 	_0: A2(
@@ -27063,8 +27446,80 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_124B)));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Spirit Warrior の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Spirit Shaman'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: 'Levels 1-13 - ヒール量は82から42になる。',
+							_1: {
+								ctor: '::',
+								_0: 'Levels 14-23 - ヒール量は145から95になる。',
+								_1: {
+									ctor: '::',
+									_0: 'Levels 24-33 - ヒール量は190から130になる。',
+									_1: {
+										ctor: '::',
+										_0: 'Levels 34-43 - ヒール量は244から175になる。',
+										_1: {
+											ctor: '::',
+											_0: 'Levels 44-50 - ヒール量は302から250になる。',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('Spirit Valkyrie の詠唱速度は他のヒーリングペットと合うように増加する。物理防御はやや上昇する。バトルグラウンドでは物理スタイル攻撃を行わない。'),
+						_1: {
+							ctor: '::',
+							_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+								{
+									ctor: '::',
+									_0: 'Levels 34-43 - ヒール量は95に減少する。',
+									_1: {
+										ctor: '::',
+										_0: 'Levels 44-50 - ヒール量は130に減少する。',
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124 = {
 	ctor: '::',
 	_0: A2(
@@ -27688,7 +28143,10 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 								A2(
 									_elm_lang$core$Basics_ops['++'],
 									_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_122C,
-									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124))))))))));
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123,
+										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B)))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_123 = {
 	ctor: '::',
@@ -28402,6 +28860,58 @@ var _Ragamuffine$daoc_patch_notes$Valkyrie$all = A2(
 	_Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121B, _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヴァンピール 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Flight of the Bat は移動中に詠唱できなくなる。'),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$br,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Level 45 - Vampiir\'s Bite は以下のように修正される。'),
+				_1: {
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+						{
+							ctor: '::',
+							_0: '40 Piercing スペックに移される。',
+							_1: {
+								ctor: '::',
+								_0: 'スタン時間は5秒から4秒に減少する。',
+								_1: {
+									ctor: '::',
+									_0: 'ダメージはやや減少する。',
+									_1: {
+										ctor: '::',
+										_0: '攻撃ボーナスはなくなる。',
+										_1: {
+											ctor: '::',
+											_0: '防御ペナルティーは増加する。',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -28796,7 +29306,10 @@ var _Ragamuffine$daoc_patch_notes$Vampiir$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_121C,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B))));
 
 var _Ragamuffine$daoc_patch_notes$Warden$patch_1_123 = {
 	ctor: '::',
@@ -29055,6 +29568,22 @@ var _Ragamuffine$daoc_patch_notes$Warden$all = A2(
 	_Ragamuffine$daoc_patch_notes$Warden$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warden$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーロック 1.124B'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B = {
 	ctor: '::',
 	_0: A2(
@@ -29527,7 +30056,10 @@ var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Warlock$patch_1_122C_HotFixNotes,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Warlock$patch_1_123,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B)))));
 
 var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123 = {
 	ctor: '::',
@@ -31381,6 +31913,57 @@ var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123 = A2(
 																																		_Ragamuffine$daoc_patch_notes$Warden$patch_1_123,
 																																		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123)))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124B = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.124B Live Patch Notes'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Bainshee$patch_1_124B,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Berserker$patch_1_124B,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Blademaster$patch_1_124B,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_124B,
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B,
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B,
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Mercenary$patch_1_124B,
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B,
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Savage$patch_1_124B,
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											_Ragamuffine$daoc_patch_notes$Skald$patch_1_124B,
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B,
+												A2(
+													_elm_lang$core$Basics_ops['++'],
+													_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_124B,
+													A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B))))))))))))));
 var _Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124 = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -32170,7 +32753,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																													}
 																												}
 																											}),
-																										_1: {ctor: '[]'}
+																										_1: {
+																											ctor: '::',
+																											_0: A2(
+																												_elm_lang$html$Html$li,
+																												{ctor: '[]'},
+																												{
+																													ctor: '::',
+																													_0: A2(
+																														_elm_lang$html$Html$a,
+																														{
+																															ctor: '::',
+																															_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_124B_Page),
+																															_1: {ctor: '[]'}
+																														},
+																														{
+																															ctor: '::',
+																															_0: _elm_lang$html$Html$text('1.124B'),
+																															_1: {ctor: '[]'}
+																														}),
+																													_1: {
+																														ctor: '::',
+																														_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/content/1124b-live-patch-notes'),
+																														_1: {
+																															ctor: '::',
+																															_0: _elm_lang$html$Html$text(' (2017/10/30)'),
+																															_1: {ctor: '[]'}
+																														}
+																													}
+																												}),
+																											_1: {ctor: '[]'}
+																										}
 																									}
 																								}
 																							}
@@ -33521,6 +34134,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_124B_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124B),
 						_1: {ctor: '[]'}
 					}
 				});

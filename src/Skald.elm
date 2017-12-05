@@ -114,7 +114,14 @@ patch_1_124 =
             "Level 44 - Great Crescendo - 移動速度ボーナスは125%から115%に減少する。"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "スカルド 1.124B"],
+     text "March of Bragi はスピードワープを無視しないようになる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_123
       ++ patch_1_124
+      ++ patch_1_124B

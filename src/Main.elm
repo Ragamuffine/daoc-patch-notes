@@ -116,7 +116,8 @@ top_page =
                    li [] [a [onClick Patch_1_123_Page] [text "1.123"], official_link "http://darkageofcamelot.com/content/1123-live-patch-notes", text " (2017/7/17)"],
                    li [] [a [onClick Patch_1_123B_Page] [text "1.123B"], official_link "http://darkageofcamelot.com/content/1123b-live-patch-notes", text " (2017/7/31)"],
                    li [] [a [onClick Patch_1_123C_Page] [text "1.123C"], official_link "http://darkageofcamelot.com/article/1123c-hot-fix", text " (2017/8/31)"],
-                   li [] [a [onClick Patch_1_124_Page] [text "1.124"], official_link "http://darkageofcamelot.com/content/1124-live-patch-notes", text " (2017/10/4)"]],
+                   li [] [a [onClick Patch_1_124_Page] [text "1.124"], official_link "http://darkageofcamelot.com/content/1124-live-patch-notes", text " (2017/10/4)"],
+                   li [] [a [onClick Patch_1_124B_Page] [text "1.124B"], official_link "http://darkageofcamelot.com/content/1124b-live-patch-notes", text " (2017/10/30)"]],
               h2 [] [text "クラス"],
               div [class "uk-grid"]
                   [div [class "uk-width-medium-1-3 uk-row-first"]
@@ -223,6 +224,7 @@ view model =
         Patch_1_123B_Page -> div [] [top_menu, make_content Patch1_123.patch_1_123B]
         Patch_1_123C_Page -> div [] [top_menu, make_content Patch1_123.patch_1_123C]
         Patch_1_124_Page -> div [] [top_menu, make_content Patch1_124.patch_1_124]
+        Patch_1_124B_Page -> div [] [top_menu, make_content Patch1_124.patch_1_124B]
         AlbionPage -> albion_page
         MidgardPage -> midgard_page
         HiberniaPage -> hibernia_page

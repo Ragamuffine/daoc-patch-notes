@@ -64,5 +64,12 @@ patch_1_122B =
             "Level 44 - Water Breath - 詠唱3秒 - 1500 range - 持続時間30分 - 25 power - 水中で地上の 100% の速度で移動する"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ソーサラー 1.124B"],
+     text "RR5 アビリティー Shield of Immunity は Friar の Tranquility buff で上書きされなくなる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B
+      ++ patch_1_124B

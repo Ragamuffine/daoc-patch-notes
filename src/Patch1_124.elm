@@ -61,3 +61,22 @@ patch_1_124 =
     ++ Scout.patch_1_124
     ++ Skald.patch_1_124
     ++ Spiritmaster.patch_1_124
+
+
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h1 [] [text "Patch 1.124B Live Patch Notes"]]
+    ++ Bainshee.patch_1_124B
+    ++ Berserker.patch_1_124B
+    ++ Blademaster.patch_1_124B
+    ++ Bonedancer.patch_1_124B
+    ++ Cabalist.patch_1_124B
+    ++ Enchanter.patch_1_124B
+    ++ Mercenary.patch_1_124B
+    ++ Necromancer.patch_1_124B
+    ++ Savage.patch_1_124B
+    ++ Skald.patch_1_124B
+    ++ Spiritmaster.patch_1_124B
+    ++ Sorcerer.patch_1_124B
+    ++ Warlock.patch_1_124B
+    ++ Vampiir.patch_1_124B

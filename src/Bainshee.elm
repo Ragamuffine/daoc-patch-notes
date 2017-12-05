@@ -143,8 +143,15 @@ patch_1_123B =
             "Level 48 - Terrify Minion - 42 秒から 30 秒に減少"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "バンシー 1.124B"],
+     text "単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B ++ patch_20170202
       ++ patch_1_122C
       ++ patch_1_123
       ++ patch_1_123B
+      ++ patch_1_124B

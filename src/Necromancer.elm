@@ -540,6 +540,29 @@ patch_1_124 =
      text "Arawn's Legion の詠唱時間は8秒になる。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ネクロマンサー 1.124B"],
+     text "単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。",
+     br [] [],
+     text "Darkness Form (Realm Rank 5 Form) から他の Form に変わらなくなる。まず Revert Form になりRR5をキャンセルするかまたは有効時間が切れるのを待つ。",
+     br [] [],
+     text "Death Servant スペックのDDスネアは以下のように変更になる。",
+     ulist ["Level 49 - Plague Surge - ダメージは199から179に減少。スネアは20%から35%に増加。",
+            "Level 39 - Plague Barrage - ダメージは153から148に減少。スネアは20%から25%に増加。"],
+     text "他のレベルでは変更はない。",
+     br [] [],
+     text "Netherbane の攻撃 proc Death's Door のクリティカルボーナスは 100% から 25% に減少する。",
+     br [] [],
+     text "Umbral Aegis の移動速度は通常速度まで増加する。対人ゾーンでは防御ボーナスを持たなくなる。",
+     br [] [],
+     text "Priest of Arawn",
+     ulist ["Levels 34-43 - ヒール量は302から175になる。",
+            "Levels 44-50 - ヒール量は302から250になる。"],
+     br [] [],
+     text "Plated Fiend はバトルグラウンドでは物理スタイル攻撃を行わない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -553,3 +576,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_123
       ++ patch_1_123B
       ++ patch_1_124
+      ++ patch_1_124B

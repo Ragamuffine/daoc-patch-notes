@@ -58,6 +58,13 @@ patch_1_122C =
             "すべてのダメージは75%減少する。"]]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ブレードマスター 1.124B"],
+     text "すべてのスタンスは削除される。"]
+
+
 all : List (Html Message)
 all = patch_1_121
       ++ patch_1_122C
+      ++ patch_1_124B

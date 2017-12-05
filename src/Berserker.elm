@@ -73,7 +73,14 @@ patch_1_123 =
      text "Freezing Predator Vest のグループダメージ増加 proc は自分のみに適用される。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "バーサーカー 1.124B"],
+     text "すべてのスタンスは削除される。"]
+
+
 all : List (Html Message)
 all = patch_1_121
       ++ patch_1_122C
       ++ patch_1_123
+      ++ patch_1_124B

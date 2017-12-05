@@ -264,6 +264,12 @@ patch_1_123B =
      text "fossil healerのヘルスリジェネレーションバフは削除されfossil guardianに追加される。このバフの効果は比率ベースになり3秒ごとに5%のヘルスを回復する。"]
 
 
+patch_1_124B : List (Html Message)
+patch_1_124B =
+    [h2 [] [text "ボーンダンサー 1.124B"],
+     text "Dread Commander, Fossil Defender, Fossil Guardian, Fossil Soldierはバトルグラウンドで物理スタイル攻撃を行わない。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2 ++ patch_20170202
@@ -271,3 +277,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
       ++ patch_1_123B
+      ++ patch_1_124B
