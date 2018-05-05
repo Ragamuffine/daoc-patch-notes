@@ -563,6 +563,19 @@ patch_1_124B =
      text "Plated Fiend はバトルグラウンドでは物理スタイル攻撃を行わない。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "ネクロマンサー 1.124D"],
+     text "Umbral Aegis ペットは再び物理攻撃を行うようになる。",
+     text "Plated Fiend ペットは通常速度+スプリントで移動する。",
+     secalb "Death Servant (基本)",
+     text "ペットを対象とする回復呪文が追加される。",
+     ulist ["Level 13 - Animate Flesh - 41回復 - 詠唱3.0秒 - 8 power - 2000 range",
+            "Level 23 - Animate Blood - 88回復 - 詠唱3.0秒 - 17 power - 2000 range",
+            "Level 33 - Animate Muscle - 152回復 - 詠唱3.0秒 - 22 power - 2000 range",
+            "Level 43 - Animate Body - 244回復 - 詠唱3.0秒 - 28 power - 2000 range"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -577,3 +590,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_123B
       ++ patch_1_124
       ++ patch_1_124B
+      ++ patch_1_124D

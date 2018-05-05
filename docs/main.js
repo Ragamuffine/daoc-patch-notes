@@ -7843,6 +7843,7 @@ var _Ragamuffine$daoc_patch_notes$Message$AnimistPage = {ctor: 'AnimistPage'};
 var _Ragamuffine$daoc_patch_notes$Message$HiberniaPage = {ctor: 'HiberniaPage'};
 var _Ragamuffine$daoc_patch_notes$Message$MidgardPage = {ctor: 'MidgardPage'};
 var _Ragamuffine$daoc_patch_notes$Message$AlbionPage = {ctor: 'AlbionPage'};
+var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124D_Page = {ctor: 'Patch_1_124D_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124B_Page = {ctor: 'Patch_1_124B_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_124_Page = {ctor: 'Patch_1_124_Page'};
 var _Ragamuffine$daoc_patch_notes$Message$Patch_1_123C_Page = {ctor: 'Patch_1_123C_Page'};
@@ -11923,6 +11924,22 @@ var _Ragamuffine$daoc_patch_notes$Bonedancer$all = A2(
 								_Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123,
 								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_123B, _Ragamuffine$daoc_patch_notes$Bonedancer$patch_1_124B)))))))));
 
+var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('カバリスト 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Amber Simulacrum は通常速度+スプリントで移動する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -12617,7 +12634,10 @@ var _Ragamuffine$daoc_patch_notes$Cabalist$all = A2(
 							A2(
 								_elm_lang$core$Basics_ops['++'],
 								_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_122C,
-								A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B)))))))));
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_123,
+									A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124B, _Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124D))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Champion$patch_1_123 = {
 	ctor: '::',
@@ -14284,6 +14304,30 @@ var _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Eldritch$all = _Ragamuffine$daoc_patch_notes$Eldritch$patch_1_121;
 
+var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('エンチャンター 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Underhill Stalker ペットは通常速度+スプリントで移動する。'),
+		_1: {
+			ctor: '::',
+			_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Enchanting (Enchantments スペック)'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('すべての単体30秒持続ヒール効果バフの効果は半分に減少する。'),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -15044,7 +15088,10 @@ var _Ragamuffine$daoc_patch_notes$Enchanter$all = A2(
 										A2(
 											_elm_lang$core$Basics_ops['++'],
 											_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123,
-											A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B))))))))))));
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_123C,
+												A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124B, _Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124D)))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Friar$patch_1_123 = {
 	ctor: '::',
@@ -15825,6 +15872,42 @@ var _Ragamuffine$daoc_patch_notes$Healer$patch_1_121 = {
 };
 var _Ragamuffine$daoc_patch_notes$Healer$all = A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Healer$patch_1_121, _Ragamuffine$daoc_patch_notes$Healer$patch_1_122B);
 
+var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヘレティック 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Enhancement (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('単体STRデバフ、単体CONデバフ、単体DEXデバフスペルは以下のように変更になる。'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('これらの呪文はインスタント、PBAoEスペル(半径350)になる。'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('デバフの効果は変わらない。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('STRとDEXは共通のタイマー15秒を持つ。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('CONは独自のタイマー15秒を持つ'),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Heretic$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -16253,7 +16336,10 @@ var _Ragamuffine$daoc_patch_notes$Heretic$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFix,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_123))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Heretic$patch_1_122C_HotFixNotes,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Heretic$patch_1_123, _Ragamuffine$daoc_patch_notes$Heretic$patch_1_124D)))));
 
 var _Ragamuffine$daoc_patch_notes$Hero$patch_1_123 = {
 	ctor: '::',
@@ -17183,6 +17269,78 @@ var _Ragamuffine$daoc_patch_notes$Hunter$all = A2(
 						_Ragamuffine$daoc_patch_notes$Hunter$patch_1_123,
 						A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Hunter$patch_1_123C, _Ragamuffine$daoc_patch_notes$Hunter$patch_1_124)))))));
 
+var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('インフィルトレーター 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Envenom (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Tranquilizing Miasma の持続時間は10秒から8秒に短縮される。'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('weaponskill/statデバフポーションは以下のように調整される。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('STR と DEX へのデバフ効果はなくなる。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('CON へのデバフ効果は変わらない。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('weaponskill へのデバフ効果は以下のように強化される。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 7 - Weakening Poison - weaponskillへのデバフ効果は5%から8%に増加する。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 17 - Inhibiting Poison - weaponskillへのデバフ効果は8%から11%に増加する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 27 - Enervating Poison - weaponskillへのデバフ効果は10%から15%に増加する。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 37 - Unnerving Poison - weaponskillへのデバフ効果は14%から20%に増加する。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 47 - Touch of Death - weaponskillへのデバフ効果は19%から28%に増加する。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('weaponskillへのデバフは強化されるためSTR/DEXへのデバフがなくなっても結果としてターゲットの物理ダメージは同じ値になる。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -17922,7 +18080,10 @@ var _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Infiltrator$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_122B, _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_123, _Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_124D)));
 
 var _Ragamuffine$daoc_patch_notes$Mauler$patch_1_123 = {
 	ctor: '::',
@@ -19128,6 +19289,55 @@ var _Ragamuffine$daoc_patch_notes$Minstrel$all = A2(
 		_Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_122B_HotFix2, _Ragamuffine$daoc_patch_notes$Minstrel$patch_1_123)));
 
+var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ネクロマンサー 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Umbral Aegis ペットは再び物理攻撃を行うようになる。'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Plated Fiend ペットは通常速度+スプリントで移動する。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$secalb('Death Servant (基本)'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('ペットを対象とする回復呪文が追加される。'),
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+							{
+								ctor: '::',
+								_0: 'Level 13 - Animate Flesh - 41回復 - 詠唱3.0秒 - 8 power - 2000 range',
+								_1: {
+									ctor: '::',
+									_0: 'Level 23 - Animate Blood - 88回復 - 詠唱3.0秒 - 17 power - 2000 range',
+									_1: {
+										ctor: '::',
+										_0: 'Level 33 - Animate Muscle - 152回復 - 詠唱3.0秒 - 22 power - 2000 range',
+										_1: {
+											ctor: '::',
+											_0: 'Level 43 - Animate Body - 244回復 - 詠唱3.0秒 - 28 power - 2000 range',
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -21689,8 +21899,83 @@ var _Ragamuffine$daoc_patch_notes$Necromancer$all = A2(
 												A2(
 													_elm_lang$core$Basics_ops['++'],
 													_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_123B,
-													A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B))))))))))))));
+													A2(
+														_elm_lang$core$Basics_ops['++'],
+														_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124,
+														A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124B, _Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124D)))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ナイトシェード 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$sechib('Envenom (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Tranquilizing Miasma の持続時間は10秒から8秒に短縮される。'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('weaponskill/statデバフポーションは以下のように調整される。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('STR と DEX へのデバフ効果はなくなる。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('CON へのデバフ効果は変わらない。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('weaponskill へのデバフ効果は以下のように強化される。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 7 - Weakening Poison - weaponskillへのデバフ効果は5%から8%に増加する。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 17 - Inhibiting Poison - weaponskillへのデバフ効果は8%から11%に増加する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 27 - Enervating Poison - weaponskillへのデバフ効果は10%から15%に増加する。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 37 - Unnerving Poison - weaponskillへのデバフ効果は14%から20%に増加する。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 47 - Touch of Death - weaponskillへのデバフ効果は19%から28%に増加する。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('weaponskillへのデバフは強化されるためSTR/DEXへのデバフがなくなっても結果としてターゲットの物理ダメージは同じ値になる。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -22430,7 +22715,10 @@ var _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121 = {
 var _Ragamuffine$daoc_patch_notes$Nightshade$all = A2(
 	_elm_lang$core$Basics_ops['++'],
 	_Ragamuffine$daoc_patch_notes$Nightshade$patch_1_121,
-	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123));
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Nightshade$patch_1_122B,
+		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_123, _Ragamuffine$daoc_patch_notes$Nightshade$patch_1_124D)));
 
 var _Ragamuffine$daoc_patch_notes$Paladin$patch_1_123 = {
 	ctor: '::',
@@ -25009,6 +25297,78 @@ var _Ragamuffine$daoc_patch_notes$Scout$all = A2(
 		_Ragamuffine$daoc_patch_notes$Scout$patch_1_122B,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Scout$patch_1_123, _Ragamuffine$daoc_patch_notes$Scout$patch_1_124)));
 
+var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('シャドウブレード 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Envenom (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('Tranquilizing Miasma の持続時間は10秒から8秒に短縮される。'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$br,
+					{ctor: '[]'},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('weaponskill/statデバフポーションは以下のように調整される。'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('STR と DEX へのデバフ効果はなくなる。'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('CON へのデバフ効果は変わらない。'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('weaponskill へのデバフ効果は以下のように強化される。'),
+								_1: {
+									ctor: '::',
+									_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+										{
+											ctor: '::',
+											_0: 'Level 7 - Weakening Poison - weaponskillへのデバフ効果は5%から8%に増加する。',
+											_1: {
+												ctor: '::',
+												_0: 'Level 17 - Inhibiting Poison - weaponskillへのデバフ効果は8%から11%に増加する。',
+												_1: {
+													ctor: '::',
+													_0: 'Level 27 - Enervating Poison - weaponskillへのデバフ効果は10%から15%に増加する。',
+													_1: {
+														ctor: '::',
+														_0: 'Level 37 - Unnerving Poison - weaponskillへのデバフ効果は14%から20%に増加する。',
+														_1: {
+															ctor: '::',
+															_0: 'Level 47 - Touch of Death - weaponskillへのデバフ効果は19%から28%に増加する。',
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('weaponskillへのデバフは強化されるためSTR/DEXへのデバフがなくなっても結果としてターゲットの物理ダメージは同じ値になる。'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -25808,8 +26168,27 @@ var _Ragamuffine$daoc_patch_notes$Shadowblade$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_121B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_123, _Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_124D))));
 
+var _Ragamuffine$daoc_patch_notes$Shaman$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('シャーマン 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('すべての単体45秒持続ヒール効果バフの効果は半分に減少する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123 = {
 	ctor: '::',
 	_0: A2(
@@ -26670,7 +27049,10 @@ var _Ragamuffine$daoc_patch_notes$Shaman$all = A2(
 	A2(
 		_elm_lang$core$Basics_ops['++'],
 		_Ragamuffine$daoc_patch_notes$Shaman$patch_1_121B,
-		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123)));
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Shaman$patch_1_122B,
+			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Shaman$patch_1_123, _Ragamuffine$daoc_patch_notes$Shaman$patch_1_124D))));
 
 var _Ragamuffine$daoc_patch_notes$Skald$patch_1_124B = {
 	ctor: '::',
@@ -27451,6 +27833,22 @@ var _Ragamuffine$daoc_patch_notes$Sorcerer$all = A2(
 		_Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_121C,
 		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_122B, _Ragamuffine$daoc_patch_notes$Sorcerer$patch_1_124B)));
 
+var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('スピリットマスター 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Spirit Hunter ペットは通常速度+スプリントで移動する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -28146,7 +28544,10 @@ var _Ragamuffine$daoc_patch_notes$Spiritmaster$all = A2(
 									A2(
 										_elm_lang$core$Basics_ops['++'],
 										_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_123,
-										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B)))))))))));
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124,
+											A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124B, _Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124D))))))))))));
 
 var _Ragamuffine$daoc_patch_notes$Thane$patch_1_123 = {
 	ctor: '::',
@@ -28860,6 +29261,22 @@ var _Ragamuffine$daoc_patch_notes$Valkyrie$all = A2(
 	_Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_121B, _Ragamuffine$daoc_patch_notes$Valkyrie$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ヴァンピール 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _elm_lang$html$Html$text('Night\'s Servant ペットは通常速度+スプリントで移動する。'),
+		_1: {ctor: '[]'}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -29309,7 +29726,10 @@ var _Ragamuffine$daoc_patch_notes$Vampiir$all = A2(
 		A2(
 			_elm_lang$core$Basics_ops['++'],
 			_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_122B,
-			A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B))));
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Vampiir$patch_1_123,
+				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124B, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124D)))));
 
 var _Ragamuffine$daoc_patch_notes$Warden$patch_1_123 = {
 	ctor: '::',
@@ -29568,6 +29988,39 @@ var _Ragamuffine$daoc_patch_notes$Warden$all = A2(
 	_Ragamuffine$daoc_patch_notes$Warden$patch_1_121,
 	A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warden$patch_1_122B, _Ragamuffine$daoc_patch_notes$Warden$patch_1_123));
 
+var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124D = {
+	ctor: '::',
+	_0: A2(
+		_elm_lang$html$Html$h2,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('ウォーロック 1.124D'),
+			_1: {ctor: '[]'}
+		}),
+	_1: {
+		ctor: '::',
+		_0: _Ragamuffine$daoc_patch_notes$Style$secmid('Witchcraft (スペック)'),
+		_1: {
+			ctor: '::',
+			_0: _elm_lang$html$Html$text('グループ対象ヒール効果増加チャントの効果は以下のように減少する。'),
+			_1: {
+				ctor: '::',
+				_0: _Ragamuffine$daoc_patch_notes$Style$ulist(
+					{
+						ctor: '::',
+						_0: 'Level 34 - Calming Incantation - ヒール効果は10%から8%へ減少する。',
+						_1: {
+							ctor: '::',
+							_0: 'Level 45 - Calming Incantation - ヒール効果は15%から10%へ減少する。',
+							_1: {ctor: '[]'}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}
+		}
+	}
+};
 var _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B = {
 	ctor: '::',
 	_0: A2(
@@ -30059,7 +30512,10 @@ var _Ragamuffine$daoc_patch_notes$Warlock$all = A2(
 			A2(
 				_elm_lang$core$Basics_ops['++'],
 				_Ragamuffine$daoc_patch_notes$Warlock$patch_1_123,
-				A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B)))));
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Warlock$patch_1_123B,
+					A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124B, _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124D))))));
 
 var _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123 = {
 	ctor: '::',
@@ -31913,6 +32369,48 @@ var _Ragamuffine$daoc_patch_notes$Patch1_123$patch_1_123 = A2(
 																																		_Ragamuffine$daoc_patch_notes$Warden$patch_1_123,
 																																		A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_123, _Ragamuffine$daoc_patch_notes$Warrior$patch_1_123)))))))))))))))))))))))))))))))))));
 
+var _Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124D = A2(
+	_elm_lang$core$Basics_ops['++'],
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$h1,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Patch 1.124D Live Hot Fix Notes'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	},
+	A2(
+		_elm_lang$core$Basics_ops['++'],
+		_Ragamuffine$daoc_patch_notes$Cabalist$patch_1_124D,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			_Ragamuffine$daoc_patch_notes$Enchanter$patch_1_124D,
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_Ragamuffine$daoc_patch_notes$Heretic$patch_1_124D,
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_Ragamuffine$daoc_patch_notes$Infiltrator$patch_1_124D,
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_Ragamuffine$daoc_patch_notes$Necromancer$patch_1_124D,
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_Ragamuffine$daoc_patch_notes$Nightshade$patch_1_124D,
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_Ragamuffine$daoc_patch_notes$Shadowblade$patch_1_124D,
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									_Ragamuffine$daoc_patch_notes$Shaman$patch_1_124D,
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										_Ragamuffine$daoc_patch_notes$Spiritmaster$patch_1_124D,
+										A2(_elm_lang$core$Basics_ops['++'], _Ragamuffine$daoc_patch_notes$Warlock$patch_1_124D, _Ragamuffine$daoc_patch_notes$Vampiir$patch_1_124D)))))))))));
 var _Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124B = A2(
 	_elm_lang$core$Basics_ops['++'],
 	{
@@ -32782,7 +33280,37 @@ var _Ragamuffine$daoc_patch_notes$Main$top_page = A2(
 																														}
 																													}
 																												}),
-																											_1: {ctor: '[]'}
+																											_1: {
+																												ctor: '::',
+																												_0: A2(
+																													_elm_lang$html$Html$li,
+																													{ctor: '[]'},
+																													{
+																														ctor: '::',
+																														_0: A2(
+																															_elm_lang$html$Html$a,
+																															{
+																																ctor: '::',
+																																_0: _elm_lang$html$Html_Events$onClick(_Ragamuffine$daoc_patch_notes$Message$Patch_1_124D_Page),
+																																_1: {ctor: '[]'}
+																															},
+																															{
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text('1.124D'),
+																																_1: {ctor: '[]'}
+																															}),
+																														_1: {
+																															ctor: '::',
+																															_0: _Ragamuffine$daoc_patch_notes$Main$official_link('http://darkageofcamelot.com/article/1124d-hot-fix-notes'),
+																															_1: {
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text(' (2018/3/28)'),
+																																_1: {ctor: '[]'}
+																															}
+																														}
+																													}),
+																												_1: {ctor: '[]'}
+																											}
 																										}
 																									}
 																								}
@@ -34147,6 +34675,19 @@ var _Ragamuffine$daoc_patch_notes$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124B),
+						_1: {ctor: '[]'}
+					}
+				});
+		case 'Patch_1_124D_Page':
+			return A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _Ragamuffine$daoc_patch_notes$Main$top_menu,
+					_1: {
+						ctor: '::',
+						_0: _Ragamuffine$daoc_patch_notes$Style$make_content(_Ragamuffine$daoc_patch_notes$Patch1_124$patch_1_124D),
 						_1: {ctor: '[]'}
 					}
 				});

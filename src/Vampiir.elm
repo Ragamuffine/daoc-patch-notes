@@ -111,7 +111,14 @@ patch_1_124B =
             "防御ペナルティーは増加する。"]]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "ヴァンピール 1.124D"],
+     text "Night's Servant ペットは通常速度+スプリントで移動する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121C ++ patch_1_122B
       ++ patch_1_123
       ++ patch_1_124B
+      ++ patch_1_124D

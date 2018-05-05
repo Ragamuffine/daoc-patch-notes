@@ -189,6 +189,14 @@ patch_1_124B =
      text "Underhill Stalker はバトルグラウンドでは物理スタイル攻撃を行わない。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "エンチャンター 1.124D"],
+     text "Underhill Stalker ペットは通常速度+スプリントで移動する。",
+     sechib "Enchanting (Enchantments スペック)",
+     text "すべての単体30秒持続ヒール効果バフの効果は半分に減少する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_122B_HotFix2
@@ -201,3 +209,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix
       ++ patch_1_123
       ++ patch_1_123C
       ++ patch_1_124B
+      ++ patch_1_124D

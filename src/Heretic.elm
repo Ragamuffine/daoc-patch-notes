@@ -104,8 +104,20 @@ patch_1_123 =
      text "インスタントスネア Fiery Stranglehold の射程は500から1000に増加する。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "ヘレティック 1.124D"],
+     secalb "Enhancement (スペック)",
+     text "単体STRデバフ、単体CONデバフ、単体DEXデバフスペルは以下のように変更になる。",
+     text "これらの呪文はインスタント、PBAoEスペル(半径350)になる。",
+     text "デバフの効果は変わらない。",
+     text "STRとDEXは共通のタイマー15秒を持つ。",
+     text "CONは独自のタイマー15秒を持つ"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFix
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
+      ++ patch_1_124D

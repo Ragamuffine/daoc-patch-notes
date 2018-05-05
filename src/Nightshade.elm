@@ -170,6 +170,25 @@ patch_1_123 =
             "Level 50 - Ripper - Follows Achilles Heel - Low End - Very High Damage - Very High Hit Bonus - Med. Def. Bonus - 5% ABS debuff, 30秒継続."]]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "ナイトシェード 1.124D"],
+     sechib "Envenom (スペック)",
+     text "Tranquilizing Miasma の持続時間は10秒から8秒に短縮される。",
+     br [] [],
+     text "weaponskill/statデバフポーションは以下のように調整される。",
+     text "STR と DEX へのデバフ効果はなくなる。",
+     text "CON へのデバフ効果は変わらない。",
+     text "weaponskill へのデバフ効果は以下のように強化される。",
+     ulist ["Level 7 - Weakening Poison - weaponskillへのデバフ効果は5%から8%に増加する。",
+            "Level 17 - Inhibiting Poison - weaponskillへのデバフ効果は8%から11%に増加する。",
+            "Level 27 - Enervating Poison - weaponskillへのデバフ効果は10%から15%に増加する。",
+            "Level 37 - Unnerving Poison - weaponskillへのデバフ効果は14%から20%に増加する。",
+            "Level 47 - Touch of Death - weaponskillへのデバフ効果は19%から28%に増加する。"],
+     text "weaponskillへのデバフは強化されるためSTR/DEXへのデバフがなくなっても結果としてターゲットの物理ダメージは同じ値になる。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_123
+      ++ patch_1_124D

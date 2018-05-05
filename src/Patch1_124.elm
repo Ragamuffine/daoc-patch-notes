@@ -80,3 +80,19 @@ patch_1_124B =
     ++ Sorcerer.patch_1_124B
     ++ Warlock.patch_1_124B
     ++ Vampiir.patch_1_124B
+
+
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h1 [] [text "Patch 1.124D Live Hot Fix Notes"]]
+    ++ Cabalist.patch_1_124D
+    ++ Enchanter.patch_1_124D
+    ++ Heretic.patch_1_124D
+    ++ Infiltrator.patch_1_124D
+    ++ Necromancer.patch_1_124D
+    ++ Nightshade.patch_1_124D
+    ++ Shadowblade.patch_1_124D
+    ++ Shaman.patch_1_124D
+    ++ Spiritmaster.patch_1_124D
+    ++ Warlock.patch_1_124D
+    ++ Vampiir.patch_1_124D

@@ -173,6 +173,12 @@ patch_1_124B =
             "Levels 44-50 - ヒール量は130に減少する。"]]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "スピリットマスター 1.124D"],
+     text "Spirit Hunter ペットは通常速度+スプリントで移動する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -184,3 +190,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_123
       ++ patch_1_124
       ++ patch_1_124B
+      ++ patch_1_124D

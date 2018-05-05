@@ -185,6 +185,14 @@ patch_1_123 =
      text "単体 matter DD スペルはベースラインに移動した。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "シャーマン 1.124D"],
+     text "すべての単体45秒持続ヒール効果バフの効果は半分に減少する。"]
+
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_121B ++ patch_1_122B
       ++ patch_1_123
+      ++ patch_1_124D

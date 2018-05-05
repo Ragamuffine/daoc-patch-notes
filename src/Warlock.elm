@@ -119,9 +119,19 @@ patch_1_124B =
      text "単体ペット fear の詠唱時間は2.6秒から5秒になり60秒の無効時間が付く。PBAoE fear も無効時間には効かなくなるが PBAoE fear では無効時間を生じない。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "ウォーロック 1.124D"],
+     secmid "Witchcraft (スペック)",
+     text "グループ対象ヒール効果増加チャントの効果は以下のように減少する。",
+     ulist ["Level 34 - Calming Incantation - ヒール効果は10%から8%へ減少する。",
+            "Level 45 - Calming Incantation - ヒール効果は15%から10%へ減少する。"]]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B
       ++ patch_1_122C_HotFixNotes
       ++ patch_1_123
       ++ patch_1_123B
       ++ patch_1_124B
+      ++ patch_1_124D

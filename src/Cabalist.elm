@@ -169,6 +169,12 @@ patch_1_124B =
      text "Amber Simulacrum はバトルグラウンドでは物理スタイル攻撃を行わない。"]
 
 
+patch_1_124D : List (Html Message)
+patch_1_124D =
+    [h2 [] [text "カバリスト 1.124D"],
+     text "Amber Simulacrum は通常速度+スプリントで移動する。"]
+
+
 all : List (Html Message)
 all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122B_HotFix3
@@ -178,3 +184,4 @@ all = patch_1_121 ++ patch_1_122B ++ patch_1_122B_HotFix2
       ++ patch_1_122C
       ++ patch_1_123
       ++ patch_1_124B
+      ++ patch_1_124D
